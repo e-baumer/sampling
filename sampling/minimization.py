@@ -123,7 +123,7 @@ class Minimization(BaseSample):
                 # Randomly assign n_pre participants to each arm
                 if j <= (n_pre-1):
                     pre_inds = np.random.choice(df_inds, size=self.arms)
-                    self.data_frame['arm_assignment'][pre_inds] = range(
+                    self.data_frame['arm_assignment'].loc[pre_inds] = range(
                         1, self.n_arms+1
                     )
                     
@@ -134,7 +134,41 @@ class Minimization(BaseSample):
                 # Randomly select participant for assignment
                 part_ind = np.random.choice(df_inds)
                 
-                # Assign participant to each arm and calculate imbalance metrics
+                # Test if population imbalance in arms is over user specified
+                # limits
+                if not (C is None):
+                    arm_pop = []
+                    
+                    # Find population for all arms
+                    for arm in range(1,self.n_arms+1):
+                        arm_pop.append(
+                            len(self.data_frame[
+                                data_frame['arm_assignment']
+                                ]==arm)
+                        )
+                    
+                    # Find percent difference of arm population from the 
+                    # mean population
+                    mean_pop = np.mean(arm_pop)
+                    arm_pop_ratio = [(mean_pop-x)/mean_pop for x in arm_pop]
+                    max_ind = np.max(arm_pop_ratio)
+                    
+                    # If percent difference is greater than C add participant
+                    # to that arm
+                    if arm_pop_ratio[max_ind] >= C:
+                        arm_assign = max_ind + 1
+                        self.data_frame[
+                            'arm_assignment'
+                            ].loc[part_ind] = arm_assign
+                        continue
                 
+                # Assign participant to each arm and calculate imbalance metrics
+                imbalance_arm = []
+                for n in range(1, self.n_arms+1):
+                    self.data_frame['arm_assignment'].loc[part_ind] = n
+                    
+                    single_metric = self.calculate_imbalance(
+                        covariates_con, covariates_cat
+                    )
             
         
