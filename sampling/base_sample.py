@@ -1,5 +1,5 @@
 from sklearn import preprocessing
-
+import seaborn as sns
 
 
 
@@ -21,12 +21,12 @@ class BaseSample(object):
         
         extracted_vals = self.data[
             self.data['arm_assignment']==arm
-            ][col_name].value
+            ][col_name].values
         
         return extracted_vals
         
 
-    def label_encoder(self, column_name, new_colmn_name=None, 
+    def label_encoder(self, column_name, new_column_name=None, 
                       encoder_name=None):
         '''
         This method integer encodes any categorical data.
@@ -44,11 +44,23 @@ class BaseSample(object):
             self.data[column_name].values
         )
         
-        if not (new_colmn_name is None):
-            self.data[new_colmn_name] = encoded_data
+        if not (new_column_name is None):
+            self.data[new_column_name] = encoded_data
             
         # Save label encoder if name given
         if not (encoded_data is None):
             self.label_encoders[encoder_name] = label_encoder
         
         return encoded_data, label_encoder
+    
+    def display_covariate_dist(self, covariate_list, save_file=None):
+        '''
+        '''
+        
+        n_covars = len(covariate_list)
+        
+        for covariate in covariate_list:
+            g = sns.FacetGrid(self.data, col="arm_assignment")
+            g.map(sns.distplot, covariate)
+            if save_file:
+                g.savefig(save_file, dpi=450)

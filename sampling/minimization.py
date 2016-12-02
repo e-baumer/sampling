@@ -6,7 +6,7 @@ import scipy.integrate
 from statsmodels.tools.tools import ECDF
 from base_sample import BaseSample
 
-
+import time
 
 
 class Minimization(BaseSample):
@@ -34,8 +34,11 @@ class Minimization(BaseSample):
         '''
 
         if self.integrate is None:
-            print "You must set the integration method first!"
-            return False
+            try:
+                raise ValueError('You must set the integration method first!')
+            except ValueError:
+                print "No Integration method set for ECDF"
+                raise
         
         ecdf = ECDF(vals, side='left')
     
@@ -62,8 +65,8 @@ class Minimization(BaseSample):
         '''
 
         norm_imbalance = (area1 - area2) /\
-            (np.min(np.concatenate(covar_arm1, covar_arm2)) -\
-             np.max(np.concatenate(covar_arm1, covar_arm2)))
+            (np.min(np.concatenate([covar_arm1, covar_arm2])) -\
+             np.max(np.concatenate([covar_arm1, covar_arm2])))
 
         return norm_imbalance
         
@@ -121,7 +124,7 @@ class Minimization(BaseSample):
                 # Get values of covariate for comb[0]
                 vals_1 = self.extract_values_by_arm(cont_covar, comb[0])
                 # Get values of covariate for comb[1]
-                vals_2 = self.extract_values_by_arm(cont_covar, comb[0]) 
+                vals_2 = self.extract_values_by_arm(cont_covar, comb[1]) 
                 
                 # Calculate area under ECDF
                 area1 = self.calculate_area_continuous(vals_1)
@@ -139,27 +142,27 @@ class Minimization(BaseSample):
                 # Get values of covariate for comb[0]
                 vals_1 = self.extract_values_by_arm(cat_covar, comb[0])
                 # Get values of covariate for comb[1]
-                vals_2 = self.extract_values_by_arm(cat_covar, comb[0]) 
+                vals_2 = self.extract_values_by_arm(cat_covar, comb[1]) 
                           
                 # Calculate imbalance coefficient
                 imb_coef = self.find_imbalance_categorical(
-                    vals_1, vals_2, np.max(np.concatenate(vals_1,vals_2))
+                    vals_1, vals_2, np.nanmax(np.concatenate([vals_1,vals_2]))
                 )
                 imb_coeff_comb.append(imb_coef)                
 
             # Find the mean of all the covariate imbalance coefficients
             # TODO: Implement weighted mean***
-            imbalance_coeff_arm.append(np.mean(imb_coeff_comb))
+            imbalance_coeff_arm.append(np.nanmean(imb_coeff_comb))
     
         # Capture overall imbalance coefficient for all arm combinations
         if min_type.lower() == 'max':
-            imbalance_coeff = np.max(imbalance_coeff_arm)
+            imbalance_coeff = np.nanmax(imbalance_coeff_arm)
             
         elif min_type.lower() == 'mean':
-            imbalance_coeff = np.mean(imbalance_coeff_arm)
+            imbalance_coeff = np.nanmean(imbalance_coeff_arm)
             
         elif min_type.lower() == 'sum':
-            imbalance_coeff = np.sum(imbalance_coeff_arm)
+            imbalance_coeff = np.nansum(imbalance_coeff_arm)
             
         else:
             print '{} is an unrecognized minimization option type (max, mean, sum)'.format(min_type)
@@ -169,7 +172,7 @@ class Minimization(BaseSample):
     
     
     def minimize(self, covariates_con, covariates_cat, C=0.1, 
-                 n_pre=1, n_iter=1, verb=False, min_type='max'):
+                 n_pre=1, n_iter=1, verb=False, min_type='max', nan_kick=False):
         '''
         Use the minimization of area between ECDF technique as described in 
         the Lin and Su (2012) paper. 
@@ -200,32 +203,36 @@ class Minimization(BaseSample):
                            overall imbalance coefficient. For sum, the sum of the 
                            imbalance coefficients is used. For mean, the mean
                            value of the imbalance coefficient is used.
+        nan_kick        -- If this is true, participants with nans in either 
+                           continuous or categorical variables are not assigned
+                           to any arm.
 
         '''
-        
-        # Grab array of indicies
-        df_inds = self.data.index.values
-            
-        # Size of population
-        n_pop = len(self.data)
-                
+
         imbalance_coeff = defaultdict(list)
         arm_placements = defaultdict(list)
+        n_non_rand_plc = {i:0 for i in range(1, n_iter+1)}
         
         # Iterate over user specified iterations
         for i in range(n_iter):
             if verb:
                 print "Calculating Imbalance Coefficients for iteration: {}".format(i+1)
             
+            
+            
             # Add arm assignment column to dataframe or re-initialize to nan
             self.data['arm_assignment'] = np.ones(len(self.data))*np.nan         
             
+            # Grab array of indicies
+            df_inds = self.data.index.values            
+
             # Iterate over population
-            for j in range(n_pop):
-                
+            j = 0
+            while len(df_inds) > 0:
+                #start_time = time.time()
                 # Randomly assign n_pre participants to each arm
                 if j <= (n_pre-1):
-                    pre_inds = np.random.choice(df_inds, size=self.arms)
+                    pre_inds = np.random.choice(df_inds, size=self.n_arms)
                     self.data['arm_assignment'].loc[pre_inds] = range(
                         1, self.n_arms+1
                     )
@@ -233,9 +240,24 @@ class Minimization(BaseSample):
                     # Remove these participants from list
                     del_inds = df_inds.searchsorted(pre_inds)
                     df_inds = np.delete(df_inds, del_inds)
+                    j+=1
+                    continue
                 
                 # Randomly select participant for assignment
                 part_ind = np.random.choice(df_inds)
+                
+                # Do not assign participant if nan_kick is True and they have
+                # nan values in covariates
+                if nan_kick:
+                    nan_test = self.data[
+                        covariates_cat.extend(covariates_con)
+                    ].loc[part_ind].isnull().values.any()
+                    if nan_test:
+                        # Remove participant from list
+                        del_ind = np.where(df_inds == part_ind)
+                        df_inds = np.delete(df_inds, del_ind)
+                        j+=1
+                        continue
                 
                 # Test if population imbalance in arms is over user specified
                 # limits
@@ -245,26 +267,27 @@ class Minimization(BaseSample):
                     # Find population for all arms
                     for arm in range(1,self.n_arms+1):
                         arm_pop.append(
-                            len(self.data[
-                                data['arm_assignment']
-                                ]==arm)
+                            len(self.data[self.data['arm_assignment']==arm])
                         )
                     
                     # Find percent difference of arm population from the 
-                    # mean population
-                    mean_pop = np.mean(arm_pop)
-                    arm_pop_ratio = [(mean_pop-x)/mean_pop for x in arm_pop]
-                    max_ind = np.max(arm_pop_ratio)
+                    # max arm population
+                    max_arm = np.max(arm_pop)
+                    arm_pop_ratio = [(max_arm-x)/max_arm for x in arm_pop]
+                    max_ind = np.argmax(arm_pop_ratio)
                     
                     # If percent difference is greater than C add participant
-                    # to that arm. We ignore cases when arm has more participants
-                    # than the mean. We do not want to add additional particpants
-                    # to this case.
+                    # to that arm
                     if arm_pop_ratio[max_ind] >= C:
                         arm_assign = max_ind + 1
                         self.data[
                             'arm_assignment'
                             ].loc[part_ind] = arm_assign
+                        # Remove participant from list
+                        del_ind = np.where(df_inds == part_ind)
+                        df_inds = np.delete(df_inds, del_ind)                        
+                        j+=1
+                        n_non_rand_plc[i+1]+=1
                         continue
                 
                 # Assign participant to each arm and calculate imbalance metrics
@@ -280,13 +303,20 @@ class Minimization(BaseSample):
                 # Find the minimum imbalance coefficient and assign to this arm
                 min_ind = np.argmin(imbalance_arm)
                 self.data['arm_assignment'].loc[part_ind] = min_ind + 1
-                    
+                
+                # Remove participant from list
+                del_ind = np.where(df_inds == part_ind)
+                df_inds = np.delete(df_inds, del_ind)
+                
+                j+=1
+                #end_time = time.time()
+                #print "{0:} seconds to complete iteration {1:}".format(end_time-start_time,j-1)
             # Capture overall imbalance
             imbalance_coeff[i] = self.calculate_imbalance(
                 covariates_con, covariates_cat, min_type
             )
             # Capture participant placement
-            arm_placements[i] = self.data['arm_assignment']
+            arm_placements[i] = np.copy(self.data['arm_assignment'].values)
             
         # Reset arm assignments
         self.data['arm_assignment'] = np.nan
@@ -300,6 +330,8 @@ class Minimization(BaseSample):
                 print "Imbalance Coefficient for iteration {0:}: {1:}".format(
                     i+1, imbalance_coeff[i]
                 )
+                print "{0:} Participants added to balance arm population for iteration {1:}".format(
+                n_non_rand_plc[i+1],i+1)
             
             print "-------------------------------------------------------------------------"
             print "Using Assignments from iteration {0:}, with imbalance coefficient of {1:}".format(

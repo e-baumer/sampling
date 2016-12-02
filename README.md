@@ -38,7 +38,9 @@ to an arm to balance population.
 
 
 ## TO DO
-1. Lots
+1. Parallelization of minimization method
+2. Display distribution of covariates for each arm after assignement
+3. Stratified randomization method
 
 ## Notes
 
