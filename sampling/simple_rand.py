@@ -40,3 +40,31 @@ class SimpleRandomization(BaseSample):
                     break
         
         return self.data
+    
+    def randomize2(self):
+        '''
+        Simple randomization to randomly assign participants to arm of study
+        '''
+        
+        # Add arm assignment column to dataframe or re-initialize to nan
+        self.data['arm_assignment'] = np.ones(len(self.data))*np.nan         
+        # Grab array of indicies
+        df_inds = self.data.index.values        
+        
+        # Size of population
+        n_pop = len(df_inds)
+        
+        # Determine number of participants per arm  
+        n_per_arm = np.floor(n_pop/self.n_arms)
+        
+        for arm in range(1,self.n_arms):
+            random_inds = np.random.choice(df_inds, size=n_per_arm)
+            self.data['arm_assignment'].loc[random_inds] = arm
+            # Remove these participants from list
+            del_inds = df_inds.searchsorted(random_inds)
+            df_inds = np.delete(df_inds, del_inds)            
+        
+        # Assign the remaining participants to last arm
+        self.data['arm_assignment'].loc[df_inds] = self.n_arms
+        
+        return self.data
