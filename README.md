@@ -50,8 +50,8 @@ to an arm to balance population.
 
 ## Contacts
 
-Author - Eric Nussbaumer ([ebaumer@gmail.com](mailto:ebaumer@gmail.com))
-
+Authors - Eric Nussbaumer ([ebaumer@gmail.com](mailto:ebaumer@gmail.com))
+        - Alison Campion  ([alicampion@gmail.com](mailto:alicampion@gmail.com))
 
 ## License
 
