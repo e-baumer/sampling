@@ -61,9 +61,9 @@ strat_test.assign_arms(column_names, percent_nan = 0.05)
 #-------------------
 
 # Producing Plots to compare covariate distributions across arm assignments
-simple_test.display_covariate_dist(column_names)  
-min_test.display_covariate_dist(column_names)  
-strat_test.display_covariate_dist(column_names)
+#simple_test.display_covariate_dist(column_names)  
+#min_test.display_covariate_dist(column_names)  
+#strat_test.display_covariate_dist(column_names)
 
 # Calculate Imbalance Coefficient for each method
 c_simple = simple_test.evaluate_imbalance(continuous_list, categorical_list)
