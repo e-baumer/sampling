@@ -1,6 +1,6 @@
 from sklearn import preprocessing
 import seaborn as sns
-
+import numpy as np
 
 
 class BaseSample(object):
@@ -64,3 +64,41 @@ class BaseSample(object):
             g.map(sns.distplot, covariate)
             if save_file:
                 g.savefig(save_file, dpi=450)
+                
+    def nan_finder(self, column_names, percent_nan = 0.05):
+       
+        '''
+        Looks through all of the data points and finds all values that are NaN
+        for any of the covariates to be included (listed in column_names). If
+        less than the percent_nan (default 5%) have NaNs, they  will be deleted.
+        '''
+        
+        #Initialize array to store indices of NaN values
+        nan_inds = np.array([])
+        
+        #Cycle through all covariates to be included
+        for colname in column_names:
+            
+            #Find the all NaN values for each column and add to the array
+            nan_inds = np.concatenate((nan_inds,np.where(np.isnan(self.data[colname]))[0]))
+        
+        #Extract all unique indices, this includes all of the data points 
+        #that have NaN values for any of the covariates        
+        all_nans = np.unique(nan_inds)
+        
+        #If the number of data points with NaN values is less than the specifed
+        #total percentage threshold (percent_nan), delete those data points        
+        if len(all_nans)/len(self.data) <= percent_nan:
+            self.data = self.data.drop(all_nans)
+        
+        #If there are more data points that have NaN values than the acceptable
+        #percentage, print an error message with the percentage.
+        else:
+            raise ValueError("There are too many data points with NaN values. There \
+                            are {:.3f} NaN data points with at least one NaN value for \
+                            one of the covariates included. The limit is set to {:.3f}."\
+                            .format(len(all_nans)/len(self.data), percent_nan))
+            
+        return self.data
+        
+        

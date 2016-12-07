@@ -23,7 +23,7 @@ class Minimization(BaseSample):
         try:
             self.integrate = getattr(scipy.integrate, int_type)
         except AttributeError:
-            print "{} is not a valid integration method (trapz, cumtrapz, simps, romb)".format(int_type)
+            print("{} is not a valid integration method (trapz, cumtrapz, simps, romb)".format(int_type))
             return False        
         
     
@@ -37,7 +37,7 @@ class Minimization(BaseSample):
             try:
                 raise ValueError('You must set the integration method first!')
             except ValueError:
-                print "No Integration method set for ECDF"
+                print("No Integration method set for ECDF")
                 raise
         
         ecdf = ECDF(vals, side='left')
@@ -72,6 +72,7 @@ class Minimization(BaseSample):
         
         
     def find_imbalance_categorical(self, covar_arm1, covar_arm2, n_categories):
+
         '''
         Find the normalized imbalance metric for a single categorical varible 
         (covariate) as defined by Lin and Su (2012). This is the normalized area 
@@ -146,8 +147,8 @@ class Minimization(BaseSample):
                           
                 # Calculate imbalance coefficient
                 imb_coef = self.find_imbalance_categorical(
-                    vals_1, vals_2, np.nanmax(np.concatenate([vals_1,vals_2]))
-                )
+                    vals_1, vals_2, int(np.nanmax(np.concatenate([vals_1,vals_2]))
+                ))
                 imb_coeff_comb.append(imb_coef)                
 
             # Find the mean of all the covariate imbalance coefficients
@@ -165,7 +166,7 @@ class Minimization(BaseSample):
             imbalance_coeff = np.nansum(imbalance_coeff_arm)
             
         else:
-            print '{} is an unrecognized minimization option type (max, mean, sum)'.format(min_type)
+            print('{} is an unrecognized minimization option type (max, mean, sum)'.format(min_type))
             return False
     
         return imbalance_coeff
@@ -216,7 +217,7 @@ class Minimization(BaseSample):
         # Iterate over user specified iterations
         for i in range(n_iter):
             if verb:
-                print "Calculating Imbalance Coefficients for iteration: {}".format(i+1)
+                print("Calculating Imbalance Coefficients for iteration: {}".format(i+1))
             
             
             
@@ -233,9 +234,10 @@ class Minimization(BaseSample):
                 # Randomly assign n_pre participants to each arm
                 if j <= (n_pre-1):
                     pre_inds = np.random.choice(df_inds, size=self.n_arms)
-                    self.data['arm_assignment'].loc[pre_inds] = range(
+                    self.data['arm_assignment'].set_value(tuple(pre_inds),range(
                         1, self.n_arms+1
-                    )
+                    ))
+                              
                     
                     # Remove these participants from list
                     del_inds = df_inds.searchsorted(pre_inds)
@@ -280,9 +282,7 @@ class Minimization(BaseSample):
                     # to that arm
                     if arm_pop_ratio[max_ind] >= C:
                         arm_assign = max_ind + 1
-                        self.data[
-                            'arm_assignment'
-                            ].loc[part_ind] = arm_assign
+                        self.data['arm_assignment'].set_value(part_ind,arm_assign)
                         # Remove participant from list
                         del_ind = np.where(df_inds == part_ind)
                         df_inds = np.delete(df_inds, del_ind)                        
@@ -293,7 +293,7 @@ class Minimization(BaseSample):
                 # Assign participant to each arm and calculate imbalance metrics
                 imbalance_arm = []
                 for n in range(1, self.n_arms+1):
-                    self.data['arm_assignment'].loc[part_ind] = n
+                    self.data['arm_assignment'].set_value(part_ind, n)
                     
                     imbalance_arm.append(
                         self.calculate_imbalance(covariates_con, covariates_cat,
@@ -302,7 +302,7 @@ class Minimization(BaseSample):
                     
                 # Find the minimum imbalance coefficient and assign to this arm
                 min_ind = np.argmin(imbalance_arm)
-                self.data['arm_assignment'].loc[part_ind] = min_ind + 1
+                self.data['arm_assignment'].set_value(part_ind, min_ind + 1)
                 
                 # Remove participant from list
                 del_ind = np.where(df_inds == part_ind)
@@ -327,15 +327,15 @@ class Minimization(BaseSample):
         
         if verb:
             for i in range(n_iter):
-                print "Imbalance Coefficient for iteration {0:}: {1:}".format(
+                print("Imbalance Coefficient for iteration {0:}: {1:}".format(
                     i+1, imbalance_coeff[i]
-                )
-                print "{0:} Participants added to balance arm population for iteration {1:}".format(
-                n_non_rand_plc[i+1],i+1)
+                ))
+                print("{0:} Participants added to balance arm population for iteration {1:}".format(
+                n_non_rand_plc[i+1],i+1))
             
-            print "-------------------------------------------------------------------------"
-            print "Using Assignments from iteration {0:}, with imbalance coefficient of {1:}".format(
+            print("-------------------------------------------------------------------------")
+            print("Using Assignments from iteration {0:}, with imbalance coefficient of {1:}".format(
                 min_itr+1, imbalance_coeff[min_itr]
-            )
+            ))
         
         return self.data

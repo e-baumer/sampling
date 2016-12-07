@@ -98,10 +98,12 @@ class StratifiedRandom(BaseSample):
         
            
            
-    def assign_arms(self, column_names):
+    def assign_arms(self, column_names, percent_nan = 0.05):
         '''
         Loop through unique strata and assign each data point to an arm.
         '''
+        #clear all values with NaNs
+        self.data = self.nan_finder(column_names, percent_nan)        
         
         #call create_stratum to create strata for each chosen covariate 
         self.data = self.create_stratum(column_names)

@@ -29,14 +29,14 @@ class SimpleRandomization(BaseSample):
         n_per_arm = np.floor(n_pop/self.n_arms)
         
         for arm in range(1,self.n_arms):
-            random_inds = np.random.choice(df_inds, size=n_per_arm)
-            self.data['arm_assignment'].loc[random_inds] = arm
+            random_inds = np.random.choice(df_inds, size=int(n_per_arm))
+            self.data['arm_assignment'].set_value(tuple(random_inds), arm)
             # Remove these participants from list
             del_inds = df_inds.searchsorted(random_inds)
             df_inds = np.delete(df_inds, del_inds)            
         
         # Assign the remaining participants to last arm
-        self.data['arm_assignment'].loc[df_inds] = self.n_arms
+        self.data['arm_assignment'].set_value(tuple(df_inds),self.n_arms)
         
         return self.data
 
@@ -61,7 +61,7 @@ class SimpleRandomization(BaseSample):
                 # Randomly choose participant
                 random_ind = np.random.choice(df_inds)
                 # Assign random participant to arm
-                self.data['arm_assignment'].loc[random_ind]=arm
+                self.data['arm_assignment'].set_value(random_ind,arm)
                 # Remove participant from list
                 del_ind = np.where(df_inds == random_ind)
                 df_inds = np.delete(df_inds, del_ind)
