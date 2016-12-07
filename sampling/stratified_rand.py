@@ -123,20 +123,28 @@ class StratifiedRandom(BaseSample):
                 
                 #if more than one arm is empty, choose randomly
                 if np.where(arm_tally==0)[0].shape[0] > 1:
-                    self.data['arm_assignment'].set_value(value,np.random.choice(list(range(self.n_arms)))+1)
+                    self.data['arm_assignment'].set_value(
+                        value,np.random.choice(list(range(self.n_arms))) + 1
+                    )
                     
                 #if one is empty, choose that arm assignment
                 elif np.where(arm_tally==0)[0].shape[0] == 1:
-                    self.data['arm_assignment'].set_value(value,np.where(arm_tally==0)[0][0]+1)
+                    self.data['arm_assignment'].set_value(
+                        value, np.where(arm_tally==0)[0][0] + 1
+                    )
                     
                 #If no arms are empty, choose arm with minimum data points assigned to it
                 elif np.where(arm_tally==0)[0].shape[0] < 1:
-                    self.data['arm_assignment'].set_value(value,np.where(np.min(arm_tally))[0][0]+1)
+                    self.data['arm_assignment'].set_value(
+                        value, np.where(np.min(arm_tally))[0][0] + 1
+                    )
                 
                 #Something went wrong
                 else: 
-                    raise ValueError("arm_tally is empty, meaning there is something \
-                                        wrong with your unique strata dictionary.")
+                    raise ValueError(
+                        "arm_tally is empty, meaning there is something \
+                        wrong with your unique strata dictionary."
+                        )
         
         return self.data
         

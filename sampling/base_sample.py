@@ -1,14 +1,17 @@
+from ecdf import EmpCDF
 from sklearn import preprocessing
 import seaborn as sns
 import numpy as np
 
 
-class BaseSample(object):
+
+class BaseSample(EmpCDF):
     
     def __init__(self, data_frame, number_arms=2):
         self.data = data_frame
         self.n_arms = number_arms
         self.label_encoders = {}
+        super(BaseSample, self).__init__()
 
 
     def extract_values_by_arm(self, col_name, arm):
@@ -61,9 +64,15 @@ class BaseSample(object):
         
         for covariate in covariate_list:
             g = sns.FacetGrid(self.data, col="arm_assignment")
-            g.map(sns.distplot, covariate)
+            if len(self.data[covariate].unique())>2:
+                g.map(sns.distplot, covariate)
+            else:
+                g.map(sns.distplot, covariate, kde=False)
             if save_file:
                 g.savefig(save_file, dpi=450)
+                
+        if save_file is None:
+            sns.plt.show()
                 
     def nan_finder(self, column_names, percent_nan = 0.05):
        
@@ -80,7 +89,9 @@ class BaseSample(object):
         for colname in column_names:
             
             #Find the all NaN values for each column and add to the array
-            nan_inds = np.concatenate((nan_inds,np.where(np.isnan(self.data[colname]))[0]))
+            nan_inds = np.concatenate(
+                (nan_inds,np.where(np.isnan(self.data[colname]))[0])
+            )
         
         #Extract all unique indices, this includes all of the data points 
         #that have NaN values for any of the covariates        
@@ -101,4 +112,36 @@ class BaseSample(object):
             
         return self.data
         
+    
+    def evaluate_imbalance(self, covariates_con, covariates_cat, 
+                           min_type='mean'):
+        '''
+        Evaluation of randomization type through imbalance coefficients which
+        are defined as the area between the ECDF of the covariates.
         
+        Calculate imbalance coefficient between all arm combinations over all
+        covariates, continuous and categorical.
+        
+        Imbalance coefficients for individual covariates within a comparison of
+        two arms are averaged to find a single imbalance coefficient.
+
+        covariates_con  -- list of column names in dataframe of continuous 
+                           covariates to balance on
+        covariates_cat  -- list of column names in dataframe of categorical 
+                           covariates to balance on. These must be integer 
+                           encoded. Use label_encoder method.
+
+        min_type        -- How to combine the imbalance coefficients for each 
+                           arm combiniation. Choices include max, mean, sum. For
+                           max the maximum imbalance coefficient is used as the 
+                           overall imbalance coefficient. For sum, the sum of the 
+                           imbalance coefficients is used. For mean, the mean
+                           value of the imbalance coefficient is used.
+        '''
+        
+        
+        imbalance_coeff = self.calculate_imbalance(
+            covariates_con, covariates_cat, min_type
+        )
+        
+        return imbalance_coeff
