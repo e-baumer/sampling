@@ -1,0 +1,2001 @@
+,_index,asset_ownership_score,income_percentile,dependency_ratio,occupation,has_business,have_property,number_of_children,start_year,county,gender
+0,1693,0,0.714285731,2.5,Farming,0,0,4,2011,Jefferson,Female
+1,1458,0.885844767,0.25,0.600000024,Farming,0,0,3,2012,Norfolk,Male
+2,246,0.095238097,,2.5,Unskilled labour,0,0,2,1992,Jefferson,Female
+3,292,9.666666985,0.666666687,0,Farming,0,0,1,2004,Jefferson,Male
+4,586,17.20091248,0.416666657,0.5,Farming,0,0,1,2004,Putnam,Male
+5,1569,6.785768509,0.333333343,2,Farming,0,1,2,2009,Norfolk,Female
+6,1571,1.330764771,0.375,1.666666627,Unskilled labour,0,0,2,2011,Alameda,Male
+7,1451,1.87595129,0.166666672,2,Farming,0,0,3,2011,Jefferson,Female
+8,1401,4.536529541,0.5,3,Farming,0,0,3,2014,Jefferson,Female
+9,191,2.92592597,0,8,Unskilled labour,0,0,1,2014,Jefferson,Female
+10,1673,0.266666681,0.600000024,1.5,Unskilled labour,0,0,3,2012,Jefferson,Male
+11,524,0.512820482,0.15384616,0.181818187,Unskilled labour,0,0,1,2014,Jefferson,Male
+12,10,1.333333373,0.13333334,2,Farming,0,0,1,2014,Jefferson,Female
+13,1454,2.916666746,0.5,1,Business,0,0,3,2014,Jefferson,Male
+14,525,1.333333254,0,0.666666687,Farming,0,0,1,2010,Norfolk,Male
+15,1347,0,0.454545468,0.833333313,Farming,0,0,3,2014,Jefferson,Male
+16,752,6.347031593,0.200000003,4,Unskilled labour,1,1,1,2009,Alameda,Female
+17,1890,16.66666603,2,0,Unskilled labour,0,1,1,2009,Alameda,Male
+18,1417,5,0.75,1,Farming,0,0,3,2015,Orange,Male
+19,1675,0.111111112,0.583333313,5,Unskilled labour,0,0,3,2014,Jefferson,Female
+20,329,0.285714298,0.857142866,0.75,Unskilled labour,0,0,2,2009,Alameda,Male
+21,410,0.466666639,0.5,9,None,0,0,2,2014,Jefferson,Female
+22,381,0,1,0,Farming,0,0,2,2014,Jefferson,Male
+23,139,0,0.857142866,6,Unskilled labour,0,0,1,2014,Jefferson,Female
+24,166,1.666666627,1,1,Farming,0,0,1,2014,Jefferson,Male
+25,1661,1.793379068,0.100000001,0.666666687,Farming,0,0,4,2010,Jefferson,Male
+26,1564,3.255707741,0.272727281,4.5,Farming,0,1,2,2008,Alameda,Female
+27,1678,0.666666687,1,0,Unskilled labour,0,0,3,2014,Jefferson,Male
+28,249,1.666666627,1,0,Skilled labour,0,0,2,2011,Alameda,Male
+29,406,0.800000012,1,1.5,Farming,0,0,2,2014,Jefferson,Male
+30,1575,29.06849289,0.75,1,Other,0,1,1,2009,Alameda,Male
+31,1892,0,1.5,0,Business,0,0,3,2015,Norfolk,Male
+32,1043,0.25,0.25,3,Farming,0,0,1,2009,Alameda,Female
+33,1231,0,0.285714298,0.166666672,Farming,0,0,2,2014,Jefferson,Male
+34,165,0.5,1,1,Farming,0,0,1,2014,Orange,Male
+35,1350,0,0.333333343,2,Unskilled labour,0,0,3,2013,Jefferson,Female
+36,69,11.44799614,0.555555582,8,Unskilled labour,0,0,1,2014,Jefferson,Female
+37,359,0.666666627,0.5,1,Livestock rearing,0,0,1,2014,Jefferson,Male
+38,1822,0.705479443,0.5,1,Farming,0,1,2,2011,Randolph,Male
+39,182,1.111111164,0,1.25,Farming,0,0,1,2014,Jefferson,Male
+40,504,1.666666627,0.833333313,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+41,1834,2.5,1,1,Skilled labour,0,0,3,2014,Jefferson,Male
+42,858,1.689497709,0.272727281,1.75,Farming,0,0,1,2014,Jefferson,Male
+43,1755,1.043949723,0.3125,1,Farming,0,0,4,2014,Jefferson,Male
+44,937,3.962455273,0.666666687,1.25,Unskilled labour,1,1,2,2008,Alameda,Male
+45,122,4.071537495,0.222222224,1.25,Unskilled labour,0,1,1,2008,Alameda,Male
+46,420,1.142857194,0.571428597,2.5,None,0,0,2,2014,Jefferson,Female
+47,1384,0.266666681,1,1.5,Unskilled labour,0,0,3,2013,Randolph,Male
+48,1395,2.677240849,0.789473712,1.111111164,Unskilled labour,0,0,2,2014,Jefferson,Male
+49,146,0,0.5,1,Unskilled labour,0,0,1,2014,Jefferson,Male
+50,1837,5,2,0,Student,0,0,3,2014,Jefferson,Male
+51,1370,0.25,0.5,1,Unskilled labour,0,0,2,2009,Alameda,Male
+52,1389,0,0.400000006,4,Farming,0,0,3,2013,Jefferson,Female
+53,889,2.888127804,2.5,0,Unskilled labour,0,0,1,1997,Alameda,Male
+54,472,0,0.600000024,0,Student,0,0,2,2014,Jefferson,Male
+55,1683,0.333333343,0.25,3,Farming,0,0,3,2012,Jefferson,Female
+56,1541,0.761904776,0.571428597,2.5,Farming,0,0,3,2014,Jefferson,Female
+57,392,5.833333492,1,3,Farming,0,0,2,2014,Jefferson,Female
+58,1601,0.380952388,0.714285731,0.400000006,Farming,0,0,2,2014,Jefferson,Male
+59,1462,7.333333492,3,0,Fishing,0,0,3,2014,Norfolk,Male
+60,1681,0,1,4,Farming,0,0,3,2014,Jefferson,Female
+61,1845,0,0.666666687,3.5,Unskilled labour,0,0,2,2014,Jefferson,Female
+62,175,0,0.5,1,Unskilled labour,0,0,1,2014,Jefferson,Male
+63,1589,0.333333313,0,0.666666687,Unskilled labour,0,0,2,2006,Putnam,Male
+64,1472,0.866666675,1.399999976,1.5,Farming,0,0,3,2014,Jefferson,Male
+65,2038,0.555555522,0.333333343,0,Student,0,0,1,2014,Jefferson,Male
+66,1690,0.200000003,0.800000012,4,Business,0,0,3,2014,Jefferson,Female
+67,1520,0.518518507,0,2,Unskilled labour,0,0,3,1992,Jefferson,Female
+68,1348,0,0.666666687,0,Farming,0,0,3,2012,Orange,Male
+69,120,3.136529446,0.200000003,1.5,Unskilled labour,0,1,1,2012,Putnam,Male
+70,70,2.594437599,0.181818187,4.5,Farming,0,0,1,2012,Jefferson,Female
+71,880,36.56215286,0.555555582,1.25,Unskilled labour,0,0,1,2009,Alameda,Male
+72,1157,5.234398842,0.777777791,8,Farming,0,0,2,2011,Jefferson,Female
+73,422,12.77777767,0.333333343,0,None,0,1,2,2014,Jefferson,Male
+74,613,9.347945213,1.399999976,0.25,Farming,0,1,1,2013,Randolph,Male
+75,174,1.25,0.625,7,Unskilled labour,0,0,1,2014,Jefferson,Female
+76,1534,5.724722862,0.142857149,6,Housewife,0,0,3,2013,Jefferson,Female
+77,487,0,0.833333313,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+78,672,0.888888896,0.333333343,5,Farming,0,0,1,2013,Jefferson,Female
+79,208,11.04429245,0.600000024,0.25,Business,0,0,1,2014,Jefferson,Male
+80,387,1.466666698,1,4,Farming,0,0,1,2014,Jefferson,Female
+81,426,1.111111045,0.833333313,0.5,Farming,0,0,2,2014,Jefferson,Male
+82,1567,2.184677839,0.333333343,0.800000012,Livestock rearing,0,0,2,2008,Alameda,Male
+83,261,6.036910534,0.416666657,3,Fishing,0,0,1,2013,Jefferson,Female
+84,1362,0.071428575,0.285714298,0.166666672,Unskilled labour,0,0,1,2004,Alameda,Male
+85,1751,0.333333313,0.200000003,4,Student,0,0,3,2010,Jefferson,Female
+86,1406,0.666666627,0.600000024,0.666666687,Farming,0,0,3,2014,Jefferson,Male
+87,2037,3.5,1.5,0,Student,0,0,1,2014,Jefferson,Male
+88,1518,0.023809524,0,1.333333373,Farming,0,0,3,2013,Jefferson,Male
+89,179,0.666666687,0.5,1,Farming,0,0,2,2014,Jefferson,Male
+90,483,0,1,3,Unskilled labour,0,0,2,2014,Jefferson,Female
+91,1230,0.285714298,0.857142866,1.333333373,Livestock rearing,0,0,2,2013,Jefferson,Male
+92,838,8,1,0,Unskilled labour,0,0,1,2009,Putnam,Male
+93,536,2.380952358,1,1.333333373,Unskilled labour,0,0,1,2012,Orange,Male
+94,1402,10.78006077,0.666666687,0.200000003,Student,0,0,3,2014,Jefferson,Male
+95,1229,3.783333302,0.400000006,1.5,None,0,0,2,2008,Alameda,Male
+96,690,0,1,1.5,Farming,0,0,2,2014,Jefferson,Male
+97,77,0,0.428571433,2.5,Business,0,0,1,2014,Jefferson,Female
+98,2,24.11937332,0.428571433,0.75,Farming,0,0,1,2014,Jefferson,Male
+99,327,1.851851821,0.222222224,2,None,0,0,1,2011,Jefferson,Female
+100,1299,0,0.857142866,1.333333373,Farming,0,0,3,2012,Jefferson,Male
+101,297,10,2,0,Unskilled labour,0,0,1,2002,Alameda,Male
+102,154,4.546118736,1.600000024,1.5,None,0,0,1,2014,Jefferson,Male
+103,1203,1.083333373,0.5,0,Unskilled labour,0,0,1,2008,Alameda,Male
+104,1309,42.66666794,2,0,Unskilled labour,0,0,3,2013,Norfolk,Male
+105,453,0.454545468,1.090909123,1.200000048,Farming,0,0,2,2015,Jefferson,Male
+106,204,1.515151501,0.454545468,1.200000048,Farming,0,0,1,2015,Orange,Male
+107,528,0.833333313,0.125,3,Farming,0,0,1,2009,Alameda,Female
+108,486,3.5,1,1,None,0,0,2,2014,Jefferson,Male
+109,1744,14.59360695,0.5,3,Farming,0,0,3,2003,Jefferson,Female
+110,1602,2.0326159,0.071428575,1.333333373,Farming,0,0,2,2015,Jefferson,Male
+111,459,0,0.600000024,1.5,Unskilled labour,0,0,1,2014,Jefferson,Male
+112,899,2.533333302,1.399999976,0,Student,0,0,2,2012,Orange,Male
+113,1686,0.75,0.25,3,Farming,0,0,3,2012,Jefferson,Female
+114,1676,0,0.5,5,Farming,0,0,3,2014,Jefferson,Female
+115,1524,0.25,1.25,1,Housewife,0,0,3,2010,Jefferson,Male
+116,456,2,0.5,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+117,1420,0,0.714285731,1.333333373,Business,0,0,3,2014,Jefferson,Male
+118,691,0.787878811,0.181818187,0.222222224,Student,0,0,2,2014,Jefferson,Male
+119,1459,0.833333313,0.125,1.666666627,Farming,0,0,3,2015,Randolph,Male
+120,923,10.8789959,0.5,0,Unskilled labour,0,0,1,2009,Alameda,Male
+121,1523,0.831278503,0.400000006,1,Farming,0,0,3,2006,Jefferson,Male
+122,1633,6.804794312,0.5,3,Farming,0,0,3,2015,Jefferson,Female
+123,1606,6.76255703,0.600000024,0.25,Farming,0,0,2,2002,Jefferson,Male
+124,87,7.400000095,0.800000012,0.666666687,Farming,0,0,1,2011,Jefferson,Male
+125,2019,0.555555522,0.666666687,0.5,Farming,0,0,3,2014,Jefferson,Male
+126,404,19.58333397,1,1,None,0,0,2,2014,Jefferson,Male
+127,1874,4.216568947,0.428571433,2.5,Unskilled labour,0,0,1,2007,Alameda,Female
+128,1656,0.625,0.25,3,Farming,0,0,4,2011,Jefferson,Female
+129,1926,0.378787875,0.636363626,1.75,Farming,0,0,4,2010,Jefferson,Male
+130,1089,4.722222328,0.666666687,1,Livestock rearing,0,0,1,2008,Jefferson,Male
+131,1957,1.101598144,0.166666672,2,Unskilled labour,0,0,4,2010,Norfolk,Female
+132,512,3.333333254,1.333333373,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+133,1222,0.238095239,0.571428597,2.5,None,0,0,2,2009,Alameda,Female
+134,346,2.805555582,1,5,Unskilled labour,0,0,2,2009,Alameda,Female
+135,1465,0.533333361,0.300000012,1.5,Farming,0,0,3,2010,Jefferson,Male
+136,1789,0.370370358,0.777777791,0.285714298,Student,0,0,3,2012,Norfolk,Male
+137,403,2.777777672,0.5,5,Unskilled labour,0,0,2,2014,Jefferson,Female
+138,1885,20.08333397,1,0.333333343,Business,0,0,1,2009,Alameda,Male
+139,602,0.518518507,0.555555582,2,Unskilled labour,0,0,1,2012,Jefferson,Female
+140,697,0,0.333333343,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+141,1397,6.666666508,0.5,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+142,1887,3.333333254,0.5,0,Skilled labour,1,1,1,2008,Alameda,Male
+143,2048,2.75,0.5,3,Farming,0,0,2,2014,Jefferson,Female
+144,1737,0.166666657,0.300000012,1,None,0,0,2,2014,Jefferson,Male
+145,972,6.045155048,1.111111164,2,Unskilled labour,0,0,2,2009,Alameda,Female
+146,1563,2.601598263,0.375,1.666666627,Farming,0,0,2,2011,Norfolk,Male
+147,2046,0,2,0,Farming,0,0,3,2015,Orange,Male
+148,181,1.111111045,1,2,Farming,0,0,1,2015,Jefferson,Female
+149,421,2.5,1,0,Student,0,0,1,2014,Jefferson,Male
+150,1554,0.631578922,0.526315808,1.714285731,Farming,0,0,3,2014,Jefferson,Male
+151,1311,0.25,0.375,3,Farming,0,0,2,2012,Jefferson,Female
+152,476,1.974885941,0.166666672,2,Farming,0,0,2,2014,Jefferson,Female
+153,1352,1.496702194,0.111111112,1.571428537,Farming,0,0,3,2012,Jefferson,Male
+154,1843,0,4,0,Unskilled labour,0,0,3,2014,Jefferson,Male
+155,935,0,0.666666687,,Farming,0,0,2,2008,Alameda,
+156,471,2.162557125,0.400000006,1.5,Other,0,0,2,2014,Jefferson,Male
+157,1365,0.214285716,0,2.5,Unskilled labour,0,0,2,2013,Randolph,Female
+158,64,7.745596886,1,6,Skilled labour,0,0,1,2014,Jefferson,Female
+159,1409,2,2,0,Business,0,0,2,2014,Jefferson,Male
+160,2020,0,0.666666687,2,Farming,0,0,3,2015,Jefferson,Female
+161,605,26.14611816,1,0,Unskilled labour,0,1,1,2014,Lawrence,Male
+162,71,5.756686211,0.571428597,2.5,Business,0,0,1,2014,Jefferson,Female
+163,172,1.722222209,0.333333343,2,Unskilled labour,0,0,1,2014,Jefferson,Female
+164,1941,1.450228333,0.800000012,4,Farming,0,0,4,2014,Jefferson,Female
+165,1714,0.848484814,1.181818128,2.666666746,Business,0,0,3,2014,Jefferson,Female
+166,1670,0.833333313,1,0,Soldier,0,0,3,2012,Jefferson,Male
+167,1306,1.25,0.5,1.666666627,Unskilled labour,0,0,3,2009,Alameda,Male
+168,753,8.477169037,0.800000012,0.25,Unskilled labour,0,0,1,2009,Alameda,Male
+169,1909,9.659817696,1,0,Farming,0,0,1,2003,Alameda,Male
+170,572,0.375,0.875,1.666666627,Business,0,0,2,2014,Jefferson,Male
+171,917,0,0,3,Farming,0,0,1,2011,Alameda,Female
+172,1460,3.666666746,0,1,Farming,0,0,3,2015,Randolph,Male
+173,1379,0.13636364,0,1.200000048,Unskilled labour,0,0,3,2015,Alameda,Male
+174,1164,0.690476239,0.428571433,2.5,Farming,0,0,2,2008,Alameda,Female
+175,1697,0.555555522,0.833333313,5,Farming,0,0,3,2013,Jefferson,Female
+176,855,1.698630095,0.125,1.666666627,Farming,0,0,1,2014,Jefferson,Male
+177,1850,0,1,1,Unskilled labour,0,0,1,2015,Alameda,Male
+178,905,6.285958767,0.5,0.333333343,Unskilled labour,0,0,1,2011,Alameda,Male
+179,399,0,2,0,Livestock rearing,0,0,2,2014,Jefferson,Male
+180,1771,0.583333313,0,1.666666627,Farming,0,0,4,1992,Jefferson,Male
+181,1125,11.33333302,1,0,Farming,0,0,2,1992,Jefferson,Male
+182,1947,3.599999905,0,4,Farming,0,0,4,2014,Jefferson,Female
+183,171,0.666666627,0.400000006,4,Unskilled labour,0,0,1,2014,Jefferson,Female
+184,1812,0.095238097,0.857142866,2.5,Unskilled labour,0,0,3,2014,Jefferson,Female
+185,918,0,0,2,Farming,0,0,1,2009,Alameda,Female
+186,395,0,3,0,Livestock rearing,0,0,2,2014,Jefferson,Male
+187,1672,0.238095239,0.857142866,6,Farming,0,0,3,2014,Jefferson,Female
+188,1403,1,0.600000024,4,Unskilled labour,0,0,3,2014,Jefferson,Female
+189,1772,0.190476194,0,2.5,Unskilled labour,0,0,4,1994,Jefferson,Female
+190,380,0,0.800000012,1.5,Livestock rearing,0,0,2,2014,Jefferson,Male
+191,1629,10,1,0,Livestock rearing,0,0,3,2010,Jefferson,Male
+192,728,2.449445486,1,0.166666672,Student,0,0,2,2014,Jefferson,Male
+193,452,6.222221851,0.666666687,2,Farming,0,0,2,2014,Jefferson,Female
+194,1160,0.555555522,0.333333343,2,Farming,0,0,2,1996,Jefferson,Female
+195,123,1.44196105,0.105263159,1.111111164,Unskilled labour,0,1,1,2014,Jefferson,Male
+196,438,6.666666508,2,0,Farming,0,0,2,2014,Jefferson,Male
+197,130,0,0,1.333333373,Farming,0,0,1,2014,Jefferson,Male
+198,1689,3.555555582,0.666666687,0.5,Farming,0,0,3,2014,Jefferson,Male
+199,1884,0.277777761,0.333333343,3,Fishing,0,0,1,2008,Alameda,Female
+200,2036,1.5,0.5,0,Student,0,0,1,2014,Jefferson,Male
+201,1359,0.555555582,0.444444448,2,Farming,0,0,1,2007,Orange,Female
+202,1893,2.555555582,1.166666627,2,Business,0,0,3,2015,Norfolk,Female
+203,598,1.458333373,0.375,1.666666627,Unskilled labour,0,0,1,2008,Putnam,Male
+204,1107,31.90068626,0.416666657,1,Farming,1,1,2,1997,Jefferson,Male
+205,194,0.625,0.5625,0.600000024,Farming,0,0,1,2014,Jefferson,Male
+206,1883,3.680365324,0.800000012,1.5,Skilled labour,0,0,1,2008,Alameda,Male
+207,502,1.25,0.75,7,Unskilled labour,0,0,2,2014,Jefferson,Female
+208,2018,0.416666657,0.25,3,Farming,0,0,3,2015,Jefferson,Female
+209,1415,0,3,0,Student,0,0,3,2015,Jefferson,Male
+210,1302,0.566894948,0.300000012,1.5,Farming,0,0,3,2012,Jefferson,Male
+211,1956,4.990296841,0.75,1.666666627,Unskilled labour,0,0,4,2010,Norfolk,Male
+212,368,3.784880638,0.666666687,3.5,Farming,0,0,2,2014,Jefferson,Female
+213,1321,1.055555582,0.166666672,1,Farming,0,0,3,2013,Jefferson,Male
+214,1655,0.277777761,0.25,5,Skilled labour,0,0,4,2012,Jefferson,Female
+215,1657,0,0.200000003,1.5,Farming,0,0,4,2010,Jefferson,Male
+216,1394,1.142857194,0.857142866,2.5,Farming,0,0,2,2014,Jefferson,Female
+217,1396,2.576647043,1,2.5,Farming,0,0,2,2014,Jefferson,Female
+218,2007,1.833333373,1.5,0,Unskilled labour,0,0,1,2007,Alameda,Male
+219,540,0.333333313,0.200000003,4,Farming,0,0,1,2009,Jefferson,Female
+220,500,1,0.699999988,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+221,20,0.397611499,0.230769232,0.857142866,Farming,0,0,1,2000,Jefferson,Male
+222,78,2.557077646,1.333333373,0.5,Student,0,0,1,2014,Jefferson,Male
+223,367,0,0.5,5,Farming,0,0,1,2014,Jefferson,Female
+224,374,2.222222328,0.444444448,2,Farming,0,0,2,2014,Jefferson,Female
+225,916,0.888888896,0,2,Farming,0,0,1,2015,Norfolk,Female
+226,982,10.5,0.75,1.666666627,Livestock rearing,0,1,2,2011,Norfolk,Male
+227,1945,5.5,0,0.666666687,Farming,1,1,4,2014,Jefferson,Male
+228,1605,7.899543285,0.230769232,1.600000024,Farming,0,0,2,2013,Norfolk,Male
+229,870,1.666666627,0.5,0.600000024,Farming,0,0,2,2008,Alameda,Male
+230,1526,0.555555522,0.333333343,2,Farming,0,0,3,2010,Jefferson,Female
+231,1305,0.166666672,0.166666672,0.714285731,Farming,0,0,3,2012,Jefferson,Male
+232,140,1,1.200000048,2.333333254,Unskilled labour,0,0,1,2015,Jefferson,Female
+233,1604,16.6849308,1,,Farming,0,0,2,2006,Jefferson,
+234,1120,26.41666603,1,0,Farming,0,0,1,2005,Jefferson,Male
+235,177,7.84931469,0,1.5,Farming,0,0,1,2014,Jefferson,Male
+236,1121,0,2,0,None,0,0,1,2011,Jefferson,Male
+237,713,0.208333328,0.5,1,Housewife,0,0,1,2013,Jefferson,Male
+238,1515,0.186799511,0,3.400000095,Farming,0,0,3,2014,Jefferson,Female
+239,2011,0,1,0,Student,0,0,2,2014,Jefferson,Male
+240,1638,2.121212244,0.272727281,1.200000048,Livestock rearing,0,0,3,2014,Jefferson,Male
+241,328,0.300000012,1,1.5,Unskilled labour,0,0,2,2009,Alameda,Male
+242,1426,8.036529541,0.875,1.666666627,None,0,0,3,2014,Jefferson,Male
+243,1322,0.185185179,0.222222224,3.5,Farming,0,0,3,2013,Jefferson,Female
+244,412,0.416666657,0.75,1,Livestock rearing,0,0,2,2014,Jefferson,Male
+245,933,0.416666657,0.25,1,Farming,0,0,2,2009,Alameda,Male
+246,1998,0.687785387,0.625,0.333333343,Student,0,0,1,2013,Orange,Male
+247,157,4.406392574,1,4,Farming,0,0,1,2015,Jefferson,Female
+248,609,8.988584518,0.25,0.333333343,Unskilled labour,0,1,2,2011,Randolph,Male
+249,1464,0.833333313,0.5,0,Farming,0,0,3,2002,Jefferson,Male
+250,48,0.333333343,1.333333373,0.5,Unskilled labour,0,0,1,2014,Jefferson,Male
+251,192,0.25,0.800000012,1.5,Farming,0,0,1,2014,Jefferson,Male
+252,765,0.833333313,0.25,3,Unskilled labour,0,0,1,2014,Putnam,Female
+253,893,8.017123222,0.875,0.142857149,Unskilled labour,0,1,1,2008,Alameda,Male
+254,611,4.801369667,0,1,Farming,0,1,1,2013,Norfolk,Male
+255,1519,0,0,0.800000012,Farming,0,0,3,1992,Jefferson,Male
+256,801,4.730178356,0.636363626,2.666666746,Farming,0,0,1,2013,Jefferson,Female
+257,2029,0,0,0.666666687,Farming,0,0,1,2015,Jefferson,Male
+258,347,6.75,1,1,Unskilled labour,0,0,2,2013,Norfolk,Male
+259,1199,0.466666669,0.266666681,0.666666687,Business,0,0,2,2009,Alameda,Male
+260,1219,1.185185194,0.444444448,2,Unskilled labour,0,0,1,2009,Alameda,Female
+261,1763,2.933333397,0,4,Farming,0,0,2,2015,Jefferson,Female
+262,1866,0,1,1,Livestock rearing,0,0,1,2008,Alameda,Male
+263,51,1.833333373,1.166666627,2,Farming,0,0,1,2014,Orange,Female
+264,1216,4.490660191,0.545454562,2.666666746,None,0,1,2,2008,Alameda,Female
+265,821,0,0.333333343,1.25,Farming,0,0,2,2013,Norfolk,Male
+266,1682,0,1,1.666666627,Farming,0,0,3,2014,Jefferson,Male
+267,366,0.666666687,2,0,Student,0,0,2,2014,Jefferson,Male
+268,866,2.733333349,0.200000003,0.25,Farming,0,0,2,2007,Alameda,Male
+269,1367,0.976190507,0.857142866,2.5,Unskilled labour,0,0,2,2009,Alameda,Female
+270,478,0,0.636363626,2.666666746,Unskilled labour,0,0,2,2014,Jefferson,Female
+271,729,9.777777672,0.666666687,0.5,Farming,0,1,2,2013,Norfolk,Male
+272,1419,0.185185179,0.888888896,2,Farming,0,0,3,2015,Jefferson,Female
+273,589,0.023809524,0.428571433,0.75,Farming,0,0,1,2001,Orange,Male
+274,470,43.42922211,2,0,Student,0,0,2,2014,Jefferson,Male
+275,1792,0,1.111111164,1.25,Farming,0,0,3,2012,Jefferson,Male
+276,1565,2.588660479,0.083333336,0.714285731,Farming,0,0,2,2008,Alameda,Male
+277,1687,1,0.333333343,5,Farming,0,0,3,2014,Jefferson,Female
+278,1643,4.12785387,0,1.399999976,Farming,0,0,3,2014,Jefferson,Male
+279,1625,2.408675909,0.333333343,2,Student,0,0,3,2014,Jefferson,Female
+280,1972,1.333333373,0.375,0.333333343,Farming,0,1,1,1997,Alameda,Male
+281,1469,0,1,2.5,Farming,0,0,2,2015,Randolph,Female
+282,1248,0.214285716,1.285714269,0.166666672,Farming,0,0,2,1998,Jefferson,Male
+283,84,4.615384579,0.307692319,1.166666627,Farming,0,0,1,2014,Jefferson,Male
+284,2031,10.6990099,0.833333313,0.5,Business,0,0,2,2014,Jefferson,Male
+285,311,8.916666985,1,0,Unskilled labour,0,0,1,2013,Norfolk,Male
+286,54,2.5,0.5,2,Farming,0,0,1,2015,Jefferson,Female
+287,1447,9.949771881,2,1,Unskilled labour,0,0,3,2014,Jefferson,Male
+288,119,51.6255722,1,0,Unskilled labour,0,1,1,2012,Putnam,Male
+289,1950,1.604452014,1,0.333333343,Business,0,0,4,2014,Jefferson,Male
+290,2032,3.562785387,0,1,Soldier,0,1,2,2014,Jefferson,Male
+291,195,3.695890427,0.600000024,4,Farming,0,0,1,2014,Jefferson,Female
+292,1648,0.285714298,0.285714298,0.400000006,Farming,0,0,3,2014,Jefferson,Male
+293,576,0.666666687,1.166666627,0.5,None,0,0,2,2012,Jefferson,Male
+294,1392,1,0.5,1,Farming,0,0,2,2013,Randolph,Male
+295,523,3.229555607,0.272727281,0.571428597,Farming,0,0,1,2012,Norfolk,Male
+296,1653,0.666666687,1,0.5,Student,0,0,3,2015,Jefferson,Male
+297,1242,0.074074075,0.444444448,0.800000012,Farming,0,0,2,2000,Jefferson,Male
+298,1698,0.208333328,0.375,3,Farming,0,0,4,2004,Jefferson,Female
+299,1399,3.919330359,0.333333343,5,Farming,0,0,3,2012,Jefferson,Female
+300,176,2.18460536,0,2.5,Farming,0,0,1,2015,Jefferson,Female
+301,1767,0.375,0.25,1.666666627,Farming,0,0,3,2002,Jefferson,Male
+302,1679,0,0.375,3,Farming,0,0,3,2014,Jefferson,Female
+303,1940,4.925925732,0.444444448,0.285714298,Farming,0,0,4,2012,Jefferson,Male
+304,1934,0.205128208,0.07692308,1.600000024,Fishing,0,0,4,2006,Jefferson,Male
+305,2012,5.833333492,0.5,1,None,0,0,2,2014,Jefferson,Male
+306,1118,0.166666672,0.25,,None,0,0,1,2013,Jefferson,
+307,1479,0.333333313,0.600000024,4,Unskilled labour,0,0,3,2014,Jefferson,Female
+308,110,0.333333313,0.600000024,0.666666687,Student,0,0,1,2014,Jefferson,Male
+309,1962,0.166666672,0.333333343,0.5,Farming,0,0,4,2012,Jefferson,Male
+310,1596,3.739726305,0.200000003,1.5,Farming,0,0,1,2014,Jefferson,Male
+311,1391,0.939393938,0.545454562,0.833333313,Livestock rearing,0,0,3,2014,Jefferson,Male
+312,1457,0.666666627,,4,Farming,0,1,3,2010,Jefferson,Female
+313,1644,0.833333313,0.5,3,Farming,0,0,3,2014,Jefferson,Female
+314,1521,0.5,0,7,Business,0,0,3,2014,Jefferson,Female
+315,514,3.333333254,1.333333373,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+316,600,2.208333254,0.5,1,Unskilled labour,0,0,1,2012,Randolph,Male
+317,428,2.272727251,0.909090936,1.75,Unskilled labour,0,0,2,1992,Jefferson,Male
+318,1949,0.5,0.875,3,Farming,0,0,4,2005,Jefferson,Female
+319,509,2,1,1.5,Unskilled labour,0,0,2,2014,Jefferson,Male
+320,398,5.042617798,1.444444418,8,Farming,0,0,2,2014,Jefferson,Female
+321,1355,1.454664111,0.428571433,2.5,Farming,0,0,3,2013,Jefferson,Female
+322,142,1.666666627,0.333333343,2,Unskilled labour,0,0,1,2014,Jefferson,Female
+323,856,2.916666746,0.5,3,Student,0,0,1,2014,Jefferson,Female
+324,1658,4.882039547,0,1,Farming,0,0,4,2014,Jefferson,Male
+325,1619,0.95251143,0.666666687,0.5,Farming,0,0,2,2014,Jefferson,Male
+326,955,3.297945261,0.5,0,Business,0,1,1,2013,Putnam,Male
+327,455,0,0,0.333333343,Unskilled labour,0,0,1,2014,Jefferson,Male
+328,1933,26.66666603,1,0,Farming,0,0,4,2014,Jefferson,Male
+329,1691,0.222222224,0.666666687,5,Business,0,0,4,2012,Jefferson,Female
+330,326,0.657534242,0.214285716,3.666666746,Farming,0,0,1,2013,Norfolk,Female
+331,1660,0.476190478,0.857142866,2.5,Farming,0,0,3,2015,Jefferson,Female
+332,1105,1.407222867,0.545454562,2.666666746,Housewife,0,0,2,2000,Jefferson,Female
+333,2009,4.428462505,0.5,1,Business,0,0,2,2011,Norfolk,Male
+334,926,0.714285731,0.285714298,2.5,Farming,0,0,1,2008,Alameda,Female
+335,1247,0.166666672,1,2,Farming,0,0,2,2011,Jefferson,Female
+336,433,9.720319748,0.75,3,Business,0,0,1,2014,Jefferson,Female
+337,1915,1.383561611,,0,Unskilled labour,0,0,1,2008,Alameda,Male
+338,1418,0.166666657,0.899999976,1,Farming,0,0,3,2015,Jefferson,Male
+339,2013,0,0.333333343,2,Farming,0,0,2,2013,Jefferson,Female
+340,1745,0.466666639,0.800000012,0.25,Farming,0,0,3,1992,Jefferson,Male
+341,1709,0.833333313,1,2,Unskilled labour,0,0,3,2013,Jefferson,Female
+342,251,7.022830963,0.125,0.142857149,Student,0,0,1,2013,Jefferson,Male
+343,1234,0,0.714285731,2.5,Farming,0,0,3,2015,Norfolk,Female
+344,444,21.88584518,1,0,Student,0,0,2,2014,Jefferson,Male
+345,116,7.356163979,0.285714298,0.75,Business,0,1,1,1999,Alameda,Male
+346,895,2.214285612,0,0.75,Unskilled labour,0,0,1,2011,Jefferson,Male
+347,1273,0,0,1.5,Farming,0,0,2,2008,Putnam,Male
+348,1645,6.727853298,0.600000024,4,Farming,0,1,3,2013,Jefferson,Female
+349,977,2.143264771,1.25,1.666666627,Farming,0,0,2,1999,Alameda,Male
+350,302,1.479166627,0.75,0.600000024,Unskilled labour,0,0,1,2014,Alameda,Male
+351,2034,3.721461296,1,1,Farming,0,0,2,2012,Jefferson,Male
+352,2026,6.771118641,0.125,1.666666627,None,0,0,1,2014,Jefferson,Male
+353,379,3.850836992,0.166666672,2,Farming,0,0,2,2014,Jefferson,Female
+354,1531,1.75,0.5,0.600000024,Farming,0,0,3,2011,Jefferson,Male
+355,714,10.69589043,0.600000024,1.5,Farming,0,0,1,2002,Orange,Male
+356,1699,0,0.714285731,1.333333373,Business,0,0,3,2014,Jefferson,Male
+357,1474,0,1,5,Farming,0,0,3,2015,Jefferson,Female
+358,1430,3.888889074,0.666666687,2,Farming,0,0,3,2014,Jefferson,Female
+359,946,2.493150711,0.333333343,2,Farming,0,0,1,2014,Jefferson,Female
+360,921,1.558219314,0.333333343,0.714285731,Farming,0,0,2,2009,Alameda,Male
+361,1507,0.305555552,0,0,Farming,0,0,3,2013,Orange,Male
+362,1421,0.833333313,1,5,None,0,0,2,2014,Jefferson,Female
+363,1895,2.331620932,0.375,1.666666627,UN/NGO/Church,0,0,3,2014,Jefferson,Male
+364,763,0.833333313,0.625,0.333333343,Livestock rearing,0,0,1,2012,Jefferson,Male
+365,1482,7.472221851,1,2,Unskilled labour,0,0,3,2014,Randolph,Female
+366,298,5.985323429,0.571428597,0.166666672,UN/NGO/Church,0,1,1,2006,Norfolk,Male
+367,372,0,1.5,1,Livestock rearing,0,0,1,2014,Jefferson,Male
+368,1588,1.183333278,0.699999988,1,Farming,0,0,2,2008,Alameda,Male
+369,480,0,0.5,1.5,Unskilled labour,0,0,2,2014,Jefferson,Male
+370,1882,3.888889074,0.5,5,Skilled labour,0,0,1,2009,Alameda,Female
+371,2028,0,0,0,Livestock rearing,0,0,1,2014,Jefferson,Male
+372,513,1.428571463,0.857142866,2.5,Unskilled labour,0,0,2,2014,Jefferson,Female
+373,1716,2.833333254,1,1,Farming,1,1,3,2014,Norfolk,Male
+374,1987,3.833333254,1,0,Farming,0,0,1,2010,Alameda,Male
+375,817,26.24363899,0.428571433,0.166666672,Unskilled labour,0,0,1,2012,Alameda,Male
+376,1794,0,0.666666687,3.5,None,0,0,3,2014,Jefferson,Female
+377,294,7.395629883,1,1.333333373,Unskilled labour,0,1,1,2010,Norfolk,Male
+378,2035,0,0,0,Unemployed,0,0,1,2012,Jefferson,Male
+379,1593,1.047619104,0.714285731,0.75,Farming,0,0,2,2011,Lawrence,Male
+380,995,0.571428597,,0.75,Unemployed,0,0,2,1996,Jefferson,Male
+381,349,1.314814806,0.666666687,0.800000012,Unskilled labour,0,0,2,2013,Putnam,Male
+382,1373,2.875,0.5,3,Unskilled labour,0,0,3,2014,Randolph,Female
+383,1445,2.363013744,0.416666657,3,UN/NGO/Church,0,0,3,2013,Jefferson,Female
+384,1668,1.583333373,0,3,Unskilled labour,0,0,3,2014,Jefferson,Female
+385,49,0,0.5,1,Unskilled labour,0,0,1,2014,Jefferson,Male
+386,1035,0.90476191,0,1.333333373,Farming,0,1,1,2002,Alameda,Male
+387,1967,0.533333361,0.600000024,0.666666687,Farming,0,0,4,2013,Jefferson,Male
+388,1475,0.899543405,1,0.25,Farming,0,1,3,2006,Orange,Male
+389,1279,1.600000024,0.400000006,1.5,Housewife,0,0,2,2014,Jefferson,Male
+390,321,4.56621027,1,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+391,705,1.666666627,0.666666687,0.5,Farming,0,0,1,2013,Jefferson,Male
+392,804,15.74200916,0.25,1,Not in the labour force,0,0,1,1997,Alameda,Male
+393,1416,0,1.5,1,Farming,0,0,3,2014,Jefferson,Male
+394,802,12.20700169,0.666666687,0,Not in the labour force,0,1,1,2000,Orange,Male
+395,2040,0.666666627,0.600000024,4,Farming,0,0,1,2014,Jefferson,Female
+396,129,0,0.5,1,Livestock rearing,0,0,1,2014,Jefferson,Male
+397,1680,1.312785387,0.5,1.666666627,Unskilled labour,0,0,3,2014,Jefferson,Male
+398,47,0.666666627,1,4,Farming,0,0,1,2014,Jefferson,Female
+399,1516,5.068493366,0.142857149,0.75,Farming,0,0,3,2015,Jefferson,Male
+400,1635,32.9337883,0.25,0.600000024,Skilled labour,0,0,3,2014,Jefferson,Male
+401,481,10.54185677,1,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+402,1414,0.238095239,0.857142866,1.333333373,Farming,0,0,3,2014,Jefferson,Male
+403,920,0.208333328,0.125,1.666666627,Farming,0,0,2,2009,Alameda,Male
+404,1040,7.037036896,0.666666687,0.800000012,Business,0,0,1,2009,Norfolk,Male
+405,1574,4.733333111,0.899999976,1,Farming,0,0,1,2004,Alameda,Male
+406,731,0.208333328,0.9375,0.454545468,Farming,0,0,1,2010,Orange,Male
+407,1547,2.833333254,0.5,0,None,0,0,2,2014,Randolph,Male
+408,1145,0.277777761,0.5,1.399999976,Farming,0,0,2,2008,Alameda,Male
+409,162,6.470319271,0.400000006,0,None,0,0,1,2014,Jefferson,Male
+410,323,6.863991737,0.142857149,1.333333373,Farming,0,1,2,1997,Jefferson,Male
+411,712,2.414611816,0.400000006,0.25,Student,0,0,1,2014,Jefferson,Male
+412,2014,0.666666687,1,0,None,0,0,2,2014,Jefferson,Male
+413,2015,0.759259284,0.111111112,3.5,Farming,0,0,2,2014,Jefferson,Female
+414,928,7.252664089,0.333333343,2,Teacher,0,0,1,2008,Alameda,Female
+415,42,0,0.181818187,4.5,Farming,0,0,1,2014,Jefferson,Female
+416,11,2.222222328,0.222222224,1.25,Farming,0,0,1,2014,Jefferson,Male
+417,557,5.5,0.200000003,2.333333254,Farming,0,0,1,2008,Alameda,Female
+418,1816,1,0.5,3,Business,0,0,3,2015,Norfolk,Female
+419,1590,2.333333492,0.400000006,0.666666687,Unskilled labour,0,0,2,1998,Alameda,Male
+420,1218,0,1,0,Livestock rearing,0,0,1,2013,Alameda,Male
+421,1929,0.677083313,1,1.285714269,Farming,0,0,4,2013,Jefferson,Male
+422,700,0,1,4,Unskilled labour,0,0,2,2014,Jefferson,Female
+423,1872,6.890981674,0.125,0.600000024,Farming,0,0,1,1997,Alameda,Male
+424,376,0,0.5,0,Farming,0,0,2,2014,Jefferson,Male
+425,1587,0.962962985,1,1.25,Farming,0,0,2,2015,Jefferson,Male
+426,1237,0.166666657,0.285714298,0.400000006,Business,0,0,2,2014,Jefferson,Male
+427,1428,2,3,1,Farming,0,0,3,2014,Jefferson,Male
+428,607,2.888888836,0.222222224,3.5,Unskilled labour,0,0,1,2013,Orange,Female
+429,1839,2.5,1.5,3,Unskilled labour,0,0,3,2015,Jefferson,Female
+430,1724,2.791666746,0.5,3,None,0,0,2,2010,Putnam,Female
+431,666,0,0.857142866,2.5,Farming,0,0,1,2012,Jefferson,Female
+432,1747,0.277777761,0.666666687,2,Farming,0,0,4,2014,Jefferson,Female
+433,510,2.5,1.25,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+434,322,0,0.5,1,Farming,0,0,2,2010,Jefferson,Male
+435,1494,0.666666687,1,2,Farming,0,0,3,2014,Jefferson,Female
+436,1380,0.333333343,1,3,Unskilled labour,0,0,3,2012,Jefferson,Female
+437,1903,6.940639019,0.25,0.333333343,Farming,0,0,2,2011,Randolph,Male
+438,1504,2.730974197,0.666666687,5,Farming,0,0,3,2012,Jefferson,Female
+439,418,0.555555522,0.166666672,5,None,0,0,2,2014,Jefferson,Female
+440,1793,0.333333343,2,0,None,0,0,3,2000,Jefferson,Male
+441,437,0,2,0,Student,0,0,2,2012,Jefferson,Male
+442,1159,27.41666603,0.5,1,Farming,0,0,2,1997,Jefferson,Male
+443,334,5.445712566,0.444444448,1.25,Housewife,0,1,2,2008,Alameda,Male
+444,1225,1.407407403,0.666666687,3.5,Unskilled labour,0,0,2,2009,Alameda,Female
+445,693,0.611111104,0.666666687,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+446,1611,1.777777791,0.333333343,0,Farming,0,0,2,1993,Jefferson,Male
+447,1677,0.266666681,0,1.5,Unskilled labour,0,0,3,2014,Jefferson,Male
+448,592,1.666666627,0.166666672,2,Unskilled labour,0,1,1,2009,Alameda,Female
+449,269,0,0.285714298,2.5,Farming,0,0,2,2007,Jefferson,Female
+450,1616,3.014611721,0,1.5,Farming,0,0,2,2006,Putnam,Male
+451,1374,3.030441284,0,5,Unskilled labour,0,0,3,2006,Jefferson,Female
+452,1501,1.466260672,0.222222224,0.125,Farming,0,0,3,2012,Jefferson,Male
+453,1823,2.333333254,1,0,Farming,0,0,2,2014,Randolph,Male
+454,384,0,0,1,Farming,0,0,2,2014,Jefferson,Male
+455,2047,2.22222209,1,2,None,0,0,3,2010,Randolph,Female
+456,1873,7.235616207,0.800000012,0.666666687,Farming,0,0,1,2006,Alameda,Male
+457,364,1.78652966,0.5,1.666666627,Student,0,0,2,2014,Jefferson,Male
+458,930,1.681887388,0.444444448,2,Unskilled labour,0,0,1,2008,Alameda,Female
+459,1730,0.200000003,0.600000024,4,Livestock rearing,0,0,2,2012,Jefferson,Female
+460,365,0,0.857142866,6,Farming,0,0,1,2015,Jefferson,Female
+461,1427,3.90476203,0.857142866,0.75,Farming,0,0,3,2014,Jefferson,Male
+462,803,8,0.75,0.333333343,Unskilled labour,0,0,1,2008,Alameda,Male
+463,62,0.833333313,0.75,0,Livestock rearing,0,0,1,2012,Jefferson,Male
+464,984,2.05479455,0.5,0,Student,0,0,2,2013,Jefferson,Male
+465,1991,1.111111164,0.555555582,0.800000012,Farming,0,0,1,2013,Norfolk,Male
+466,386,8.888888359,1,0,Livestock rearing,0,0,2,2014,Jefferson,Male
+467,229,2.444444418,0.333333343,5,Not in the labour force,0,0,1,2000,Alameda,Female
+468,431,5.833333492,1.5,0.333333343,Unskilled labour,0,0,2,2015,Jefferson,Male
+469,1161,3.333333254,0.5,1,Farming,0,0,2,2001,Jefferson,Male
+470,304,3.434360981,0.75,3,Unskilled labour,0,0,1,2009,Alameda,Female
+471,1376,0.148148149,0.222222224,0.5,Unskilled labour,0,0,3,2012,Jefferson,Male
+472,1992,4.127092838,0.666666687,0,None,0,0,1,2013,Orange,Male
+473,1410,0.771689534,0.800000012,0.666666687,Farming,0,0,2,2014,Jefferson,Male
+474,1356,0.625,0.375,3,Unskilled labour,0,0,3,2015,Jefferson,Female
+475,1215,2.864644527,0.428571433,6,None,0,0,2,2008,Alameda,Female
+476,1315,1.047619104,1.142857194,2.5,Farming,0,0,3,2012,Jefferson,Female
+477,460,12.1552515,0.699999988,2.333333254,Skilled labour,0,0,2,2014,Jefferson,Female
+478,1696,0.666666627,0.600000024,1.5,Farming,0,0,4,2014,Jefferson,Male
+479,508,2.5,0.75,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+480,202,22,1.200000048,1.5,Unskilled labour,0,0,1,2014,Jefferson,Male
+481,594,1.131405354,0.111111112,1.25,Unskilled labour,0,0,1,2009,Putnam,Male
+482,1746,1.037037015,0.222222224,3.5,Livestock rearing,0,0,3,2004,Jefferson,Female
+483,1491,0.90476191,0.857142866,0.75,None,0,0,1,2014,Jefferson,Male
+484,608,1.68327105,0,0.833333313,Farming,0,0,1,2008,Alameda,Male
+485,1667,0.444444448,1,2,Unskilled labour,0,0,3,2014,Jefferson,Female
+486,606,6.834702969,0.400000006,1.5,Unskilled labour,0,1,1,2011,Norfolk,Male
+487,210,4,3,0,Livestock rearing,0,0,1,2008,Putnam,Male
+488,1791,1.270833373,0.75,1.666666627,Farming,0,0,3,2014,Jefferson,Male
+489,1300,2.045454502,1.181818128,1.200000048,Farming,0,1,3,2012,Jefferson,Male
+490,1404,2.962962866,0.777777791,0.800000012,Farming,0,0,3,2015,Jefferson,Male
+491,934,0.801162302,0.363636374,2.666666746,Farming,0,0,2,2013,Jefferson,Female
+492,869,0.555555522,0.333333343,2,Farming,0,0,2,2009,Alameda,Female
+493,1829,12.23972607,0,1,Farming,0,0,2,2015,Orange,Male
+494,1461,0.857142866,0.285714298,1.333333373,Farming,0,0,3,2000,Jefferson,Male
+495,800,18,2,0,Student,0,0,1,2009,Putnam,Male
+496,432,3.888889074,1.666666627,2,Farming,0,0,2,2014,Jefferson,Female
+497,100,0.25,1.25,0.333333343,Farming,0,0,1,2013,Jefferson,Male
+498,1694,0.416666657,1.25,3,Farming,0,0,3,2014,Jefferson,Female
+499,1114,5.003297806,0.444444448,0.5,Not in the labour force,0,0,2,2012,Orange,Male
+500,496,7.777778149,0.666666687,0.5,Business,0,0,2,2014,Jefferson,Male
+501,1496,0,0.142857149,0.400000006,Student,0,0,3,2013,Orange,Male
+502,388,0,2,0,Livestock rearing,0,0,2,2014,Jefferson,Male
+503,1637,1.671689391,0,1,Farming,0,0,3,2014,Jefferson,Male
+504,1621,0.818181813,1,2.666666746,Unskilled labour,0,0,2,2013,Jefferson,Female
+505,320,0.200000003,0.600000024,4,Not in the labour force,0,0,2,2014,Jefferson,Female
+506,520,0,0.166666672,2,Farming,0,0,1,2012,Jefferson,Female
+507,794,5.054794312,0.375,3,Unskilled labour,0,0,1,2009,Alameda,Female
+508,1982,31.68188667,2.333333254,0.5,Business,0,0,1,2012,Alameda,Male
+509,466,0.370370358,0.111111112,3.5,Farming,0,0,2,2014,Jefferson,Female
+510,362,2.493150711,0.666666687,2,Farming,0,0,2,2014,Jefferson,Female
+511,408,0.266666681,0.600000024,1.5,Farming,0,0,2,2014,Jefferson,Male
+512,382,0.5,0.5,0.666666687,Livestock rearing,0,0,2,2014,Jefferson,Male
+513,1411,0.555555522,0.916666687,2,Business,0,0,2,2014,Jefferson,Female
+514,1585,5.615068436,0.800000012,1.5,Farming,0,1,2,2009,Norfolk,Male
+515,1517,2.480974197,0,0.5,Farming,0,1,3,2012,Jefferson,Male
+516,1293,2.458333254,0.125,1.666666627,Farming,0,0,2,2012,Jefferson,Male
+517,1757,2,0.166666672,2,Farming,0,0,2,2011,Jefferson,Female
+518,1663,2.888889074,0.666666687,2,Farming,0,0,4,2010,Jefferson,Female
+519,1632,1.166666627,0.166666672,5,Livestock rearing,0,0,3,2014,Jefferson,Female
+520,1092,1.083333373,1.75,1,Farming,0,0,2,2005,Jefferson,Male
+521,1008,64.36894226,1.399999976,4,Farming,0,0,2,2008,Alameda,Female
+522,1614,1.463724017,0.555555582,0.800000012,Unskilled labour,0,0,3,2014,Jefferson,Male
+523,507,5,2,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+524,283,2.878787756,0.272727281,0.571428597,Farming,0,0,1,2014,Jefferson,Male
+525,1819,3.303906679,0.888888896,1.25,Business,0,0,3,2014,Jefferson,Male
+526,938,0.901065469,0.13333334,1.142857194,Farming,0,0,2,2008,Alameda,Male
+527,345,4.403196335,0.800000012,1.5,Unskilled labour,0,0,2,2009,Alameda,Male
+528,1774,0.222222224,0.5,2,Farming,0,0,4,2011,Jefferson,Female
+529,818,13.03538799,0.5,3,Unskilled labour,0,1,1,2009,Alameda,Female
+530,414,0.555555522,1.333333373,5,Farming,0,0,2,2013,Jefferson,Female
+531,7,1.190476179,0.285714298,0.166666672,Student,0,0,1,2014,Jefferson,Male
+532,1770,0.466666639,,4,Farming,0,0,3,2012,Jefferson,Female
+533,1122,0,0,1.25,Farming,0,0,2,2014,Jefferson,Male
+534,1455,8.053652763,0.25,3,Student,0,0,3,2015,Jefferson,Female
+535,1473,0.407407403,0.222222224,1.25,Livestock rearing,0,0,3,1994,Jefferson,Male
+536,1782,0.060606062,0.363636374,0.833333313,Livestock rearing,0,0,3,2012,Jefferson,Male
+537,1221,5.916666508,0.5,1,None,0,1,2,2007,Alameda,Male
+538,1833,3.333333254,0.666666687,0.5,Unskilled labour,0,0,3,2015,Jefferson,Male
+539,1047,7.777778149,0.166666672,0.200000003,Farming,0,0,1,2009,Alameda,Male
+540,1646,1,0.333333343,1,Unskilled labour,0,0,3,2014,Jefferson,Male
+541,1481,0,0.142857149,2.5,Unskilled labour,0,0,3,2014,Jefferson,Female
+542,892,3.5,1,0,Unskilled labour,0,0,1,2011,Alameda,Male
+543,511,1.666666627,0.833333313,1,Farming,0,0,2,2014,Jefferson,Male
+544,1363,0.25,1,2,Unskilled labour,0,0,1,2008,Alameda,Female
+545,447,108.515976,2,0,Business,0,1,2,2015,Jefferson,Male
+546,1371,3.847031832,1.200000048,4,Unskilled labour,0,0,2,2009,Alameda,Female
+547,983,0.422222227,0,2.75,None,0,0,2,2013,Orange,Female
+548,1813,0,0.400000006,0.666666687,Farming,0,0,3,2014,Randolph,Male
+549,1437,18.46270943,2,0.5,Farming,0,0,2,2014,Jefferson,Male
+550,1090,0,0.238095239,0.909090936,Livestock rearing,0,0,1,2013,Jefferson,Male
+551,581,0.400000006,0.600000024,0.666666687,Farming,0,0,2,2003,Jefferson,Male
+552,736,5.694444656,0.5,2,Farming,0,0,1,2007,Alameda,Female
+553,1932,0.439393967,1.181818128,0.571428597,Farming,1,1,4,1992,Jefferson,Male
+554,1249,0.333333343,1,0,Farming,0,0,2,2012,Jefferson,Male
+555,2022,0.266666681,0.600000024,1.5,Farming,0,0,3,2014,Jefferson,Male
+556,1894,0,1.25,1,Student,0,0,3,2015,Jefferson,Male
+557,1773,0,,4,Farming,0,0,4,2012,Jefferson,Female
+558,1553,0.458333343,0.625,1.666666627,Farming,0,0,3,2013,Jefferson,Male
+559,1847,0,0.846153855,0.181818187,Unskilled labour,0,0,1,2014,Jefferson,Male
+560,1378,0.214285716,0.857142866,0.75,Unskilled labour,0,0,3,2015,Orange,Male
+561,295,7.410387993,1.75,3,Unskilled labour,0,0,1,2006,Orange,Female
+562,1368,1.149999976,0.899999976,1,Unskilled labour,0,0,2,2009,Alameda,Male
+563,168,0.100000001,0.899999976,1.5,Farming,0,0,1,2014,Jefferson,Male
+564,9,0.208333328,0.3125,1.285714269,Farming,0,0,1,2012,Jefferson,Male
+565,1795,0,0.375,1.666666627,Farming,0,0,3,2013,Jefferson,Male
+566,1349,0.809741199,0.333333343,1.5,Farming,0,0,3,2013,Orange,Male
+567,1276,1.333333254,0.300000012,1,Housewife,0,0,2,2008,Alameda,Male
+568,144,0.348692387,0.272727281,4.5,Unskilled labour,0,0,1,2014,Jefferson,Female
+569,1662,2.962962866,0.777777791,8,Farming,0,0,3,2014,Jefferson,Female
+570,591,1.176560044,0.444444448,0.800000012,Unskilled labour,0,0,1,2000,Jefferson,Male
+571,357,1.388888836,0.666666687,5,Livestock rearing,0,0,1,2014,Jefferson,Female
+572,1200,0.25,0.75,3,Business,1,1,1,2010,Alameda,Female
+573,1899,0,0.800000012,1.5,Farming,0,0,1,2007,Alameda,Male
+574,308,2.023809671,0,2.5,Unskilled labour,0,0,2,2009,Alameda,Female
+575,1246,0.222222224,1,0,Farming,0,0,2,1992,Jefferson,Male
+576,1429,5,4,0,None,0,0,3,2015,Jefferson,Male
+577,348,7.25,0,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+578,1109,2.24229455,0.25,3,Housewife,0,0,2,2010,Alameda,Female
+579,1761,8.333333015,1.25,0,Farming,0,0,2,2013,Orange,Male
+580,1566,5.535877705,0.285714298,2.5,Farming,0,0,2,2008,Alameda,Female
+581,324,2.591780901,0.200000003,0.666666687,Farming,0,0,2,2010,Jefferson,Male
+582,692,0,0.363636374,1.75,Unskilled labour,0,0,2,2014,Jefferson,Male
+583,201,0,1,2,Farming,0,0,1,2014,Jefferson,Female
+584,1505,1.333333373,0.363636374,1.75,Farming,0,0,3,2014,Jefferson,Male
+585,1490,0.476190478,1.142857194,0,Student,0,0,3,2012,Norfolk,Male
+586,270,5.666666985,0.200000003,4,Farming,0,0,2,1999,Jefferson,Female
+587,383,0,2,0,Livestock rearing,0,0,2,2015,Jefferson,Male
+588,185,1.333333254,0.400000006,1.5,Unskilled labour,0,0,1,2014,Jefferson,Male
+589,296,1.166666627,0.625,1.666666627,Unskilled labour,0,0,1,2012,Jefferson,Male
+590,1838,0,1.25,3,Unskilled labour,0,0,3,2015,Jefferson,Female
+591,2025,0.888888896,0.666666687,2,Farming,0,0,2,2014,Jefferson,Female
+592,400,3.847031832,1.25,0.333333343,Livestock rearing,0,0,2,2014,Jefferson,Male
+593,1844,1.666666627,1.166666627,2,Unskilled labour,0,0,2,2015,Randolph,Female
+594,1467,0.638888896,0,2,Farming,0,0,3,2010,Jefferson,Female
+595,1123,4.520547867,0.25,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+596,1904,3.770928621,0.166666672,2,Unskilled labour,0,0,2,2013,Jefferson,Female
+597,924,3.147640944,0.25,1,Unskilled labour,0,0,1,2009,Alameda,Male
+598,394,15,1.5,0,None,0,0,2,2015,Jefferson,Male
+599,936,1.258969307,0,2.5,Farming,0,0,2,1998,Alameda,Female
+600,1360,1.573630095,0.375,1,Unskilled labour,0,1,1,2005,Alameda,Male
+601,1858,0,1,0,Unskilled labour,0,0,1,2007,Alameda,Male
+602,375,0.666666687,0.333333343,2,Farming,0,0,2,2014,Jefferson,Female
+603,193,4.155251026,0.75,3,Livestock rearing,0,0,1,2014,Jefferson,Female
+604,1381,0.615384638,0.461538464,3.333333254,Unskilled labour,0,0,3,2012,Orange,Female
+605,1832,3.333333254,1,2,Unskilled labour,0,0,3,2014,Jefferson,Female
+606,503,2,0.400000006,1.5,Unskilled labour,0,0,2,2014,Jefferson,Male
+607,1369,5.342085361,1,1,Unskilled labour,0,0,2,2012,Alameda,Male
+608,1595,2.140639067,0.400000006,4,Farming,0,0,1,2014,Jefferson,Female
+609,305,2.291666746,1,3,Unskilled labour,0,0,1,2009,Alameda,Female
+610,479,0.666666687,0,0,Student,0,0,2,2014,Jefferson,Male
+611,1400,3.968797684,0.666666687,1,Livestock rearing,0,0,3,2010,Jefferson,Male
+612,393,0,0.75,3,Farming,0,0,2,2014,Jefferson,Female
+613,163,20,0.5,0,Skilled labour,0,0,1,2013,Jefferson,Male
+614,1463,0.388888896,0.222222224,0.285714298,Farming,0,0,3,1992,Jefferson,Male
+615,1627,12.27473354,0,2,Farming,0,0,3,2011,Jefferson,Female
+616,301,2.125,1,1,Unskilled labour,0,0,1,2008,Alameda,Male
+617,1600,1.349568725,0.111111112,2,Farming,0,0,2,2014,Jefferson,Female
+618,1509,0,0.363636374,0.100000001,Livestock rearing,0,0,3,2005,Orange,Male
+619,1969,0,0.166666672,1,Farming,0,0,4,2009,Norfolk,Male
+620,1144,0,1,1,Farming,0,0,2,2015,Jefferson,Male
+621,1413,0.208333328,1,1,Farming,0,0,3,2014,Jefferson,Male
+622,1561,0.083333336,0,1.666666627,Unskilled labour,0,0,2,2012,Jefferson,Male
+623,1226,3.273059368,0.600000024,0.666666687,Unskilled labour,0,0,2,2008,Alameda,Male
+624,1480,4.057285309,0.272727281,0.571428597,Farming,0,0,3,2014,Jefferson,Male
+625,61,2.933333397,1,0,None,0,0,1,2014,Jefferson,Male
+626,1722,1.253750801,0.428571433,0.75,None,0,0,4,2014,Jefferson,Male
+627,798,18.84132385,0.25,3,Unskilled labour,0,0,1,2009,Alameda,Female
+628,1514,7.5,0.25,3,None,0,0,3,1995,Jefferson,Female
+629,597,28.53196335,1.5,1,Unskilled labour,0,0,1,2010,Putnam,Male
+630,1955,0.150000006,0.200000003,1.5,Farming,0,0,4,2010,Norfolk,Male
+631,461,1,0.600000024,4,Livestock rearing,0,0,2,2014,Jefferson,Female
+632,306,7.391656399,0.727272749,1.200000048,Unskilled labour,1,1,2,2009,Alameda,Male
+633,1855,0,0.5,0,Unskilled labour,0,0,1,1997,Alameda,Male
+634,859,2.833333492,0,1.5,Farming,0,0,1,2014,Jefferson,Male
+635,1372,0.214285716,0.857142866,2.5,Unskilled labour,0,0,2,2009,Alameda,Female
+636,1236,0,1,2,Farming,0,0,2,2013,Jefferson,Female
+637,1944,0,0,0.666666687,Farming,0,0,4,1992,Jefferson,Male
+638,101,15.86666679,0,1.5,Farming,0,0,1,2014,Jefferson,Male
+639,506,3.333333254,1.333333373,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+640,1990,0.666666627,0.400000006,4,Farming,0,0,1,2012,Jefferson,Female
+641,465,1.111111045,0.833333313,1,Farming,0,0,2,2012,Jefferson,Male
+642,1080,5.542047024,0.833333313,0.5,Farming,0,0,2,2011,Jefferson,Male
+643,1375,0.666666687,1,0,Unskilled labour,0,0,3,2013,Jefferson,Male
+644,391,0.266666681,0.800000012,0.25,Farming,0,0,2,2014,Jefferson,Male
+645,79,0,0.428571433,2.5,Soldier,0,0,1,2014,Jefferson,Female
+646,313,0.13636364,0.818181813,4.5,Unskilled labour,0,0,2,2009,Alameda,Female
+647,593,20.8698616,0.400000006,1.5,Unskilled labour,0,0,1,2009,Putnam,Male
+648,299,45.83333206,2,0,Unskilled labour,0,0,1,2012,Alameda,Male
+649,390,16.66666794,0.400000006,1.5,Business,0,0,2,2014,Jefferson,Male
+650,56,1.5,0.300000012,9,Farming,0,0,1,2014,Jefferson,Female
+651,473,0,2,0,Student,0,0,2,2014,Jefferson,Male
+652,603,6.933333397,0.800000012,1.5,Farming,0,0,1,2012,Randolph,Male
+653,1664,0.888888896,0.666666687,2,Business,0,0,3,2014,Jefferson,Female
+654,1700,2.666666508,0.400000006,0.666666687,Unskilled labour,0,0,2,2011,Norfolk,Male
+655,363,4,2,0,Student,0,0,2,2014,Jefferson,Male
+656,682,0,0,,Farming,0,0,1,2012,Randolph,
+657,1674,0,0.428571433,1.333333373,Farming,0,0,3,2014,Jefferson,Male
+658,1666,2.958904028,0.363636374,1.200000048,Unskilled labour,0,0,1,2002,Alameda,Male
+659,1840,2,1,0.666666687,Unskilled labour,0,0,3,2014,Jefferson,Male
+660,303,20.63394165,1,0.5,UN/NGO/Church,0,1,1,2004,Lawrence,Male
+661,463,0,1.25,3,Unskilled labour,0,0,1,2014,Jefferson,Female
+662,1704,0,0,2.5,Farming,0,0,2,2013,Jefferson,Female
+663,369,0,0.857142866,0.75,Livestock rearing,0,0,1,2014,Jefferson,Male
+664,484,2.905631542,0.266666681,0.666666687,Farming,0,0,2,2014,Jefferson,Male
+665,117,0.625,0.25,3,Farming,0,0,1,2008,Alameda,Female
+666,150,18.51598167,2,0,Unskilled labour,0,0,1,2014,Jefferson,Male
+667,1385,1.5,0.5,0.333333343,Farming,0,0,2,2013,Randolph,Male
+668,145,1.666666627,0.833333313,5,Unskilled labour,0,0,1,2014,Jefferson,Female
+669,1274,5.291666508,0.375,1.666666627,Farming,0,1,2,2012,Norfolk,Male
+670,307,0.961538434,1,2.25,Unskilled labour,0,0,2,2009,Alameda,Female
+671,1939,5.016666889,0.600000024,4,None,0,0,4,1992,Jefferson,Female
+672,674,6.666666508,1,0,Teacher,0,0,1,2010,Orange,Male
+673,170,1.191780806,1,0.666666687,Unskilled labour,0,0,1,2014,Jefferson,Male
+674,1713,1.333333254,1,4,Farming,0,0,3,2012,Jefferson,Female
+675,1301,0.071428575,0,0.400000006,Farming,0,0,3,2012,Jefferson,Male
+676,654,0.388888866,0.5,,Farming,0,0,2,2011,Jefferson,
+677,167,0.033333335,0.400000006,1.5,Farming,0,0,1,2014,Jefferson,Male
+678,319,0.190476194,0.285714298,0.75,Unskilled labour,0,0,2,1999,Jefferson,Male
+679,468,0.666666627,0.428571433,6,Skilled labour,0,0,2,2015,Jefferson,Female
+680,495,1,0.200000003,0.666666687,None,0,0,2,2014,Jefferson,Male
+681,358,0.705303848,0.384615391,2.25,Farming,0,0,1,2013,Jefferson,Female
+682,1074,0.333333343,0.25,1,Farming,0,0,2,2015,Jefferson,Male
+683,203,20.84931564,1.5,1,Farming,0,1,1,2013,Randolph,Male
+684,1624,1.214611888,0.777777791,8,Unskilled labour,0,0,2,2013,Jefferson,Female
+685,73,27.6255703,1,0,Unskilled labour,0,0,1,2014,Jefferson,Male
+686,1217,2.25,0.75,3,None,0,0,2,2008,Alameda,Female
+687,2043,2.858447552,0.400000006,4,Housewife,0,0,2,2014,Jefferson,Female
+688,282,3.666666746,0.666666687,2,Unskilled labour,0,0,1,2013,Norfolk,Female
+689,268,0,0,2.333333254,Farming,0,0,2,2007,Jefferson,Female
+690,1383,0.366666675,0.400000006,0.875,Unskilled labour,0,0,3,2012,Jefferson,Male
+691,1405,9.128615379,1.166666627,1,Unskilled labour,0,1,3,2014,Jefferson,Male
+692,94,5.771689415,0.600000024,4,Teacher,0,0,1,2015,Orange,Female
+693,396,2.083333254,0.5,3,Farming,0,0,2,2014,Jefferson,Female
+694,1908,1.752663612,0.166666672,1,Farming,0,0,1,2009,Alameda,Male
+695,1928,1.881278634,0.899999976,1,Farming,0,0,4,2014,Jefferson,Male
+696,1557,0.453333318,0.560000002,1.083333373,Farming,0,0,3,2014,Jefferson,Male
+697,1906,0,0,5,Farming,0,0,1,2009,Jefferson,Female
+698,575,0.285714298,1.071428537,2.5,Farming,0,0,2,2012,Jefferson,Female
+699,360,6.621004581,0.600000024,0.25,Farming,0,0,1,2014,Jefferson,Male
+700,1532,4.121004581,1,4,Farming,0,0,3,2004,Orange,Female
+701,1407,1.255707741,0.727272749,4.5,Farming,0,0,3,2015,Jefferson,Female
+702,1533,14.31702518,0.571428597,1.333333373,Business,0,0,3,2013,Jefferson,Male
+703,1936,0.641552508,0,1,Farming,0,0,2,2011,Jefferson,Male
+704,310,8.231998444,0.307692319,1.600000024,Unskilled labour,0,0,1,2008,Alameda,Male
+705,1592,1.5,1,1,Skilled labour,0,0,2,2014,Norfolk,Male
+706,1692,0.285714298,1,1.333333373,Farming,0,0,3,2015,Jefferson,Male
+707,1640,1.5,0.75,1,Farming,0,0,3,2011,Jefferson,Male
+708,1634,0.800000012,0.400000006,1.5,Farming,0,0,3,2012,Jefferson,Male
+709,451,4.937594891,0.333333343,0,Farming,0,0,2,2014,Jefferson,Male
+710,1344,14.75038052,2,0,Skilled labour,0,0,3,2014,Orange,Male
+711,1769,0.333333343,0.166666672,5,Farming,0,0,3,2004,Jefferson,Female
+712,169,0.111111112,1.222222209,3.5,Farming,0,0,1,2014,Jefferson,Female
+713,1562,2.184931517,0.625,3,Farming,0,0,2,2013,Randolph,Female
+714,127,1,2,0,Livestock rearing,0,0,1,2015,Orange,Male
+715,266,0,0,2,None,0,0,2,2003,Jefferson,Female
+716,1695,0,0.166666672,5,Farming,0,0,3,2013,Jefferson,Female
+717,126,0,1,2,Livestock rearing,0,0,1,2015,Norfolk,Female
+718,2041,3.5,1,1,Not in the labour force,0,0,2,2014,Jefferson,Male
+719,1252,0.333333343,1.5,1,Business,0,0,2,2008,Alameda,Male
+720,378,0,0,0,Livestock rearing,0,0,2,2014,Jefferson,Male
+721,1900,1,1,0,Farming,0,0,2,2011,Norfolk,Male
+722,1594,1.333333254,0.400000006,4,Unskilled labour,0,0,2,2005,Jefferson,Female
+723,1353,0,0.285714298,2.5,Farming,0,0,3,2013,Jefferson,Female
+724,141,0.909090936,1.090909123,1.200000048,Unskilled labour,0,0,1,2014,Jefferson,Male
+725,1358,0.405865818,0.230769232,2.25,Unskilled labour,0,0,1,2014,Jefferson,Female
+726,267,14.83333302,0,0,None,0,0,2,2011,Jefferson,Male
+727,1042,31.21385193,0.666666687,0.200000003,Teacher,0,0,1,2002,Alameda,Male
+728,1119,0,0.400000006,1.5,Farming,0,0,1,2010,Jefferson,Male
+729,475,0,0.75,3,Unskilled labour,0,0,2,2014,Jefferson,Female
+730,599,1.786218286,0.272727281,1.75,Unskilled labour,0,0,1,2014,Jefferson,Male
+731,1599,1.12214613,0.5,3,Skilled labour,1,1,2,2014,Jefferson,Female
+732,19,0.833333313,2.5,0,Business,0,0,1,2009,Alameda,Male
+733,446,4.429223537,1.399999976,1.5,Livestock rearing,0,0,2,2014,Jefferson,Male
+734,910,10.47792912,0.666666687,2,Farming,0,0,1,2006,Orange,Female
+735,1579,2.472602606,0.5,0.5,Skilled labour,0,0,1,2004,Alameda,Male
+736,1576,2.5,0.166666672,2,Unskilled labour,0,0,1,2012,Jefferson,Female
+737,874,1.121212125,0.727272749,1.75,Farming,0,0,1,2009,Alameda,Male
+738,1752,0.952380955,0.571428597,2.5,Farming,0,0,3,2010,Norfolk,Female
+739,1665,0.5,0.5,3,Farming,0,0,3,2015,Jefferson,Female
+740,908,1.083333373,0,1,Unskilled labour,0,0,1,2008,Alameda,Male
+741,439,6.147260189,1,0.333333343,Farming,0,0,2,2015,Jefferson,Male
+742,1442,3.333333254,0,0,Farming,0,0,3,2013,Jefferson,Male
+743,1859,0.777777731,0.166666672,0.5,Farming,0,0,1,2012,Jefferson,Male
+744,1361,6.276255608,1,0,Unskilled labour,0,0,1,2012,Alameda,Male
+745,1085,5.333333492,1,0,Housewife,0,0,1,1998,Alameda,Male
+746,1390,3.777777672,0.666666687,0,Skilled labour,0,0,3,2014,Orange,Male
+747,1091,2.794520617,0.545454562,0.100000001,Farming,0,0,1,2002,Jefferson,Male
+748,530,0,1,0,Unskilled labour,0,0,1,2009,Putnam,Male
+749,91,2.361111164,0.333333343,2,Farming,0,0,1,2002,Alameda,Female
+750,1545,0.277777761,0.333333343,5,Farming,0,0,3,2007,Jefferson,Female
+751,852,10,1,0,Farming,0,0,1,2012,Randolph,Male
+752,1765,1.866666555,0,4,Farming,0,0,2,2013,Jefferson,Female
+753,309,5.033333302,0.400000006,1.5,Unskilled labour,0,0,2,2009,Alameda,Male
+754,417,0,0,0,Farming,0,0,2,2014,Orange,Male
+755,1366,1.638888836,1,0.200000003,Unskilled labour,0,0,2,2009,Alameda,Male
+756,1581,3.095890522,0.400000006,1.5,Unskilled labour,0,1,1,2011,Alameda,Male
+757,1814,2,1,0,Skilled labour,0,0,3,2013,Jefferson,Male
+758,1148,2.333333254,1.166666627,2,Farming,0,0,2,2008,Alameda,Female
+759,1041,13.5555563,0.666666687,0.5,Business,1,1,1,2008,Alameda,Male
+760,1881,0.934316754,0.461538464,2.25,Unskilled labour,1,1,1,2008,Alameda,Female
+761,601,0.527777791,0.25,1.399999976,Unskilled labour,0,0,1,2009,Putnam,Male
+762,1388,0.111111112,0.333333343,2,Livestock rearing,0,0,3,2014,Jefferson,Female
+763,1914,0.846153855,0.230769232,1.166666627,Fishing,1,1,1,2010,Alameda,Male
+764,529,1.166666746,0.200000003,1.5,Farming,0,0,1,2008,Alameda,Male
+765,1788,0.777777731,1.666666627,0.200000003,Farming,0,0,3,2006,Jefferson,Male
+766,1654,0.632244468,0.15384616,0.444444448,Student,0,0,4,2010,Jefferson,Male
+767,1961,2,0.666666687,2,Farming,0,0,4,2013,Jefferson,Female
+768,1364,1.045454502,0.363636374,1.75,Unskilled labour,0,0,2,2009,Alameda,Male
+769,330,0.927701712,0.222222224,0.285714298,Unskilled labour,0,0,2,2009,Alameda,Male
+770,3,0,0.666666687,0,Student,0,0,1,2014,Orange,Male
+771,1106,4.286529541,0.899999976,1.5,Farming,0,0,2,2000,Jefferson,Male
+772,143,3.333333492,0.363636374,1.75,Unskilled labour,0,0,1,2014,Jefferson,Male
+773,425,7.948718071,1.153846145,0.857142866,Livestock rearing,0,0,2,2015,Jefferson,Male
+774,1584,3.352105618,0.555555582,0.800000012,Livestock rearing,1,1,2,2010,Norfolk,Male
+775,796,0.847222269,0.25,1,Unskilled labour,0,0,1,2008,Alameda,Male
+776,1868,5,2,0,Business,0,0,1,2012,Jefferson,Male
+777,822,0.111111112,0.833333313,5,Farming,0,0,2,2011,Jefferson,Female
+778,1671,1.583333373,0.5,3,Unskilled labour,0,0,3,2014,Jefferson,Female
+779,22,0.715880275,0.222222224,0.5,Business,0,0,1,1994,Jefferson,Male
+780,1067,49,1,0,Student,0,0,1,2014,Putnam,Male
+781,1907,1.399999976,0,4,Farming,0,0,1,2009,Alameda,Female
+782,1244,0.041666668,0.416666657,0.333333343,Livestock rearing,0,1,2,1992,Jefferson,Male
+783,1669,2.666666746,1,2,Unskilled labour,0,0,3,2012,Jefferson,Female
+784,1382,1.333333373,2,0,Unskilled labour,0,0,3,2012,Orange,Male
+785,1759,0.309523821,0.142857149,0.75,Farming,0,0,2,2013,Randolph,Male
+786,397,0,0.75,0,Farming,0,0,2,2014,Jefferson,Male
+787,1943,0.06666667,,1.5,Farming,0,0,4,1996,Jefferson,Male
+788,1626,1.25,0.5,1,Livestock rearing,0,0,2,2012,Jefferson,Male
+789,1512,0,0.5,0,Farming,0,0,3,1992,Jefferson,Male
+790,1797,0,0.333333343,0.5,Livestock rearing,0,0,3,2012,Lawrence,Male
+791,499,2.283105135,0.666666687,2,Business,0,0,2,2014,Jefferson,Female
+792,919,1.050228238,0,2.666666746,Unskilled labour,0,0,2,2008,Alameda,Female
+793,2045,0.111111112,0.666666687,2,Unskilled labour,0,0,3,2012,Jefferson,Female
+794,1163,0.476190478,0,2.5,Farming,0,0,2,2014,Jefferson,Female
+795,671,0,0.785714269,1.799999952,Unskilled labour,0,0,1,2012,Jefferson,Male
+796,300,2.309741259,1,2,Unskilled labour,0,1,1,2008,Alameda,Female
+797,2017,0.666666627,1,4,Farming,0,0,3,2014,Jefferson,Female
+798,125,0,0.333333343,1.25,Livestock rearing,0,0,1,2014,Jefferson,Male
+799,1973,2.5,0.5,1,None,0,0,1,2004,Alameda,Male
+800,370,28.66666603,0.400000006,1.5,Unskilled labour,0,0,2,2014,Jefferson,Male
+801,75,1.303030252,0.272727281,0.571428597,Farming,0,0,1,2013,Jefferson,Male
+802,76,2.397260189,0.75,1,Unskilled labour,0,0,1,2014,Jefferson,Male
+803,1902,6.327462196,0.142857149,1.333333373,Teacher,0,0,2,2011,Randolph,Male
+804,1875,6.898890972,1,0.75,Farming,0,1,1,2014,Alameda,Male
+805,128,0,1,0,Livestock rearing,0,0,1,2002,Jefferson,Male
+806,990,0,0.833333313,2,Farming,0,0,2,2008,Alameda,Female
+807,914,0,0,2,Farming,0,0,1,2004,Alameda,Female
+808,113,5.104370594,0.214285716,1.799999952,Unskilled labour,0,0,1,2014,Jefferson,Male
+809,149,7.210045815,0.600000024,4,Unskilled labour,0,0,1,2014,Jefferson,Female
+810,695,0,0,2.5,Farming,0,0,2,2014,Jefferson,Female
+811,584,1.142857194,0.428571433,1.333333373,Farming,0,0,2,2000,Jefferson,Male
+812,1466,5.083333492,0.666666687,2,Farming,0,0,3,2012,Jefferson,Female
+813,1617,19.66057777,1.666666627,0.5,Farming,1,1,2,2011,Randolph,Male
+814,373,0.666666627,0.800000012,4,Livestock rearing,0,0,2,2014,Jefferson,Female
+815,1377,0.375,1,1,Unskilled labour,0,0,3,2012,Randolph,Male
+816,1258,2.530694962,0.555555582,2,Farming,0,1,2,2013,Jefferson,Female
+817,1342,1.518518567,0.777777791,2,Unskilled labour,0,0,3,2014,Jefferson,Female
+818,590,1.524353147,0.666666687,2,Not in the labour force,0,0,2,2000,Jefferson,Female
+819,1453,20.53272438,1.333333373,0,Student,0,0,3,2014,Jefferson,Male
+820,1636,0.75,0.5,3,Farming,0,0,3,2014,Jefferson,Female
+821,1642,0.571428597,0.428571433,2.5,Farming,0,0,3,2014,Jefferson,Female
+822,1830,3.536529779,0.25,0,Farming,0,0,1,1997,Alameda,Male
+823,1974,1.138888955,0.333333343,5,Farming,0,0,1,2007,Alameda,Female
+824,587,6.388128281,0.25,1,Not in the labour force,0,0,1,2006,Jefferson,Male
+825,2027,2.739726067,0.125,1,Student,0,0,1,2011,Jefferson,Male
+826,187,1.100000024,0.600000024,9,Farming,0,0,1,2015,Jefferson,Female
+827,1787,0,0.285714298,1.333333373,Farming,0,0,3,2014,Jefferson,Male
+828,1398,1.111111045,0.5,5,Farming,0,0,2,2014,Jefferson,Female
+829,371,0.888888896,0.333333343,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+830,1785,5.555555344,1,0,Livestock rearing,0,0,3,2013,Jefferson,Male
+831,1727,6.495433807,2,0,Unskilled labour,0,0,1,2004,Alameda,Male
+832,1115,3.163242102,1,0.200000003,Unskilled labour,0,0,2,2012,Jefferson,Male
+833,1412,0.5,0.800000012,1,Farming,0,0,3,2014,Jefferson,Male
+834,1846,0,3,0,Student,0,0,2,2013,Jefferson,Male
+835,1282,0,0,0,None,0,0,2,2013,Orange,Male
+836,1586,10,1,0,Unskilled labour,0,0,2,2012,Jefferson,Male
+837,55,1.666666627,1,0,None,0,0,1,2014,Jefferson,Male
+838,443,10.99391174,0.666666687,2,UN/NGO/Church,0,0,2,2014,Jefferson,Female
+839,405,0,1,0,Business,0,0,2,2011,Jefferson,Male
+840,1408,0.555555522,0.666666687,5,Business,0,0,2,2014,Jefferson,Female
+841,118,2.258751869,0.444444448,2,Business,0,0,1,2008,Alameda,Female
+842,377,1.111111045,0.5,2,Farming,0,0,2,2014,Jefferson,Female
+843,1528,3.695042372,0.428571433,0.75,Farming,1,1,3,2001,Orange,Male
+844,1280,0.208333328,0,3,Housewife,0,0,2,2013,Jefferson,Female
+845,1431,2.666666746,2,1,Teacher,0,0,3,2015,Orange,Male
+846,1245,0.583333313,1,0.333333343,Farming,0,0,2,2005,Jefferson,Male
+847,1631,1.666666627,0.375,1.666666627,Farming,0,0,3,2014,Jefferson,Male
+848,764,1.444444537,1,,Farming,0,0,1,2012,Randolph,
+849,1659,1.808219314,0,0,Farming,0,0,4,2006,Jefferson,Male
+850,1235,0.555555522,1,0.5,Farming,0,0,3,2012,Jefferson,Male
+851,1506,2.101598263,0.5,1.666666627,Farming,0,0,3,2014,Jefferson,Male
+852,207,0.944444418,0,5,Farming,0,0,1,2013,Jefferson,Female
+853,1811,0,0.5,3,Farming,0,0,3,2014,Randolph,Female
+854,2016,1.155251145,1,4,Farming,0,0,3,2015,Jefferson,Female
+855,434,5,1,1,Farming,0,0,2,2013,Jefferson,Male
+856,356,2.055555582,0.5,2,None,0,0,2,2009,Jefferson,Female
+857,1456,10.36529636,1,1,Unskilled labour,0,0,3,2015,Jefferson,Male
+858,1946,0.333333343,,0.200000003,Farming,0,0,4,2007,Jefferson,Male
+859,1835,2.333333254,1.166666627,1,Unskilled labour,0,0,3,2014,Jefferson,Male
+860,1918,25.66666603,0.333333343,2,Farming,0,0,1,2009,Putnam,Female
+861,198,8.848963737,0.846153855,0.444444448,Business,0,0,1,2014,Jefferson,Male
+862,173,1.538461566,1.153846145,0.625,Student,0,0,1,2014,Jefferson,Male
+863,1162,0.277777761,0.166666672,5,Farming,0,0,2,2014,Jefferson,Female
+864,1711,0.25,0.75,1.666666627,Unskilled labour,0,0,3,2014,Jefferson,Male
+865,1522,2.616438389,,0,Farming,0,0,3,2014,Jefferson,Male
+866,1597,7.95281601,1,0.5,Farming,0,0,1,2014,Jefferson,Male
+867,265,0.095238097,0,2.5,Farming,0,0,2,2000,Jefferson,Female
+868,1111,0,0.5,1,Not in the labour force,0,0,2,2005,Orange,Male
+869,501,10,3,0,Unskilled labour,0,0,2,2014,Jefferson,Male
+870,1964,15.5,2,0,Farming,0,0,1,2013,Jefferson,Male
+871,1354,0.801162302,0.272727281,1.200000048,Unskilled labour,0,0,3,2014,Jefferson,Male
+872,423,1.008595228,0.176470593,1.428571463,Farming,0,0,1,2014,Jefferson,Male
+873,1916,3.190867662,0.800000012,0.666666687,Farming,0,0,1,2014,Alameda,Male
+874,1470,0.095238097,1,6,Farming,0,0,2,2014,Jefferson,Female
+875,1223,0.458333343,0.875,1.666666627,Unskilled labour,0,0,2,2008,Alameda,Male
+876,939,0,0.200000003,1.5,Farming,0,0,2,2008,Alameda,Male
+877,1919,10.41666698,0.833333313,1,Business,0,0,1,2013,Alameda,Male
+878,588,1.428571463,0.571428597,0.75,Farming,0,0,1,2001,Jefferson,Male
+879,1652,51.62100601,4,0,Student,0,0,3,2014,Jefferson,Male
+880,1165,0.666666687,0,1,Farming,0,0,2,2010,Randolph,Male
+881,1343,1.111111045,1.333333373,2,Unskilled labour,0,0,3,2005,Jefferson,Female
+882,435,0,0.444444448,1.25,Farming,0,0,2,2014,Randolph,Male
+883,1449,4.505327225,0.333333343,2,Unskilled labour,0,0,3,2015,Jefferson,Female
+884,1132,0.208333328,0.25,1.399999976,Farming,0,0,1,2014,Jefferson,Male
+885,1836,0,3,0,Student,0,0,3,2014,Jefferson,Male
+886,467,0,0.800000012,1.5,Unskilled labour,0,0,1,2014,Jefferson,Male
+887,925,13.4063921,0.600000024,1.5,Unskilled labour,0,0,1,2009,Alameda,Male
+888,60,6.355430603,0.375,1.181818128,None,0,0,1,2014,Jefferson,Male
+889,959,0.537218273,0.444444448,0.5,Student,0,0,2,2005,Jefferson,Male
+890,225,2.261904716,0.5,3,Farming,0,0,1,2012,Jefferson,Female
+891,679,0.997354507,0.222222224,0.800000012,Skilled labour,0,0,1,2014,Jefferson,Male
+892,1263,1.015872955,0.5,1,Business,0,0,2,2015,Norfolk,Male
+893,701,0.769047618,0.400000006,2.333333254,Unskilled labour,0,0,2,2015,Jefferson,Female
+894,1499,0.476190478,0.421052635,0.727272749,Farming,0,0,3,2013,Jefferson,Male
+895,979,6.809524059,1.666666627,0.5,Unskilled labour,0,0,2,2008,Alameda,Male
+896,1303,0.868131876,0.923076928,0,Farming,0,0,3,2014,Orange,Male
+897,1551,0.807142854,0.449999988,1.5,Farming,0,0,3,2014,Jefferson,Male
+898,1537,1.190476179,0.625,3,Farming,0,0,3,2012,Orange,Female
+899,1535,2.623809338,1,0,Farming,0,1,3,2006,Orange,Male
+900,1748,1.954859734,0.600000024,1,Farming,0,0,4,1992,Jefferson,Male
+901,577,1.752976179,0.5,3,Farming,0,0,2,2012,Jefferson,Female
+902,769,30.60486031,1,1,Unskilled labour,0,1,1,2000,Orange,Male
+903,1809,5.693056107,0.545454562,2.666666746,Farming,1,1,3,2012,Norfolk,Female
+904,353,6.087627888,0.400000006,0.363636374,Livestock rearing,0,0,1,2008,Jefferson,Male
+905,1432,0.567765594,1.615384579,3.333333254,Farming,0,0,3,2015,Jefferson,Female
+906,1220,5.880218506,0.375,1,Unskilled labour,0,0,2,2008,Alameda,Male
+907,205,2.196129799,0.555555582,8,Farming,0,0,1,2014,Jefferson,Female
+908,222,10.58577919,0.333333343,2,Teacher,0,1,1,2009,Norfolk,Female
+909,1530,0.615079343,1,0.5,Housewife,0,0,3,2006,Orange,Male
+910,1051,9.145521164,0.166666672,1,Farming,0,0,1,2011,Orange,Male
+911,680,0.605442166,0,6,Farming,0,0,1,2012,Jefferson,Female
+912,627,5.955735683,1.142857194,0.75,Unskilled labour,0,0,1,2009,Alameda,Male
+913,1540,1.795918345,0.714285731,2.5,Farming,0,0,3,2013,Jefferson,Female
+914,1435,1.640211582,0,2,Farming,0,0,2,2014,Jefferson,Female
+915,1995,1.806878209,1.333333373,1,Farming,0,0,1,2014,Jefferson,Male
+916,1228,4.038095474,1,2.333333254,Farming,0,0,2,2009,Alameda,Female
+917,1281,7.47461462,1.166666627,0.5,None,0,1,2,2009,Alameda,Male
+918,989,5.635192394,0.666666687,1.399999976,Farming,0,0,2,2009,Alameda,Male
+919,1684,1.47023809,0,7,Farming,0,0,3,2012,Jefferson,Female
+920,681,1.800799131,0.25,0.333333343,Livestock rearing,0,0,1,2014,Jefferson,Male
+921,1425,3.894179821,1,0.5,None,0,0,2,2014,Jefferson,Male
+922,687,4.390628338,0.222222224,1.25,Farming,0,0,1,2013,Norfolk,Male
+923,416,2.328701973,0,1,Unskilled labour,0,0,1,2014,Jefferson,Male
+924,2010,2.776789427,0.545454562,1.200000048,Farming,0,1,2,2010,Norfolk,Male
+925,1262,1.547618985,1.333333373,2,Business,0,0,2,2010,Randolph,Female
+926,1750,1.853174567,0.666666687,5,Unskilled labour,0,0,4,1997,Jefferson,Female
+927,1740,8.480952263,0.400000006,0.111111112,Farming,0,1,1,1997,Alameda,Male
+928,485,0.714285731,0.800000012,4,Unskilled labour,0,0,2,2014,Jefferson,Female
+929,1810,1.114285707,0.400000006,2.333333254,Farming,0,0,3,2013,Jefferson,Female
+930,834,6.164514065,1,0.25,Skilled labour,0,0,1,2009,Alameda,Male
+931,1476,0.714285731,1.25,3,Farming,0,0,2,2014,Jefferson,Female
+932,199,13.96223164,0.800000012,0.25,Livestock rearing,0,1,1,2014,Jefferson,Male
+933,1968,4.065265656,1,0.461538464,Farming,0,0,4,2014,Jefferson,Male
+934,699,1.022817373,0.25,3,Soldier,0,0,2,2014,Jefferson,Female
+935,1424,3.126984358,0.666666687,2,Farming,0,0,2,2014,Norfolk,Female
+936,183,5.487559795,0.285714298,6,Farming,0,0,1,2015,Jefferson,Female
+937,1923,11.26262188,1,0.666666687,Farming,0,0,4,2014,Orange,Male
+938,197,4.800971031,0.777777791,1.25,Livestock rearing,0,0,1,2014,Jefferson,Male
+939,676,9.226190567,0.375,1,Business,0,0,1,2010,Alameda,Male
+940,742,4.559524059,0.25,3,Farming,0,0,2,2008,Alameda,Female
+941,151,3.197651625,0,1,Unskilled labour,0,0,1,2013,Jefferson,Male
+942,1308,1.145124674,0.857142866,6,Farming,0,0,3,2013,Jefferson,Female
+943,448,7.939241886,1,0.75,Farming,0,0,2,2014,Jefferson,Male
+944,1784,6.156462669,0.714285731,2.5,Farming,0,0,3,2015,Norfolk,Female
+945,689,3.186779737,0.333333343,0,Student,0,0,2,2014,Jefferson,Male
+946,719,17.09556389,0.714285731,1.333333373,Farming,0,1,1,2008,Alameda,Male
+947,1958,1.851113796,0.909090936,0.833333313,Livestock rearing,0,0,2,2000,Jefferson,Male
+948,685,7.496598244,0.142857149,1.333333373,Business,0,1,1,2009,Norfolk,Male
+949,1920,1.782312989,0.857142866,2.5,None,0,0,4,2014,Jefferson,Female
+950,1339,2.6870749,0.285714298,0.75,Farming,0,0,2,2013,Jefferson,Male
+951,281,1.865646243,0.357142866,1.333333373,Farming,0,0,1,2000,Jefferson,Male
+952,1112,12.9104929,1,0.75,Not in the labour force,0,0,2,2000,Orange,Male
+953,1335,5.286552906,0,0.400000006,Farming,0,0,2,2012,Jefferson,Male
+954,958,1.020408154,0.214285716,0.555555582,Soldier,0,0,2,1998,Jefferson,Male
+955,164,1.306122422,0.142857149,1.333333373,None,0,0,1,2005,Putnam,Male
+956,1081,3.734693766,0,2.5,Farming,0,0,1,2005,Alameda,Female
+957,678,2.080421209,0,2.5,Farming,0,1,1,2010,Norfolk,Female
+958,1036,1.463410974,0.181818187,1.200000048,Fishing,0,0,2,2012,Norfolk,Male
+959,1126,1.842261791,0.375,0.600000024,Farming,1,1,1,2002,Alameda,Male
+960,1935,11.46196938,0.800000012,0.666666687,Farming,0,0,4,2010,Jefferson,Male
+961,1685,1.859752059,0.200000003,1.5,Farming,0,0,3,2012,Jefferson,Male
+962,1104,2.968254089,0.333333343,1,None,0,0,1,1992,Jefferson,Male
+963,1332,5.051968098,0.666666687,0,None,0,0,3,2013,Norfolk,Male
+964,1277,2.079365015,0.666666687,1,Petty trading/hawking,0,0,2,2009,Alameda,Male
+965,1030,1.746031761,0.5,1,Livestock rearing,0,0,2,2014,Orange,Male
+966,1110,12.71330738,0.333333343,0,Student,0,0,2,2010,Jefferson,Male
+967,1323,2.023809433,0.833333313,0,Unskilled labour,0,0,2,2012,Jefferson,Male
+968,827,5.794738293,0.666666687,0,Farming,0,0,1,2008,Alameda,Male
+969,963,1.412698388,0.166666672,0.200000003,Farming,0,0,2,2008,Jefferson,Male
+970,1001,1.190476179,0.916666687,0.714285731,Student,0,0,1,2014,Jefferson,Male
+971,630,3.367347002,0.142857149,0.400000006,Farming,0,0,2,2008,Alameda,Male
+972,1336,8.199701309,0.571428597,1.333333373,Farming,0,0,3,2012,Norfolk,Male
+973,2042,4.380343437,1,4,Housewife,0,0,2,2014,Jefferson,Female
+974,1272,2.380952358,0.333333343,0.800000012,Student,0,0,2,2014,Putnam,Male
+975,1037,8.172244072,0.5,1.5,Teacher,0,0,2,2013,Norfolk,Male
+976,1503,2.571428537,0.272727281,0.571428597,Farming,0,0,3,2000,Jefferson,Male
+977,845,3.250793457,1,1.5,Livestock rearing,0,0,2,2014,Jefferson,Male
+978,661,2.539682388,1,0.5,Unskilled labour,0,0,1,2014,Jefferson,Male
+979,1131,2.895238161,0.300000012,1.5,Unskilled labour,0,0,1,2012,Jefferson,Male
+980,1250,14.29672241,0,1.666666627,Farming,0,1,2,2009,Norfolk,Male
+981,872,3.095238209,0.200000003,1.5,Business,0,0,1,2009,Alameda,Male
+982,807,3.414170504,0.230769232,3.333333254,Unskilled labour,0,0,1,2009,Alameda,Female
+983,5,1.761904716,0.400000006,4,Farming,0,0,1,2010,Jefferson,Female
+984,865,2.928571224,0,1,Farming,1,1,1,2009,Alameda,Male
+985,1099,38.82765961,0.400000006,4,Farming,0,0,2,2006,Jefferson,Female
+986,442,2.961904764,0.800000012,1.5,Farming,0,0,2,2014,Jefferson,Male
+987,1820,4.761904716,1.25,1,Business,0,0,3,2015,Randolph,Male
+988,355,2.028114796,0.150000006,1.5,Farming,0,0,2,1993,Jefferson,Male
+989,704,1.82857132,0.300000012,1,Farming,0,0,1,2001,Jefferson,Male
+990,1340,5.321428299,0.5,3,Farming,0,0,3,2013,Norfolk,Female
+991,1573,1.923809528,0.13333334,4,Farming,0,0,1,2012,Jefferson,Female
+992,1006,8.286040306,1.600000024,2.333333254,Business,0,0,2,2009,Alameda,Female
+993,1478,1.920634866,1,1.5,Business,0,0,3,2015,Norfolk,Male
+994,1316,1.920634866,0.75,3,Farming,0,0,3,2013,Jefferson,Female
+995,1436,11.82702732,2,0,Farming,0,0,2,2014,Jefferson,Male
+996,879,3.439153433,0.444444448,0.285714298,Farming,0,0,2,2004,Alameda,Male
+997,665,3.402116537,0.555555582,2,Unskilled labour,0,0,1,2013,Jefferson,Female
+998,273,1.661375642,0.555555582,1.25,Petty trading/hawking,0,0,2,2008,Alameda,Male
+999,568,3.253968239,0.666666687,2,Farming,0,1,1,2012,Jefferson,Female
+1000,332,14.80774784,0.333333343,1.25,Farming,0,0,2,2013,Jefferson,Male
+1001,505,3.293650627,1.166666627,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+1002,1591,3.750915766,0.307692319,1.600000024,Other,0,0,2,2014,Jefferson,Male
+1003,740,5.611110687,0.333333343,0.200000003,Unskilled labour,0,0,1,2002,Alameda,Male
+1004,962,1.942020655,1,0.888888896,Not in the labour force,0,0,2,1992,Jefferson,Male
+1005,1422,2.380952358,0.400000006,4,Farming,0,0,2,2013,Randolph,Female
+1006,385,5.214285851,1.200000048,1,None,0,0,1,2015,Jefferson,Male
+1007,4,1.734693766,0.13333334,2,Skilled labour,0,1,1,2014,Jefferson,Female
+1008,1117,4.560846329,0.444444448,1.25,Business,0,0,1,2014,Jefferson,Male
+1009,1,4.285714149,0.5,1,Student,0,0,1,2014,Jefferson,Male
+1010,1254,8.608774185,0.75,3,Business,1,1,2,2009,Alameda,Female
+1011,361,2.619047642,0.75,0.333333343,Farming,0,0,2,2014,Jefferson,Male
+1012,474,3.202380896,0.25,0.333333343,Student,0,0,2,2014,Jefferson,Male
+1013,1688,3.410714149,0.5,1,Farming,0,0,3,2013,Jefferson,Male
+1014,43,2.119047642,1,3,Farming,0,0,1,2014,Jefferson,Female
+1015,1983,2.827380896,0.375,1.666666627,Farming,0,0,1,2002,Alameda,Male
+1016,1703,2.827380896,0,1,Unskilled labour,0,0,2,2009,Alameda,Male
+1017,252,7.619047642,0.5,1,Business,0,0,1,2014,Jefferson,Male
+1018,1489,4.077381134,1,0.333333343,Farming,0,0,3,2012,Jefferson,Male
+1019,941,2.494047642,0.25,1.666666627,Unskilled labour,0,0,2,2008,Alameda,Male
+1020,2021,1.785714269,1.75,1,Farming,0,0,3,2015,Orange,Male
+1021,829,2.702380896,0.5,0.333333343,Farming,0,0,1,2007,Alameda,Male
+1022,411,13.09165096,0.75,1,Skilled labour,0,0,2,2005,Jefferson,Male
+1023,663,3.869047642,0.25,1,Student,0,0,1,2014,Jefferson,Male
+1024,290,1.785714269,1.25,0.333333343,None,0,0,1,2011,Alameda,Male
+1025,227,3.046907663,0.363636374,2.666666746,Farming,0,0,1,2008,Alameda,Female
+1026,1786,3.312169313,0.444444448,1.25,Farming,0,0,3,2013,Jefferson,Male
+1027,735,2.126984119,1,0.5,Unskilled labour,0,0,1,2010,Alameda,Male
+1028,490,3.822570086,0.666666687,0.5,Business,0,0,2,2014,Jefferson,Male
+1029,684,12.46031666,0.666666687,0,Student,0,0,1,2014,Orange,Male
+1030,469,1.90476191,1,0,Student,0,0,1,2014,Jefferson,Male
+1031,1048,10.47858238,0.166666672,2,Teacher,0,1,1,2009,Norfolk,Female
+1032,1095,4.464285851,0.5,3,None,0,0,2,1997,Jefferson,Female
+1033,1307,2.650793552,1,0.333333343,Business,0,0,3,2012,Randolph,Male
+1034,566,23.66666603,2,0,Skilled labour,0,0,1,2010,Orange,Male
+1035,839,3.314788818,0.571428597,2.5,Farming,0,0,2,2008,Alameda,Female
+1036,850,6.326530457,0.285714298,2.5,Unskilled labour,0,0,1,2014,Jefferson,Female
+1037,137,2.755101919,0.285714298,1.333333373,Farming,0,0,1,2014,Jefferson,Male
+1038,1014,7.079628944,0.428571433,2.5,None,0,0,2,2014,Jefferson,Female
+1039,1612,9.293263435,1.571428537,2.5,Farming,1,1,2,2011,Alameda,Female
+1040,65,4.56462574,0.857142866,2.5,Farming,0,0,1,2012,Jefferson,Female
+1041,2008,2.183673382,0.285714298,0.75,Farming,0,0,2,2010,Norfolk,Male
+1042,772,2.659863949,1.571428537,1.333333373,Unskilled labour,1,1,1,2008,Alameda,Male
+1043,189,4.473954201,0.857142866,2.5,Unskilled labour,0,0,1,2014,Jefferson,Female
+1044,200,2.671428442,1,1.5,Farming,0,0,1,2012,Jefferson,Male
+1045,1777,5.681213379,0.800000012,0.666666687,Teacher,0,1,3,2010,Randolph,Male
+1046,1483,3.326190472,1.5,1.5,Farming,0,0,3,2012,Orange,Male
+1047,1434,2.476190329,1.5,0,None,0,0,3,2015,Lawrence,Male
+1048,1113,16.31941795,0.333333343,2,Unskilled labour,0,1,2,2000,Orange,Female
+1049,1925,2.822221994,1,0.25,Farming,0,0,4,1992,Jefferson,Male
+1050,718,5.36699295,0.600000024,1.5,Farming,0,1,1,2007,Alameda,Male
+1051,1059,2.469047785,0.100000001,1,Farming,0,0,1,2013,Putnam,Male
+1052,1897,4.196428299,0.5,3,Unskilled labour,0,0,1,2004,Alameda,Female
+1053,206,3.238095284,0.75,3,Farming,0,0,1,2012,Jefferson,Female
+1054,522,11.23923683,0.400000006,1.5,Farming,0,1,1,2009,Norfolk,Male
+1055,811,2.690476179,0.300000012,0.428571433,Unskilled labour,0,0,2,2011,Alameda,Male
+1056,102,3.658730268,1.166666627,0.5,Farming,0,0,1,2014,Jefferson,Male
+1057,184,8.214285851,0.833333313,5,Unskilled labour,0,0,1,2014,Jefferson,Female
+1058,778,3.63095212,0.166666672,1,Unskilled labour,0,0,2,2013,Jefferson,Male
+1059,158,7.492063522,1,2,Farming,0,0,1,2014,Jefferson,Female
+1060,1238,13.73559475,1,0.5,Farming,0,0,2,2014,Jefferson,Male
+1061,1271,8.797618866,0,2,Farming,0,1,2,2009,Norfolk,Female
+1062,1948,4.355838299,1.666666627,1,Farming,0,0,4,2015,Jefferson,Male
+1063,853,4.380952358,0.333333343,0.5,Unskilled labour,0,0,1,2014,Jefferson,Male
+1064,1815,3.964285851,0.5,1,Farming,0,0,2,2013,Norfolk,Male
+1065,1243,3.297618866,1.5,0.5,None,0,0,2,2001,Jefferson,Male
+1066,527,2.566137552,0.888888896,1.25,Unskilled labour,0,0,1,2006,Putnam,Male
+1067,196,6.269841671,0.666666687,2,Farming,0,0,1,2014,Jefferson,Female
+1068,643,7.436508179,0.833333313,1.399999976,Farming,0,0,1,2014,Norfolk,Male
+1069,1852,6.209393501,1,0.666666687,Business,1,1,1,2008,Alameda,Male
+1070,673,12.6071434,0.5,0.333333343,Farming,0,0,1,2009,Norfolk,Male
+1071,1139,2.568027258,0.571428597,0.166666672,Farming,0,0,1,2008,Alameda,Male
+1072,1433,4.583333015,0,1,Unskilled labour,0,0,3,2015,Randolph,Male
+1073,824,3,0.5,3,Farming,0,0,2,2013,Randolph,Female
+1074,698,3.291780949,0.100000001,1,Unskilled labour,1,1,2,2014,Jefferson,Male
+1075,272,6.679908752,0.200000003,2.333333254,None,0,1,2,2008,Alameda,Female
+1076,1799,4.918424606,1,0.800000012,Unskilled labour,0,0,2,2013,Norfolk,Male
+1077,867,3.779220581,0.181818187,1.200000048,Business,0,0,2,2008,Alameda,Male
+1078,1702,4.718614578,0.545454562,2.666666746,Farming,0,0,2,2009,Alameda,Female
+1079,943,8.61649704,0,0.833333313,Business,1,1,2,2009,Alameda,Male
+1080,913,2.619047642,0,2,Farming,0,0,1,2009,Alameda,Female
+1081,1061,2.700680256,0.285714298,1.333333373,None,0,0,1,2006,Putnam,Male
+1082,694,3.03401351,0.428571433,0.400000006,Unskilled labour,0,1,2,2014,Jefferson,Male
+1083,533,4.761904716,0.5,3,Farming,0,0,1,2012,Putnam,Female
+1084,188,3.095238209,2,0.333333343,Unskilled labour,0,0,1,2014,Jefferson,Male
+1085,1320,11.77389145,0.625,3,Farming,1,1,3,2012,Randolph,Female
+1086,1705,2.678571463,0.25,1,Unskilled labour,0,0,2,2013,Jefferson,Male
+1087,1441,8.415307999,0,4,Unskilled labour,0,0,3,2014,Jefferson,Female
+1088,1304,10.46507835,0.800000012,0.666666687,Teacher,0,0,3,2013,Randolph,Male
+1089,709,5.726190567,0.333333343,0.5,Unskilled labour,0,0,1,2002,Alameda,Male
+1090,1143,6.362244606,0.285714298,1,Business,0,0,1,2008,Alameda,Male
+1091,1102,6.87561512,0.545454562,1.200000048,Farming,0,0,2,1992,Jefferson,Male
+1092,741,3.642857075,0.5,0.600000024,Business,0,0,2,2008,Alameda,Male
+1093,1191,7.002282619,0.5,1,Farming,0,0,2,2008,Alameda,Male
+1094,940,3.412698507,0.333333343,2,Unskilled labour,0,0,2,2008,Alameda,Female
+1095,186,10.9058485,1,2,Unskilled labour,0,0,1,2014,Jefferson,Female
+1096,72,8.504175186,0.300000012,2.333333254,UN/NGO/Church,0,0,1,2014,Jefferson,Female
+1097,664,3.123809338,0.200000003,4,Unskilled labour,0,0,1,2010,Alameda,Female
+1098,1877,4.157142639,1.200000048,1.5,None,0,0,1,2008,Alameda,Male
+1099,1927,4.290476322,0.800000012,4,Farming,0,0,4,2014,Jefferson,Female
+1100,843,7.634050846,0,0.400000006,Business,0,0,2,2009,Alameda,Male
+1101,415,3.190476179,0.300000012,0.666666687,None,0,0,2,2014,Jefferson,Male
+1102,1853,13.52380943,2,0,Unskilled labour,0,0,1,2007,Alameda,Male
+1103,539,3.190476179,0.5,1.5,Unskilled labour,0,0,1,2011,Alameda,Male
+1104,1141,6.119048119,0.357142866,1.799999952,Business,0,1,1,2009,Alameda,Male
+1105,1136,3.602040768,0.285714298,2.5,Farming,0,0,1,2014,Jefferson,Female
+1106,285,5.521107197,0.5,1,Housewife,0,0,1,2009,Alameda,Male
+1107,696,5.341432571,0.333333343,2,Teacher,0,1,2,2014,Jefferson,Female
+1108,30,5.48679018,0.083333336,1,Farming,0,0,1,2010,Putnam,Male
+1109,336,4.208333492,1,1.666666627,Livestock rearing,0,0,1,2013,Putnam,Male
+1110,1103,3.3125,1,1.666666627,Farming,0,0,2,2011,Jefferson,Male
+1111,317,19.59308434,1.799999952,0.666666687,Not in the labour force,0,0,2,1995,Jefferson,Male
+1112,104,6.507936001,0.571428597,0.75,Livestock rearing,0,0,1,2004,Jefferson,Male
+1113,1706,3.412698507,0.142857149,2.5,Farming,0,0,2,2013,Randolph,Female
+1114,12,4.211640358,0.333333343,0.800000012,Livestock rearing,0,0,1,2014,Jefferson,Male
+1115,1133,3.755952358,0.25,3,Unskilled labour,0,0,1,2013,Jefferson,Female
+1116,1004,5.487878323,1.166666627,2,None,0,1,2,2008,Alameda,Female
+1117,80,4.693877697,0.142857149,2.5,Business,0,0,1,2014,Jefferson,Female
+1118,649,12.83216858,0,1.333333373,Farming,0,0,2,2014,Jefferson,Male
+1119,960,4.56667614,0,0.75,Student,0,0,2,1996,Jefferson,Male
+1120,744,7.019047737,0.200000003,1.5,Farming,0,0,2,2008,Alameda,Male
+1121,825,5.811285019,0.400000006,0.428571433,Farming,0,1,1,2002,Alameda,Male
+1122,849,5.033659458,1,1,Farming,0,1,2,2008,Alameda,Male
+1123,1511,11.46898746,0.333333343,0.5,Student,0,1,3,2004,Jefferson,Male
+1124,1016,6.209284306,0.833333313,2,Farming,0,0,2,2012,Jefferson,Female
+1125,1135,5.694444656,0.5,2,Skilled labour,0,0,1,2009,Alameda,Female
+1126,1985,9.555555344,1.333333373,0.5,Farming,0,0,1,2008,Alameda,Male
+1127,585,7.351038933,0.428571433,1.333333373,Housewife,0,0,2,2009,Alameda,Male
+1128,1818,4.465862274,0.666666687,3.5,None,0,0,2,2014,Jefferson,Female
+1129,1387,3.816849709,0.307692319,0.625,Farming,0,0,3,2012,Orange,Male
+1130,1013,5.695237637,0.800000012,0.666666687,Farming,0,0,2,2003,Orange,Male
+1131,1609,11.50333595,0.5,1.5,Farming,0,0,2,2005,Jefferson,Male
+1132,95,14.54990292,1,3.5,Unskilled labour,0,0,1,2009,Alameda,Female
+1133,108,15.69699955,0.75,1,Farming,0,1,1,2006,Putnam,Male
+1134,1999,4.404761791,0.5,1,Unskilled labour,0,1,1,2002,Alameda,Male
+1135,339,5.029761791,0,3,None,0,0,1,2014,Jefferson,Female
+1136,1039,80.1756897,0.333333343,1,Business,1,1,1,2008,Alameda,Male
+1137,1803,5.537942886,0.777777791,0.5,Farming,0,1,1,2005,Alameda,Male
+1138,419,15.64448738,1,0,Student,0,0,1,2015,Randolph,Male
+1139,67,4.571428299,1,0.333333343,Farming,0,0,1,2014,Jefferson,Male
+1140,820,4.113095284,0.375,3,Farming,0,0,2,2013,Jefferson,Female
+1141,458,11.87622261,0.5,3,Farming,0,0,2,2014,Jefferson,Female
+1142,1098,11.48866653,0.75,0.333333343,None,0,0,2,1993,Jefferson,Male
+1143,1828,7.113095284,0.5,0.333333343,Unskilled labour,0,0,1,2000,Alameda,Male
+1144,573,4.008928299,0.375,3,Livestock rearing,0,0,2,2010,Jefferson,Female
+1145,881,8.488095284,1,0,Farming,0,0,2,2009,Alameda,Male
+1146,871,5.238095284,0.5,3,Student,0,0,1,2015,Jefferson,Female
+1147,864,11.0714283,0.125,3,Unskilled labour,1,1,1,2004,Alameda,Female
+1148,236,25.23809433,1,1,Student,0,0,1,2009,Alameda,Male
+1149,454,11.51435089,0.75,3,Student,0,0,2,2014,Jefferson,Female
+1150,1275,3.638095379,0.300000012,9,None,0,0,2,2009,Alameda,Female
+1151,1954,4.650793552,1.166666627,1,Student,0,0,3,2012,Orange,Male
+1152,1295,10.20533371,0.555555582,1.25,Farming,0,0,1,2002,Alameda,Male
+1153,844,8.338511467,0.375,1,Business,0,0,2,2008,Alameda,Male
+1154,815,4.482993126,0.428571433,1.333333373,Farming,0,0,2,2009,Alameda,Male
+1155,1318,27.90178108,0.571428597,0.75,Fishing,0,1,3,2011,Norfolk,Male
+1156,1527,5.232666969,0.5,1.333333373,Farming,0,0,3,2010,Norfolk,Male
+1157,2044,3.703703165,0.666666687,2,Unskilled labour,0,0,3,2009,Randolph,Female
+1158,2033,4.703703403,0.333333343,2,Business,0,0,2,2015,Randolph,Female
+1159,973,10.24350929,0.400000006,1.5,Business,1,1,1,2009,Alameda,Male
+1160,716,6.901593208,0.714285731,6,Farming,0,0,1,2004,Alameda,Female
+1161,1804,7.403928757,0.888888896,0.800000012,Unskilled labour,1,1,1,2004,Alameda,Male
+1162,1758,3.958333254,0.125,3,Farming,0,0,4,2000,Jefferson,Female
+1163,1756,6.513227463,0.222222224,2,Farming,0,0,2,2013,Jefferson,Female
+1164,997,5.111654758,0.333333343,0.5,Unemployed,0,0,2,2004,Jefferson,Male
+1165,1607,12.09950829,0.727272749,0.375,Farming,1,1,2,1992,Lawrence,Male
+1166,462,3.928571463,0.5,1.666666627,Student,0,0,1,2014,Jefferson,Male
+1167,1100,9.753246307,0.363636374,0.571428597,None,0,0,2,2008,Alameda,Male
+1168,247,9.447227478,0.400000006,1.5,Farming,0,0,2,1999,Jefferson,Male
+1169,998,10.35006046,1,0.75,Farming,0,0,2,2012,Jefferson,Male
+1170,1054,18.27015305,0.285714298,0.75,Farming,0,0,1,2004,Alameda,Male
+1171,987,14.15280437,1.25,0.333333343,Farming,0,1,2,2008,Alameda,Male
+1172,544,6.044520855,0.166666672,1,Farming,0,0,1,2013,Jefferson,Male
+1173,652,7.278538704,0.571428597,0.400000006,Farming,0,0,2,2000,Jefferson,Male
+1174,1093,35.49404907,0.625,3,None,0,1,2,1996,Jefferson,Female
+1175,1790,5.452381134,1,1.5,Farming,0,0,3,2014,Jefferson,Male
+1176,1278,5.319047451,0.300000012,2.333333254,None,0,0,2,2008,Alameda,Female
+1177,1719,4.952381134,0.400000006,1.5,Farming,0,0,3,2013,Jefferson,Male
+1178,616,7.507936478,0,2,Farming,0,0,1,2010,Alameda,Female
+1179,350,6.202380657,0.5,0.333333343,Petty trading/hawking,0,1,1,2008,Alameda,Male
+1180,1717,6.670329571,0.461538464,3.333333254,Farming,0,0,3,2014,Jefferson,Female
+1181,1486,4.785714149,1,1,Unskilled labour,0,0,3,2012,Jefferson,Male
+1182,861,4.952381134,0,0.666666687,Farming,0,0,1,2014,Jefferson,Male
+1183,1033,6.385714531,0.200000003,2.333333254,None,0,0,2,2013,Jefferson,Female
+1184,99,4.952380657,0.5,0.5,Farming,0,0,1,2014,Jefferson,Male
+1185,1259,7.567100048,0.545454562,1.75,Unskilled labour,1,1,1,2009,Alameda,Male
+1186,1901,5.664637089,0.333333343,3.5,Farming,0,0,2,2011,Norfolk,Female
+1187,46,4.630952358,0.375,3,Unskilled labour,0,0,1,2014,Jefferson,Female
+1188,860,5.297619343,0.25,3,Farming,0,0,1,2014,Jefferson,Female
+1189,653,17.79932022,0.714285731,1.333333373,Farming,0,0,2,2000,Jefferson,Male
+1190,750,19.32312965,1.142857194,2.5,Unskilled labour,0,0,1,2007,Alameda,Female
+1191,1922,6.962936401,0.545454562,1.75,Farming,0,0,4,2012,Jefferson,Male
+1192,1796,5.423809528,1,4,Skilled labour,0,0,3,2012,Randolph,Female
+1193,1560,8.571428299,0.200000003,1.5,Farming,0,0,2,2014,Jefferson,Male
+1194,833,8.104762077,0.600000024,1.5,Farming,0,0,1,2006,Alameda,Male
+1195,1211,15.654459,0.571428597,2.5,Unskilled labour,0,0,2,2008,Alameda,Female
+1196,1015,4.973544598,0.333333343,1.25,None,0,0,2,2004,Jefferson,Male
+1197,1783,5.817927361,0.882352948,0.545454562,Farming,1,1,3,2012,Jefferson,Male
+1198,278,4.642857075,0.200000003,0.25,Not in the labour force,0,0,1,2004,Alameda,Male
+1199,1898,5.253968239,1.142857194,0.75,Farming,0,1,1,2008,Alameda,Male
+1200,717,7.145564079,0.600000024,1,Farming,0,0,1,2004,Alameda,Male
+1201,618,6.214285851,1,1,Farming,0,0,1,2015,Norfolk,Male
+1202,773,8.096868515,0.75,1,Unskilled labour,0,0,1,1998,Alameda,Male
+1203,543,5.595237732,0.166666672,2,Farming,0,0,1,2010,Jefferson,Female
+1204,160,5.873015881,1,0.5,Farming,0,0,1,2012,Jefferson,Male
+1205,819,5.428571224,0.666666687,0.5,Farming,0,0,2,2006,Orange,Male
+1206,1171,6.921722412,0,0.5,Livestock rearing,0,0,2,1999,Jefferson,Male
+1207,1718,6.027201653,0.266666681,2.75,Livestock rearing,0,0,3,2014,Jefferson,Female
+1208,224,8.31746006,2,0.5,Student,0,0,1,2012,Orange,Male
+1209,2039,10.15561295,0.111111112,3.5,Housewife,0,0,2,2012,Jefferson,Female
+1210,344,6.303571224,0.5,0.714285731,Unskilled labour,0,0,2,2009,Alameda,Male
+1211,1268,10.15306091,0.857142866,2.5,Farming,1,1,2,2009,Alameda,Female
+1212,1864,15.56760693,0.571428597,0.75,Business,0,0,1,2000,Alameda,Male
+1213,1393,17.46258545,0.285714298,2.5,Livestock rearing,0,0,2,2013,Norfolk,Female
+1214,1168,16.5714283,0,0,Farming,0,0,2,1992,Jefferson,Male
+1215,1024,9.257598877,0.266666681,1.142857194,Student,0,1,2,2000,Jefferson,Male
+1216,1034,7.231115818,1,0.25,Farming,0,1,2,1992,Jefferson,Male
+1217,219,6.405087948,0.400000006,2.333333254,Farming,0,0,1,2012,Jefferson,Female
+1218,1124,4.993197441,0.285714298,2.5,Business,0,0,2,2014,Jefferson,Female
+1219,1572,6.829266071,0,1.428571463,Unskilled labour,0,0,1,2008,Jefferson,Male
+1220,560,10.32966995,0.307692319,0.444444448,Farming,0,0,1,2014,Alameda,Male
+1221,832,6.901360512,0.285714298,0.75,Farming,1,1,1,2002,Alameda,Male
+1222,1548,30.61358452,1,0,Farming,0,0,3,1992,Jefferson,Male
+1223,571,7.221917629,0.800000012,1.5,Farming,0,1,2,2010,Norfolk,Male
+1224,1963,5.800000191,0.400000006,1.5,Farming,1,1,3,2012,Randolph,Male
+1225,615,5.791666508,0.125,1,Housewife,0,0,1,2009,Alameda,Male
+1226,1224,7.133333683,0.300000012,4,Unskilled labour,0,0,2,2008,Alameda,Female
+1227,537,12.11769676,0.571428597,0.166666672,Unskilled labour,0,0,1,2009,Alameda,Male
+1228,1622,6.161781788,0,2,Farming,0,0,2,2014,Jefferson,Female
+1229,407,9.142857552,1.200000048,0.666666687,Farming,0,0,2,2014,Jefferson,Male
+1230,578,9.546610832,1.090909123,0.833333313,Farming,0,0,2,1994,Jefferson,Male
+1231,1502,9.157030106,0.545454562,0.833333313,Unemployed,0,1,3,2003,Jefferson,Male
+1232,1189,9.626984596,0.5,5,Unskilled labour,0,0,1,2002,Alameda,Female
+1233,1386,8.019047737,0.400000006,1.5,Farming,0,0,2,2015,Randolph,Male
+1234,1166,5.627976418,0.5,0.600000024,Livestock rearing,0,0,2,2000,Jefferson,Male
+1235,1649,6.954174995,0,1.666666627,Farming,0,0,3,2014,Jefferson,Male
+1236,59,6.190476418,0.5,1.666666627,Farming,0,0,1,2015,Jefferson,Male
+1237,746,7.857142925,0.25,1.666666627,Farming,0,0,1,2009,Alameda,Male
+1238,1152,5.523809433,0.5,3,Unskilled labour,0,0,2,2010,Alameda,Female
+1239,1471,5.690475941,1,1.333333373,Farming,0,0,2,2014,Jefferson,Male
+1240,82,8.690476418,0,1,Unskilled labour,0,0,1,2013,Jefferson,Male
+1241,1137,5.930158615,0.600000024,0.666666687,Farming,0,0,1,2014,Jefferson,Male
+1242,1749,14.28571415,0.444444448,0.800000012,UN/NGO/Church,0,0,4,2011,Norfolk,Male
+1243,1147,6.028571129,0.400000006,2.333333254,Unskilled labour,0,0,2,2015,Norfolk,Female
+1244,1076,5.461904526,0.600000024,1.5,Farming,0,1,2,1999,Jefferson,Male
+1245,1608,7.647749424,0.200000003,4,Farming,0,0,2,2014,Jefferson,Female
+1246,783,5.502645493,0.333333343,2,Unskilled labour,0,0,2,2009,Alameda,Female
+1247,1070,15.53571415,1,1,Farming,0,0,1,1993,Putnam,Male
+1248,1232,14.26516628,0.5,1.666666627,Unskilled labour,0,0,3,2006,Alameda,Male
+1249,1728,9.110349655,1,0,Farming,0,0,2,2011,Randolph,Male
+1250,457,7.831050396,0.444444448,1.25,Farming,0,0,2,2014,Jefferson,Male
+1251,549,14.25926018,0.444444448,0.800000012,Fishing,0,0,1,1998,Alameda,Male
+1252,1549,7.040816307,0.428571433,0.75,Farming,0,0,3,2009,Jefferson,Male
+1253,1338,14.83757305,0.666666687,0.5,None,0,0,3,2014,Randolph,Male
+1254,1142,17.38095284,1,2,Unskilled labour,0,0,1,2008,Alameda,Female
+1255,907,9.743966103,0.5,1,Farming,0,0,1,2008,Alameda,Male
+1256,114,15.91063213,0.666666687,0.5,Unskilled labour,0,1,1,2010,Norfolk,Male
+1257,1743,8.552946091,0.666666687,0.5,Petty trading/hawking,0,0,3,2006,Orange,Male
+1258,1536,8.508806229,0.666666687,0.5,Livestock rearing,0,0,3,2006,Orange,Male
+1259,335,74.17318726,3,0,Unskilled labour,0,0,2,2013,Alameda,Male
+1260,1889,7.047618866,0.428571433,1.333333373,Business,1,1,1,2009,Alameda,Male
+1261,730,6.625245094,0.300000012,2.333333254,Farming,0,0,1,2010,Alameda,Female
+1262,795,8.23283577,0,3,Unskilled labour,0,0,1,2015,Jefferson,Female
+1263,1615,12.2983036,0.600000024,0.666666687,Farming,1,1,2,2011,Norfolk,Male
+1264,1525,37.93334961,0.25,0,Livestock rearing,0,1,3,1995,Jefferson,Male
+1265,1487,7.339285851,0,3,Farming,0,0,3,2012,Randolph,Female
+1266,1570,14.3791256,0.600000024,1.5,Farming,1,1,2,2011,Randolph,Male
+1267,1207,9.714284897,0.600000024,1.5,Unskilled labour,0,0,2,2008,Alameda,Male
+1268,1130,20.88095284,0.5,1,Farming,0,0,1,2004,Alameda,Male
+1269,218,17.20401192,0.5,0.600000024,Farming,0,0,1,2009,Putnam,Male
+1270,53,10.35812187,0.800000012,0.666666687,Unskilled labour,0,0,1,2014,Jefferson,Male
+1271,1620,6.114285469,0,1.5,Skilled labour,0,0,2,2014,Jefferson,Male
+1272,814,7.275132179,0.444444448,3.5,Unskilled labour,0,0,2,2008,Alameda,Female
+1273,965,6.08078289,1.142857194,2.5,Farming,0,0,1,2014,Norfolk,Female
+1274,1733,16.28393555,0.272727281,1.75,Unskilled labour,0,0,1,2004,Alameda,Male
+1275,1921,7.395237923,0.800000012,1.5,None,0,0,4,2013,Jefferson,Male
+1276,951,9.591270447,0.5,1,Farming,1,1,1,2012,Putnam,Male
+1277,1721,8.007936478,0.666666687,2,None,0,0,4,2003,Jefferson,Female
+1278,424,18.70732689,1,2,Unskilled labour,0,0,1,2014,Jefferson,Female
+1279,767,6.666666508,0.300000012,1,Farming,0,0,1,2011,Alameda,Male
+1280,570,12.81278515,1.600000024,4,Farming,0,0,1,2010,Alameda,Female
+1281,1149,12.80000019,0.200000003,2.333333254,Business,0,0,2,2008,Alameda,Female
+1282,569,11.14840126,0.600000024,1.5,Farming,0,0,1,2004,Alameda,Male
+1283,1423,17.90650177,0.428571433,2.5,Farming,1,1,2,2015,Randolph,Female
+1284,489,6.402116299,0.666666687,2,Farming,0,0,2,2014,Jefferson,Female
+1285,482,14.22302723,0.600000024,0.25,Student,0,0,2,2014,Jefferson,Male
+1286,440,9.428571701,0.600000024,4,Farming,0,0,2,2013,Jefferson,Female
+1287,1134,11.74149609,0.571428597,2.5,Farming,0,1,1,2007,Alameda,Female
+1288,1337,7.824993134,0.285714298,2.5,Unskilled labour,0,0,2,2012,Jefferson,Female
+1289,1194,8.969807625,0.571428597,2.5,Livestock rearing,0,0,1,2008,Alameda,Female
+1290,1860,17.61589432,0.5,0.5,Farming,0,0,1,2002,Alameda,Male
+1291,1732,11.02745628,0.272727281,2.666666746,Unskilled labour,0,0,1,1992,Alameda,Female
+1292,846,8.911529541,0.25,3,Livestock rearing,0,0,2,2008,Alameda,Female
+1293,875,7.604166508,0.25,3,Unskilled labour,0,0,1,2009,Alameda,Female
+1294,98,10.00352287,0.200000003,1.5,Farming,0,0,1,2008,Alameda,Male
+1295,1156,9.785715103,0.600000024,1.5,Business,0,1,2,2009,Alameda,Male
+1296,762,9.823385239,0.600000024,0.666666687,Business,0,0,1,2009,Putnam,Male
+1297,1971,13.00232983,0.571428597,0.75,Petty trading/hawking,1,1,1,2009,Alameda,Male
+1298,727,11.36747074,1.333333373,0,Unskilled labour,0,0,2,2013,Orange,Male
+1299,1552,8.682538986,0.444444448,3.5,Farming,0,0,3,2013,Jefferson,Female
+1300,1495,7.736888409,0.266666681,0.200000003,Student,0,1,3,2013,Orange,Male
+1301,1508,26.28747559,0.600000024,0.666666687,Not in the labour force,0,1,3,1998,Orange,Male
+1302,1725,7.428571224,0.600000024,1.5,Farming,0,0,4,2010,Jefferson,Male
+1303,743,19.83496475,0.666666687,0.200000003,Unskilled labour,0,1,2,2008,Alameda,Male
+1304,58,6.948051929,0.363636374,0.833333313,Business,0,0,1,2014,Jefferson,Male
+1305,836,8.726190567,0.75,7,Business,0,0,1,2014,Alameda,Female
+1306,1153,9.244897842,0.428571433,1.333333373,Unskilled labour,0,0,2,2009,Alameda,Male
+1307,932,12.55148602,0,2.5,Farming,0,0,1,2008,Alameda,Female
+1308,1292,23.48254967,0.75,1,Farming,0,1,2,2011,Randolph,Male
+1309,1891,7.393228054,0.454545468,2.666666746,Unskilled labour,0,0,3,2015,Jefferson,Female
+1310,1078,6.888888836,0.111111112,3.5,None,0,0,2,2004,Jefferson,Female
+1311,785,8.148148537,0.333333343,0.800000012,Skilled labour,0,0,2,2012,Norfolk,Male
+1312,1010,10.72222233,1.5,2,Livestock rearing,0,1,2,2009,Putnam,Female
+1313,1960,20.2275486,1.555555582,1.25,Teacher,0,0,3,2012,Norfolk,Male
+1314,1082,10.09705448,0.857142866,0.400000006,Farming,0,0,2,1996,Jefferson,Male
+1315,156,9.288845062,0.400000006,2.333333254,Farming,0,0,1,2015,Jefferson,Female
+1316,1055,11.9706459,0.5,0,None,0,0,1,1998,Alameda,Male
+1317,639,10.54572678,0,4,Farming,0,0,1,2010,Norfolk,Female
+1318,1542,9,0.625,3,Farming,0,0,3,2010,Norfolk,Female
+1319,563,10.59627628,0.181818187,0.833333313,Skilled labour,0,0,2,2013,Norfolk,Male
+1320,1468,8.571428299,0.333333343,2,Farming,1,1,2,2014,Randolph,Female
+1321,993,14.45879459,0.666666687,5,Business,1,1,2,2008,Alameda,Female
+1322,1865,8.374849319,0.428571433,2.5,Business,0,0,1,2008,Alameda,Female
+1323,813,9.301587105,0.25,1,Business,0,0,2,2009,Alameda,Male
+1324,967,33.2743454,1.428571463,0.75,Farming,0,1,1,2002,Alameda,Male
+1325,610,10.11154556,1,0.5,Unskilled labour,0,1,2,2011,Norfolk,Male
+1326,45,8.642856598,1.5,0,Farming,1,1,1,2014,Jefferson,Male
+1327,942,8.33768177,0,2,Farming,1,1,2,2007,Alameda,Female
+1328,85,11.5178566,0.25,1,Business,0,0,3,2014,Jefferson,Male
+1329,1977,8.087302208,0.5,2,Farming,0,0,2,2008,Alameda,Female
+1330,999,7.142857075,0.25,1.666666627,Farming,0,0,2,2011,Jefferson,Male
+1331,1610,14.0783596,1.5,1,Unskilled labour,0,1,2,2011,Alameda,Male
+1332,1170,7.285714149,,6,Farming,0,0,2,2014,Jefferson,Female
+1333,521,14.82550526,0.125,1.666666627,Farming,0,0,1,2009,Alameda,Male
+1334,1029,8.226190567,1,1,None,0,0,2,1992,Jefferson,Male
+1335,121,11.14285755,0.333333343,5,Farming,0,1,1,2009,Norfolk,Female
+1336,1185,20.89236832,0.428571433,1.333333373,Student,0,1,2,2011,Alameda,Male
+1337,68,10.03652954,0.714285731,6,Unskilled labour,0,1,1,2014,Jefferson,Female
+1338,106,11.10119057,0.375,3,Farming,0,1,1,2008,Alameda,Female
+1339,190,23.0599041,0.333333343,5,Unskilled labour,0,0,1,2014,Jefferson,Female
+1340,1184,36.82093811,2,0,Business,0,1,1,2013,Putnam,Male
+1341,1289,10.20278835,0.25,7,Farming,0,0,2,2012,Jefferson,Female
+1342,1324,9.308546066,0.428571433,1.333333373,Farming,0,0,2,2012,Norfolk,Male
+1343,857,17.97619057,2.5,1,Farming,0,0,1,2014,Jefferson,Male
+1344,877,9.365078926,0.833333313,2,Unskilled labour,0,0,1,2008,Alameda,Female
+1345,115,14.25777435,0.666666687,5,Unskilled labour,0,1,1,2004,Jefferson,Female
+1346,66,15.47619057,3,0,Farming,0,0,1,2015,Jefferson,Male
+1347,1762,7.892857552,0.200000003,2.333333254,Farming,0,0,4,2013,Jefferson,Female
+1348,636,9.459753036,0.200000003,4,Farming,0,0,2,2004,Jefferson,Female
+1349,878,13.47938728,0.400000006,1.5,Unskilled labour,1,1,2,2008,Alameda,Male
+1350,686,8.035714149,0.166666672,1,Farming,0,0,1,2009,Alameda,Male
+1351,1075,14.72294331,0.363636374,0.571428597,None,0,0,1,2011,Alameda,Male
+1352,1188,26.70388985,0.75,0.600000024,Business,0,0,2,2010,Alameda,Male
+1353,1319,15.18627262,0.666666687,0.5,Unskilled labour,0,1,3,2012,Norfolk,Male
+1354,1331,13.96064377,0.333333343,1.25,Unskilled labour,0,1,2,2009,Alameda,Male
+1355,220,10.65476227,0.25,3,Business,0,0,1,2009,Alameda,Female
+1356,1052,11.18451118,0.571428597,2.5,Farming,0,0,1,2009,Norfolk,Female
+1357,707,8.075396538,0.25,1,Farming,0,0,1,2004,Alameda,Male
+1358,1294,26.98521423,0.666666687,0,Unskilled labour,1,1,1,2002,Alameda,Male
+1359,1546,8.2166996,1,4,Farming,0,0,3,2014,Jefferson,Female
+1360,1031,14.57396603,1,3.5,Farming,1,1,2,2000,Jefferson,Female
+1361,1049,16.36168098,0.363636374,1.75,Farming,0,0,1,2010,Putnam,Male
+1362,1448,10.98795509,0.400000006,4,Farming,0,0,3,2014,Jefferson,Female
+1363,1938,12.5722208,0.428571433,1.333333373,Business,1,1,4,2014,Jefferson,Male
+1364,1009,16.7297554,1.571428537,2.5,None,0,1,2,2009,Alameda,Female
+1365,981,15.49168301,1.375,0.600000024,None,0,1,2,2008,Alameda,Male
+1366,63,7.592592239,0.222222224,2,Business,0,0,1,2014,Jefferson,Female
+1367,312,10.47267532,1,2,Unskilled labour,0,0,2,2009,Alameda,Female
+1368,209,21.66775513,1,0.5,Business,0,0,1,2009,Alameda,Male
+1369,1116,55.17612839,1,0,Housewife,0,1,2,2000,Lawrence,Male
+1370,1801,7.619047642,1,0.5,Business,0,0,2,2015,Randolph,Male
+1371,498,11.22330952,0.666666687,2,Farming,0,0,2,2014,Jefferson,Female
+1372,614,8.343537331,0.357142866,0.555555582,None,0,1,1,2002,Alameda,Male
+1373,88,18.75313568,0.888888896,0.800000012,Farming,0,1,1,2012,Orange,Male
+1374,1779,19.06040573,0.200000003,1.5,Skilled labour,0,1,4,2011,Norfolk,Male
+1375,732,7.849206448,0.166666672,1,Farming,0,0,1,2004,Alameda,Male
+1376,706,12.7648859,0.428571433,2.5,Unskilled labour,0,0,1,2002,Alameda,Female
+1377,1060,8.255102158,0.428571433,6,Livestock rearing,0,0,1,2013,Putnam,Female
+1378,1910,8.281147957,0.300000012,1,Farming,0,0,1,1998,Alameda,Male
+1379,1154,14.97402668,1,0.571428597,Business,0,1,2,2009,Alameda,Male
+1380,1701,12.78040218,0.142857149,2.5,Farming,0,1,2,2011,Norfolk,Female
+1381,1266,14.20052147,1.799999952,0.666666687,Farming,0,0,2,2009,Alameda,Male
+1382,1485,10.07175446,1,4,Unskilled labour,0,0,3,2013,Jefferson,Female
+1383,638,23.00383186,0.75,3,Farming,0,0,1,2013,Norfolk,Female
+1384,702,20.44366455,0.666666687,0.5,Farming,0,0,1,2010,Norfolk,Male
+1385,41,9.825397491,0.222222224,8,Livestock rearing,0,0,1,2014,Jefferson,Female
+1386,904,11.10089207,1.111111164,0.800000012,Farming,0,1,2,2009,Alameda,Male
+1387,1046,21.52146149,0.800000012,1.5,Unskilled labour,0,0,1,2012,Alameda,Male
+1388,1544,9.494047165,0.625,0.333333343,Farming,0,0,3,1992,Orange,Male
+1389,788,9.390289307,0.125,1,Farming,0,0,2,2008,Alameda,Male
+1390,1849,9.020833015,1.125,1.666666627,Farming,0,0,2,2011,Jefferson,Male
+1391,1768,8.401360512,0,1.333333373,Farming,0,0,3,2013,Jefferson,Male
+1392,74,9.141738892,0.285714298,2.5,Business,0,0,1,2014,Jefferson,Female
+1393,988,8.835150719,0.428571433,1.333333373,Unemployed,0,0,2,2013,Jefferson,Male
+1394,996,22.00994682,1.25,1,Farming,0,1,2,2008,Alameda,Male
+1395,325,13.42261887,1.25,0.333333343,Farming,0,0,2,1992,Jefferson,Male
+1396,1138,8.714285851,1,1,Livestock rearing,0,0,1,2014,Jefferson,Male
+1397,1550,26.47969627,0.375,0.142857149,None,0,1,3,2011,Norfolk,Male
+1398,1097,34.45032501,0.5,1,Business,1,1,2,2008,Alameda,Male
+1399,1094,37.80555344,1,0.5,None,1,1,2,1992,Jefferson,Male
+1400,1513,9.5,0,5,None,0,0,3,2000,Jefferson,Female
+1401,1912,10.55555534,0.333333343,1,Unskilled labour,0,0,1,1997,Alameda,Male
+1402,161,12.88888931,0.5,0,Farming,0,1,1,2014,Jefferson,Male
+1403,1736,10.47619057,0.5,1,None,0,0,2,2012,Randolph,Male
+1404,1193,19.20619583,0.699999988,1.5,Farming,0,1,2,2008,Alameda,Male
+1405,625,30.77717018,0.5,1,Unskilled labour,0,1,1,2004,Alameda,Male
+1406,777,14.57191753,0.100000001,1.5,Farming,0,0,2,2013,Randolph,Male
+1407,956,20.20879555,0.5,5,Student,0,0,1,2008,Putnam,Female
+1408,212,13.0714283,0.5,0,None,0,1,1,2008,Alameda,Male
+1409,896,11.0714283,1,4,Farming,0,0,2,2010,Alameda,Female
+1410,901,11.28604031,0.5,2.333333254,Unskilled labour,1,1,1,2012,Alameda,Female
+1411,1155,12.95476246,0.800000012,1,Unskilled labour,1,1,2,2011,Alameda,Male
+1412,711,9.543650627,0.166666672,2,Farming,0,0,1,2007,Alameda,Female
+1413,596,10.70476246,0.600000024,0.428571433,Unskilled labour,0,0,1,2009,Putnam,Male
+1414,1298,10.12698364,0.666666687,0.5,None,0,0,2,2008,Alameda,Male
+1415,155,19.5714283,1.5,0,Student,0,0,1,2015,Jefferson,Male
+1416,619,13.63281918,1.444444418,0.125,Farming,0,0,1,2007,Alameda,Male
+1417,1924,19.73378372,1.111111164,0.800000012,Farming,0,0,4,1992,Jefferson,Male
+1418,1128,13.6269846,0.555555582,0.800000012,Farming,0,1,1,2005,Alameda,Male
+1419,758,11.24536896,0.800000012,1,Unskilled labour,0,0,1,2001,Putnam,Male
+1420,1326,10.29789066,0.333333343,0.800000012,Unskilled labour,0,0,2,2011,Jefferson,Male
+1421,766,24.54040718,1.333333373,0.285714298,Unskilled labour,0,0,1,1998,Alameda,Male
+1422,1140,22.80457497,1.166666627,0,Unskilled labour,0,0,1,2008,Alameda,Male
+1423,662,10.93842125,0.800000012,1.5,Unskilled labour,0,0,1,2008,Alameda,Male
+1424,1253,18.65525055,0.555555582,1.25,Business,1,1,2,2010,Alameda,Male
+1425,351,9.542124748,0.15384616,2.25,Petty trading/hawking,1,1,1,1996,Jefferson,Female
+1426,1896,11.72857094,0.400000006,1.5,Unskilled labour,0,0,1,1999,Alameda,Male
+1427,1440,9.928571701,0,3,Farming,0,0,3,2014,Jefferson,Female
+1428,629,14.63176823,1.5,3,Farming,0,0,2,2010,Alameda,Female
+1429,745,8.970238686,0.375,0.600000024,Unskilled labour,0,0,1,2009,Alameda,Male
+1430,1058,57.11236191,0.375,0.600000024,None,0,0,1,2006,Alameda,Male
+1431,873,10.86350346,0.25,3,Farming,0,0,1,2009,Alameda,Female
+1432,617,15.46510124,1.25,1,Skilled labour,0,0,1,2007,Alameda,Male
+1433,1735,12.92903805,0.142857149,1.333333373,Farming,0,1,2,2010,Norfolk,Male
+1434,52,14.16876316,1.428571463,0.75,Livestock rearing,0,1,1,2014,Jefferson,Male
+1435,221,15.61104012,0.555555582,3.5,Farming,0,1,1,2010,Norfolk,Female
+1436,1190,46.33631516,0.714285731,1.333333373,Farming,0,0,1,2002,Alameda,Male
+1437,1255,11.89665413,0.571428597,2.5,Farming,0,0,2,2009,Alameda,Female
+1438,1101,57.35816574,0.571428597,1.333333373,None,0,0,2,1997,Jefferson,Male
+1439,1151,9.984127045,0.222222224,1.25,Business,1,1,2,2008,Alameda,Male
+1440,1287,15.85877323,1,3,Business,0,0,2,2011,Alameda,Female
+1441,583,9.841269493,1,0.5,Farming,1,1,2,2001,Jefferson,Male
+1442,1108,11.11904716,0.75,3,Not in the labour force,0,0,2,2008,Alameda,Female
+1443,1341,11.16071415,0.5,1,Unskilled labour,0,0,2,2013,Jefferson,Male
+1444,14,9.351851463,1,2,Unskilled labour,0,0,1,2014,Jefferson,Female
+1445,1851,14.46538067,0.857142866,1.333333373,Unskilled labour,0,0,1,2008,Alameda,Male
+1446,1288,13.16531563,0.857142866,6,Farming,1,1,2,2009,Alameda,Female
+1447,1357,9.387755394,0.428571433,2.5,Farming,0,0,3,2013,Jefferson,Female
+1448,1192,23.06829643,1.200000048,0.666666687,Farming,0,1,1,2002,Alameda,Male
+1449,1283,12.73233318,0,2,Farming,0,0,2,2010,Jefferson,Female
+1450,1994,12.5325613,,1,Farming,0,0,1,2007,Alameda,Male
+1451,1556,13.3015871,0.666666687,0,Farming,0,1,3,2000,Jefferson,Male
+1452,215,19.07936478,0.333333343,1,Unskilled labour,0,1,1,2009,Alameda,Male
+1453,1330,33.69047546,1.666666627,0,Farming,1,1,3,2003,Alameda,Male
+1454,1317,21.92962265,0.555555582,0.285714298,Farming,1,1,3,2012,Norfolk,Male
+1455,612,14.58316994,1.25,1.666666627,Farming,0,0,1,2011,Alameda,Male
+1456,787,12.73412704,0.333333343,1.399999976,Unskilled labour,0,0,2,1998,Alameda,Male
+1457,427,29.72269821,0.400000006,4,Unskilled labour,0,0,1,2014,Jefferson,Female
+1458,132,14.88854694,0.857142866,1.333333373,Skilled labour,0,1,1,2014,Jefferson,Male
+1459,835,13.15476131,0.75,1,Livestock rearing,0,0,1,2008,Alameda,Male
+1460,333,11.82922363,0.600000024,4,Housewife,0,0,2,2007,Alameda,Female
+1461,555,15.28144455,0.363636374,0.571428597,Farming,0,0,1,2008,Alameda,Male
+1462,659,32.5,1,1,Teacher,0,1,1,2009,Norfolk,Male
+1463,641,12.20953846,0.555555582,1.25,Farming,0,0,1,2014,Orange,Male
+1464,1073,123.7658157,0.444444448,0.800000012,Farming,1,1,1,1997,Alameda,Male
+1465,842,16.63176918,0.416666657,2,Farming,1,1,2,2009,Alameda,Female
+1466,1488,13.63265324,1.285714269,1.333333373,Farming,0,0,3,2012,Norfolk,Male
+1467,259,34.28757858,0.857142866,0.400000006,Business,1,1,1,1997,Alameda,Male
+1468,1984,25.06579208,0.857142866,0.400000006,Farming,0,1,1,2006,Norfolk,Male
+1469,1023,15.47249317,0.333333343,0.5,None,0,0,2,2004,Orange,Male
+1470,1296,21.95397568,0.333333343,8,Farming,0,0,1,2009,Alameda,Female
+1471,1720,13.5742979,0.600000024,2.333333254,Farming,0,0,3,2014,Jefferson,Female
+1472,289,26.25850296,0.571428597,0,Unskilled labour,0,1,1,2009,Alameda,Male
+1473,232,22.44429779,0.444444448,0.5,Business,0,1,1,2002,Alameda,Male
+1474,1129,43.94047546,1,1,Farming,0,0,1,2005,Alameda,Male
+1475,1498,15.80499268,0.777777791,0.5,Not in the labour force,0,1,3,2006,Orange,Male
+1476,15,14.13907909,0.166666672,1,Livestock rearing,0,0,1,2014,Jefferson,Male
+1477,1738,15.28969288,0.400000006,1,None,0,0,2,2011,Alameda,Male
+1478,644,18.47982407,0.428571433,0.75,Fishing,0,0,1,1997,Alameda,Male
+1479,1325,13.98293018,0.333333343,5,Unskilled labour,0,0,2,2013,Putnam,Female
+1480,449,10.71428585,0.75,0.333333343,Student,0,0,2,2014,Jefferson,Male
+1481,245,23.81131744,0.5,1,Business,0,0,2,2014,Jefferson,Male
+1482,1297,12.88095284,0.5,1,Business,0,0,1,2009,Alameda,Male
+1483,902,16.11668396,0,0,Farming,1,1,2,2008,Alameda,Male
+1484,545,15.60317516,0.222222224,1.25,Farming,0,0,1,2009,Alameda,Male
+1485,863,32.79761887,0.75,0,Farming,0,0,1,2007,Alameda,Male
+1486,1172,16.2142868,1,0,Farming,0,0,1,2006,Alameda,Male
+1487,1062,14.92370892,0.363636374,0.571428597,Business,0,1,1,2009,Alameda,Male
+1488,216,15.66775417,2,0,Petty trading/hawking,0,0,1,2009,Putnam,Male
+1489,966,27.30566406,1,0.5,Skilled labour,0,0,1,2010,Norfolk,Male
+1490,1618,12.25396729,0,2,Farming,0,0,3,2015,Jefferson,Female
+1491,1169,12.50039101,0.400000006,0.666666687,Farming,0,0,1,2010,Jefferson,Male
+1492,1026,14.18543625,0.454545468,1.75,None,0,0,2,2004,Jefferson,Male
+1493,621,18.89409065,0.714285731,0.07692308,None,0,0,1,2012,Alameda,Male
+1494,876,14.70068073,0.571428597,0.166666672,Business,0,0,1,2009,Alameda,Male
+1495,258,24.73516083,0.75,3,Business,0,0,1,2011,Alameda,Female
+1496,1821,47.1031723,1,1,Farming,0,0,2,2013,Randolph,Male
+1497,976,16.38943291,1.25,1,None,0,1,2,2008,Alameda,Male
+1498,567,16.42702103,0.75,0.600000024,None,1,1,1,2000,Jefferson,Male
+1499,488,15.8730154,0.833333313,2,Unskilled labour,0,0,2,2014,Jefferson,Female
+1500,233,16.7828331,0.333333343,2,Farming,0,1,1,2002,Alameda,Female
+1501,541,11.61375618,0.222222224,3.5,Farming,0,0,1,2011,Jefferson,Female
+1502,1285,22.70863342,1.333333373,2,Farming,0,0,2,2013,Jefferson,Female
+1503,986,11.4285717,1,0,Unemployed,0,0,2,2013,Jefferson,Male
+1504,493,11.4285717,1.25,3,Unskilled labour,0,0,2,2014,Jefferson,Female
+1505,401,12.4285717,0.200000003,4,Farming,0,0,2,2014,Jefferson,Female
+1506,81,13.42857075,0.200000003,0.25,Livestock rearing,0,0,1,2012,Jefferson,Male
+1507,1291,12.09523773,0.571428597,6,Farming,0,0,2,2012,Jefferson,Female
+1508,1212,18.34478951,0.125,1.666666627,Housewife,0,1,2,2008,Alameda,Male
+1509,532,14.74206257,0.5,1.399999976,Unskilled labour,1,1,1,2000,Alameda,Male
+1510,655,14.24540138,0.800000012,0.25,Farming,0,0,2,2000,Jefferson,Male
+1511,1959,14.1961298,0.333333343,2,Unskilled labour,0,1,1,2009,Alameda,Female
+1512,1198,18.74013329,0.25,3,Livestock rearing,0,0,1,2007,Alameda,Female
+1513,90,12.85714245,0.875,1,Unskilled labour,0,0,1,2002,Alameda,Male
+1514,138,18.9815712,0.125,7,Farming,0,1,1,2014,Jefferson,Female
+1515,213,21.83460236,0.777777791,2,Farming,0,1,1,2009,Alameda,Female
+1516,1312,19.12879562,1.111111164,0.5,Unskilled labour,0,0,2,2008,Alameda,Male
+1517,1256,22.12701416,0.428571433,0.400000006,Livestock rearing,1,1,2,2008,Alameda,Male
+1518,1173,19.54364967,0.333333343,0.200000003,Farming,0,0,1,2003,Alameda,Male
+1519,782,14.1269846,0.833333313,1,Business,1,1,2,2008,Alameda,Male
+1520,1329,15.0529108,0.222222224,2,Business,0,0,2,2011,Norfolk,Female
+1521,1270,21.34544754,1.571428537,1.333333373,Farming,0,0,2,2008,Alameda,Male
+1522,148,17.3234539,0.428571433,0.400000006,Unskilled labour,0,0,1,2014,Jefferson,Male
+1523,668,12.1428566,0.166666672,2,Unskilled labour,0,0,1,2012,Putnam,Female
+1524,1760,14.20621395,0,0.333333343,Farming,0,0,4,2010,Jefferson,Male
+1525,1314,27.10893631,0.714285731,0.75,Farming,0,0,2,2008,Alameda,Male
+1526,1201,19.30164909,0.571428597,1.333333373,None,0,0,2,2009,Alameda,Male
+1527,809,14.50680351,0.428571433,2.5,Unskilled labour,0,0,2,2008,Alameda,Female
+1528,554,16.42759323,0.625,1,Farming,0,0,1,2008,Alameda,Male
+1529,531,14.02380943,1,0.428571433,Farming,0,0,1,2012,Putnam,Male
+1530,648,15.75842571,0,2,Farming,0,0,2,2012,Norfolk,Female
+1531,1158,13.31428528,0.800000012,4,Farming,1,1,2,2009,Alameda,Female
+1532,1707,16.10586166,0,2.5,Farming,0,0,3,2011,Jefferson,Female
+1533,1146,12.82993221,0.428571433,1.333333373,Farming,0,0,2,2008,Alameda,Male
+1534,1650,21.25190163,0.5,2,Teacher,0,0,3,2014,Jefferson,Female
+1535,491,12.5,1.25,1,Unskilled labour,0,0,2,2015,Putnam,Male
+1536,1290,14.11643791,0.125,3,Farming,0,0,2,2010,Putnam,Female
+1537,553,25,0.5,1,Unskilled labour,0,0,1,2008,Alameda,Male
+1538,1647,13.81613731,0,3.5,Farming,0,0,3,2015,Jefferson,Female
+1539,1284,19.03809547,0.400000006,1.5,Farming,0,0,2,2012,Norfolk,Male
+1540,734,17.78841972,0.090909094,0.833333313,Farming,1,1,1,2004,Alameda,Male
+1541,1529,16.54193306,0.6875,1.285714269,Farming,0,0,3,2002,Orange,Male
+1542,565,16.97008705,0.428571433,2.5,Farming,0,0,2,2011,Randolph,Female
+1543,40,13.19523811,0.428571433,6,Farming,0,0,1,2014,Jefferson,Female
+1544,1913,14.76190472,0.125,0.600000024,Unskilled labour,0,0,1,2006,Alameda,Male
+1545,677,13.01190472,0.875,1,Unskilled labour,1,1,1,2008,Putnam,Male
+1546,1708,14.21693039,0.666666687,0.5,Farming,0,0,2,2013,Orange,Male
+1547,561,18.07795143,0.100000001,0.428571433,Business,0,0,1,1992,Alameda,Male
+1548,882,15.99686909,0.600000024,1.5,Unskilled labour,0,0,1,2009,Alameda,Male
+1549,1879,27.11650467,1,1.5,None,0,1,1,2008,Alameda,Male
+1550,1965,51.02381134,1,0,Unskilled labour,0,0,1,2008,Alameda,Male
+1551,631,26.47498512,0.692307711,0.857142866,Farming,1,1,1,2002,Alameda,Male
+1552,1754,18.53864861,2,0,Farming,0,0,3,2011,Orange,Male
+1553,1888,16.46825409,0.5,0.5,Farming,0,0,1,2000,Alameda,Male
+1554,837,17.64147949,0.555555582,0.800000012,Business,0,1,1,2008,Alameda,Male
+1555,1510,23.94034195,0.333333343,0.285714298,Livestock rearing,0,1,3,2005,Orange,Male
+1556,1195,16.28210068,0.307692319,0.444444448,Student,0,0,2,2009,Alameda,Male
+1557,784,14.34285736,0.400000006,4,Unskilled labour,0,0,2,2008,Alameda,Female
+1558,1876,16.50793648,0.777777791,3.5,Unskilled labour,0,0,1,1997,Alameda,Female
+1559,1878,21.29647827,0.75,1,None,0,0,1,2008,Alameda,Male
+1560,816,14.38095284,1,0,Farming,0,0,2,2009,Alameda,Male
+1561,1559,24.31324959,0.285714298,2.5,Farming,0,0,3,2010,Jefferson,Female
+1562,683,17.33901787,0.285714298,2.5,Unskilled labour,0,0,1,2009,Alameda,Female
+1563,519,36.11111069,0.833333313,2,Student,1,1,1,2009,Alameda,Female
+1564,534,13.36309528,0.625,3,Farming,0,0,1,2012,Putnam,Female
+1565,1966,19.91369057,0.125,3,Farming,0,0,1,2012,Alameda,Female
+1566,1538,15.54545498,1,2.666666746,Farming,0,0,3,2014,Orange,Female
+1567,230,14.45379448,0.222222224,3.5,Farming,1,1,1,2002,Alameda,Female
+1568,968,21.62446213,1.600000024,4,Unskilled labour,0,0,1,2009,Alameda,Female
+1569,1096,32.4662323,1,1.666666627,Farming,0,1,2,2010,Norfolk,Male
+1570,1723,14.3214283,0.5,1,None,0,0,4,1999,Orange,Male
+1571,670,21.90476227,0.5,0,Unskilled labour,0,1,1,2015,Putnam,Male
+1572,974,24.85910034,3,0,Business,0,1,2,2013,Norfolk,Male
+1573,1951,29.30887222,1.600000024,0.666666687,Farming,0,1,4,2010,Norfolk,Male
+1574,978,37.29365158,0.666666687,0.200000003,Unemployed,0,1,1,2014,Jefferson,Male
+1575,211,15.51428509,1,4,None,0,0,1,2009,Alameda,Female
+1576,640,25.42935371,0.400000006,0.666666687,Student,0,0,1,2010,Norfolk,Male
+1577,1539,25.08333206,0.75,0.333333343,Farming,0,1,3,2005,Jefferson,Male
+1578,667,14.59852982,0.181818187,2.666666746,Farming,0,1,1,2008,Alameda,Female
+1579,1800,38.07360077,1.333333373,0.5,Farming,0,0,2,2009,Randolph,Male
+1580,546,17.92640686,0.272727281,1.200000048,Unskilled labour,0,0,1,2008,Alameda,Male
+1581,29,20.59597969,0.545454562,0.375,Unskilled labour,0,0,1,2007,Alameda,Male
+1582,646,15.59523869,0.5,3,Farming,0,0,2,2010,Norfolk,Female
+1583,847,15.64318371,1,1,Farming,0,0,2,2006,Alameda,Male
+1584,35,15.81131649,0.375,1.666666627,Farming,0,0,1,2014,Jefferson,Male
+1585,1641,15.47619057,0.142857149,2.5,Unskilled labour,0,0,3,2014,Jefferson,Female
+1586,883,18.18554306,1.25,1,Farming,0,0,2,2009,Alameda,Male
+1587,1286,26.24722672,0.285714298,1.333333373,Farming,0,0,2,2012,Jefferson,Male
+1588,86,15.61904716,0.75,0,Student,0,0,1,2011,Orange,Male
+1589,1970,39.22749329,0.5,0,Farming,0,0,4,2010,Norfolk,Male
+1590,223,52.2149353,0.5,0,Farming,0,0,1,2013,Orange,Male
+1591,1613,18.5357132,0.25,3,Farming,0,0,2,2010,Putnam,Female
+1592,1450,45.2857132,2,0,Student,0,0,3,2006,Jefferson,Male
+1593,786,22.93154716,0.75,1,Business,0,0,2,2008,Alameda,Male
+1594,1333,20.03913879,2,0,Unskilled labour,0,0,2,2013,Alameda,Male
+1595,111,58.52544022,3,0,Farming,0,0,1,2008,Putnam,Male
+1596,645,70.45238495,0.5,1,Unskilled labour,0,0,1,1997,Alameda,Male
+1597,1444,15.92955017,4,0,Student,0,0,3,2014,Jefferson,Male
+1598,900,55.88388824,2,0,Unskilled labour,0,0,1,2007,Alameda,Male
+1599,413,15.95238113,0.666666687,2,Business,0,0,2,2014,Jefferson,Female
+1600,1083,17.61904716,1,0,None,0,0,1,2007,Alameda,Male
+1601,44,15.61904716,2,0,Farming,0,0,1,2015,Orange,Male
+1602,1328,15.30169582,1,0,None,0,0,3,2012,Orange,Male
+1603,1025,28.11904907,0.800000012,0,None,0,0,2,1996,Jefferson,Male
+1604,1205,17.82544136,1,0.25,None,0,0,2,2008,Alameda,Male
+1605,293,23.48341942,1.166666627,2,Unskilled labour,0,1,1,2011,Norfolk,Female
+1606,840,15.29166698,0.375,3,Farming,0,0,2,2009,Alameda,Female
+1607,651,15.24540138,0.600000024,1.5,Farming,0,0,2,2011,Jefferson,Male
+1608,749,19.83809471,0.400000006,0.666666687,Business,0,0,1,2012,Alameda,Male
+1609,888,27.88421249,0.800000012,2.333333254,Not in the labour force,0,0,1,1997,Alameda,Female
+1610,1334,27.04810905,1,3,Teacher,0,0,3,2010,Norfolk,Female
+1611,18,18.54166603,0.833333313,2,Unskilled labour,0,1,1,2008,Alameda,Female
+1612,1327,17.81972885,0.400000006,1,Unskilled labour,0,0,2,2011,Putnam,Male
+1613,262,326.4859619,0.600000024,0.666666687,Unskilled labour,1,1,1,2009,Alameda,Male
+1614,1651,129.6918793,1,2,Unskilled labour,0,0,3,2011,Jefferson,Female
+1615,1265,25.10589409,1.333333373,0.5,Farming,0,0,2,2009,Alameda,Male
+1616,723,23.73070335,0.5,2,Fishing,0,0,1,1998,Alameda,Female
+1617,898,17.24014473,1.142857194,1,Business,1,1,2,2009,Alameda,Male
+1618,239,23.46003151,0.833333313,0.333333343,None,0,1,1,2008,Alameda,Male
+1619,748,41.58599854,1.111111164,0.5,None,0,0,1,2010,Alameda,Male
+1620,1267,65.61797333,1.299999952,1,Unskilled labour,1,1,2,2009,Alameda,Male
+1621,1264,20.82693291,1.375,1.666666627,Unskilled labour,0,0,2,2009,Alameda,Male
+1622,1260,15.75850391,1.857142806,2.5,Unskilled labour,0,0,2,2009,Alameda,Female
+1623,793,28.12313843,0.923076928,0.625,Farming,0,1,1,2009,Norfolk,Male
+1624,235,33.87013626,0.666666687,0,Skilled labour,0,1,1,2013,Lawrence,Male
+1625,715,27.3050499,0.857142866,0.400000006,Unskilled labour,0,0,1,2009,Alameda,Male
+1626,779,16.24761772,0.200000003,0.666666687,Farming,0,0,2,2013,Norfolk,Male
+1627,903,20.86953545,0,0.666666687,Unskilled labour,0,1,2,2009,Alameda,Male
+1628,755,21.55720901,0.400000006,2.333333254,Unskilled labour,0,0,1,2008,Alameda,Female
+1629,771,17.0714283,1.571428537,0,Unskilled labour,0,0,1,2008,Alameda,Male
+1630,1053,31.14986992,0.833333313,1,Farming,1,1,1,2008,Alameda,Male
+1631,550,18.62100601,0.300000012,2.333333254,Farming,0,0,1,2014,Jefferson,Female
+1632,1603,24.72211266,1,1,Farming,0,0,2,1997,Jefferson,Male
+1633,595,21.26663399,0.75,1.666666627,Unskilled labour,1,1,1,2008,Alameda,Male
+1634,991,17.07770729,0.375,0.600000024,Business,0,1,2,2008,Alameda,Male
+1635,23,17.88269234,0.083333336,1.399999976,Farming,0,0,1,2014,Jefferson,Male
+1636,559,18.5714283,1.5,0,Unskilled labour,0,0,1,2014,Putnam,Male
+1637,515,19.30952454,0.5,0.666666687,Skilled labour,0,0,1,2009,Alameda,Male
+1638,147,17.55425072,0.333333343,5,Unskilled labour,0,0,1,2014,Jefferson,Female
+1639,885,18.23129272,1.142857194,0.400000006,Farming,0,0,2,2009,Alameda,Male
+1640,1764,20.46938705,0.142857149,2.5,Farming,0,0,2,2013,Jefferson,Female
+1641,1022,22.96190453,0.5,2.333333254,None,0,0,2,2005,Jefferson,Female
+1642,1251,22.67280769,0.5,2,Farming,0,1,2,2009,Alameda,Female
+1643,558,21.31115341,0.400000006,1.5,Unskilled labour,0,0,1,2009,Alameda,Male
+1644,1558,33.68912125,0.307692319,0.444444448,Farming,0,1,3,2003,Jefferson,Male
+1645,1020,25.5048008,0.714285731,0.75,Business,0,0,1,2010,Alameda,Male
+1646,38,16.64682579,0.333333343,5,Farming,0,0,1,2013,Jefferson,Female
+1647,316,28.9888382,0.333333343,0.800000012,Not in the labour force,1,1,1,2008,Alameda,Male
+1648,810,21.11111069,0.333333343,0.5,Livestock rearing,0,0,2,2009,Alameda,Male
+1649,1577,22.38965034,0.333333343,0.5,Unskilled labour,0,1,1,2010,Norfolk,Male
+1650,34,17.46258545,0.285714298,2.5,Farming,0,0,1,2014,Jefferson,Female
+1651,1826,26.4574604,1.142857194,2.5,Farming,0,0,1,2011,Alameda,Female
+1652,1778,29.13742065,0.444444448,2,Teacher,1,1,4,2011,Norfolk,Female
+1653,1213,24.55102158,0.285714298,2.5,Unskilled labour,0,1,2,2009,Alameda,Female
+1654,1050,26.83179665,0.428571433,0.166666672,Farming,1,1,1,2012,Putnam,Male
+1655,633,32.8044014,0.714285731,0.166666672,None,1,1,1,1997,Alameda,Male
+1656,1726,19.31050301,0.400000006,1.5,Skilled labour,0,0,1,2007,Alameda,Male
+1657,722,25.84482193,0.444444448,1.25,Farming,0,1,1,2009,Alameda,Male
+1658,660,36.55952454,0.75,1,Unskilled labour,1,1,1,2012,Norfolk,Male
+1659,548,25.8928566,0.5,0.600000024,Fishing,0,0,1,1998,Alameda,Male
+1660,1986,27.42824554,0.5,1.666666627,Business,0,0,1,2009,Alameda,Male
+1661,1905,19.68754196,0.285714298,2.5,Farming,0,0,2,2010,Randolph,Female
+1662,1032,20.35442543,0.333333343,2,None,0,0,2,2013,Jefferson,Female
+1663,228,18.84285736,0.400000006,0.25,Farming,0,0,1,2002,Alameda,Male
+1664,153,34.02870178,3,0,Student,0,0,1,2012,Jefferson,Male
+1665,21,17.22222137,0.222222224,0.5,Farming,0,0,1,2014,Jefferson,Male
+1666,538,27.15060425,0.5,3,Farming,0,0,1,2008,Putnam,Female
+1667,737,17.91836739,0.285714298,1.333333373,Farming,0,0,1,2012,Alameda,Male
+1668,1206,24.85127068,0.454545468,1.200000048,Housewife,0,0,1,2008,Alameda,Male
+1669,579,32.17460251,1,2,None,0,0,2,2011,Alameda,Female
+1670,776,21.36913872,1.222222209,3.5,Farming,0,0,1,2009,Alameda,Female
+1671,1177,28.115345,0.600000024,1.5,Unskilled labour,1,1,1,2009,Alameda,Male
+1672,1077,21.35714149,0.5,1,None,0,0,1,1998,Alameda,Male
+1673,628,30.72146225,1.285714269,2.5,Teacher,0,0,2,2015,Orange,Female
+1674,862,28.29397774,1,0,Farming,0,0,1,2002,Alameda,Male
+1675,1870,29.76992798,0,0,Student,0,0,1,2011,Alameda,Male
+1676,1233,28.02767944,1.399999976,1.5,Farming,0,0,3,2015,Norfolk,Male
+1677,1261,19.02040672,0.428571433,0.75,Teacher,0,1,2,2011,Norfolk,Male
+1678,136,34.31435776,1,0,Farming,1,1,1,2013,Orange,Male
+1679,1862,27.67338562,1,1.5,Farming,0,0,1,2004,Alameda,Male
+1680,1842,19.79591751,1,1.333333373,Unskilled labour,0,0,3,2014,Jefferson,Male
+1681,1484,19.42460442,1.333333373,1,Student,0,0,3,2012,Orange,Male
+1682,657,18.45238113,1.166666627,5,Farming,0,0,1,2008,Alameda,Female
+1683,275,31.10637474,0.285714298,0.166666672,Housewife,0,0,1,2009,Alameda,Male
+1684,1824,30.73809433,0.75,1,Farming,0,1,2,2011,Randolph,Male
+1685,1038,30.5714283,2,0,Fishing,0,0,2,2011,Norfolk,Male
+1686,1731,31.32305908,0.75,1,Unskilled labour,0,1,1,2007,Alameda,Male
+1687,841,20.18707466,0.571428597,6,Farming,0,0,2,2009,Alameda,Female
+1688,1639,19.41558456,0,1.200000048,Farming,0,0,3,2014,Jefferson,Male
+1689,1715,24.91976357,0.666666687,1,Skilled labour,1,1,3,2013,Norfolk,Male
+1690,430,25.27625465,1.5,1,Unskilled labour,0,0,1,2014,Jefferson,Male
+1691,891,29.69210815,0.800000012,1.5,Unskilled labour,0,0,1,2009,Alameda,Male
+1692,774,32.95238113,2,0,Farming,0,0,1,2009,Alameda,Male
+1693,217,33.27544022,0.25,1,Livestock rearing,0,0,1,2009,Putnam,Male
+1694,250,21.5714283,0.142857149,1.799999952,None,0,0,2,2009,Alameda,Male
+1695,1027,22.51322746,0.555555582,2,Farming,0,0,2,2013,Orange,Female
+1696,756,94.75940704,0.666666687,1,Unskilled labour,1,1,1,2009,Alameda,Male
+1697,1807,27.30958939,0.400000006,1.5,Farming,0,1,1,2002,Alameda,Male
+1698,1019,27.22882271,0.428571433,0.75,Business,0,1,1,2006,Alameda,Male
+1699,1269,21.2053566,1.25,1.666666627,Farming,0,0,2,2008,Alameda,Male
+1700,1931,35.53098297,1,4,Farming,0,0,4,2010,Norfolk,Female
+1701,761,49.62778854,0.699999988,1,Livestock rearing,0,0,1,2008,Putnam,Male
+1702,964,28.1156559,0.600000024,4,Unskilled labour,0,1,2,2008,Alameda,Female
+1703,271,21.4285717,0.333333343,0.5,None,0,1,2,2013,Alameda,Male
+1704,33,21.00032616,0.400000006,4,Farming,0,0,1,2013,Jefferson,Female
+1705,1012,82.18591309,0.714285731,1.333333373,None,0,1,2,2006,Jefferson,Male
+1706,135,34.19086838,1.600000024,0,Skilled labour,1,1,1,2011,Orange,Male
+1707,945,20.79654884,0.333333343,3.5,Unskilled labour,0,0,2,2008,Alameda,Female
+1708,2004,24.82414818,0.083333336,2,None,0,1,1,2009,Alameda,Female
+1709,1848,37.45238113,1.799999952,0.666666687,Farming,0,0,1,2008,Alameda,Male
+1710,726,34.96104431,0.555555582,0.800000012,Business,0,0,1,2010,Alameda,Male
+1711,1056,36.11893845,0.333333343,2,Skilled labour,0,1,1,2009,Norfolk,Female
+1712,338,20.77380943,0.25,1,None,0,0,1,2012,Jefferson,Male
+1713,830,47.95368576,0.400000006,1.5,Farming,1,1,1,2007,Alameda,Male
+1714,1980,35.40351105,0.666666687,0.200000003,Skilled labour,1,1,1,2007,Alameda,Male
+1715,1497,28.03057861,0.25,0.142857149,Not in the labour force,0,0,3,1998,Orange,Male
+1716,1775,38.83855057,0.600000024,0.666666687,Farming,0,1,3,2010,Norfolk,Male
+1717,642,26.55499077,0.600000024,1.142857194,Farming,1,1,1,2013,Orange,Male
+1718,238,33.83216476,0.666666687,0.5,None,0,0,1,2009,Alameda,Male
+1719,231,26.95401001,0.300000012,1.5,Farming,0,0,1,2006,Alameda,Male
+1720,624,24.26222992,0.5,4,Unskilled labour,0,0,1,2008,Alameda,Female
+1721,1493,40.26984024,3,0,Student,1,1,2,2015,Jefferson,Male
+1722,37,22.07738113,1,1,Farming,0,0,1,2014,Jefferson,Male
+1723,36,24.98839951,0.5,3,Farming,0,0,1,2014,Norfolk,Female
+1724,721,31.19251442,0.5,3,Unskilled labour,0,0,1,2001,Alameda,Female
+1725,915,25.67527771,0,1.5,Farming,0,0,1,2004,Alameda,Male
+1726,851,45.6363678,0.333333343,2,Farming,0,1,2,2008,Alameda,Female
+1727,6,27.43639946,0.857142866,1.333333373,UN/NGO/Church,1,1,1,2014,Jefferson,Male
+1728,985,25.09523773,2,0,Farming,0,1,2,2009,Alameda,Male
+1729,441,45.16373062,2,0,Student,0,0,2,2014,Jefferson,Male
+1730,526,37.52445984,0.666666687,0.5,Farming,0,1,1,2010,Norfolk,Male
+1731,620,59.2413559,3,0,Skilled labour,0,0,1,2007,Alameda,Male
+1732,1018,35.945858,0.857142866,1.333333373,None,1,1,1,2008,Alameda,Male
+1733,675,23.9285717,0.5,0,Unskilled labour,1,1,1,2009,Putnam,Male
+1734,1867,28.84523773,0.375,1.666666627,Farming,0,0,1,2000,Alameda,Male
+1735,1911,23.06547737,0.5,1,Unskilled labour,0,0,1,1997,Alameda,Male
+1736,1930,50.49533844,0.714285731,1.333333373,Business,0,0,4,2010,Norfolk,Male
+1737,980,25.10884285,0.428571433,2.5,Unemployed,0,1,1,2011,Alameda,Female
+1738,781,23.45238113,0.25,1,Unskilled labour,0,0,2,2009,Alameda,Male
+1739,720,35.59728622,0.857142866,0.166666672,Fishing,0,0,1,1998,Alameda,Male
+1740,1241,24.94618416,1.181818128,1.200000048,None,0,1,2,2008,Alameda,Male
+1741,1345,40.19346619,1,0.333333343,Skilled labour,0,1,3,2014,Norfolk,Male
+1742,16,24.6860714,1.25,3,Farming,0,0,1,2013,Orange,Female
+1743,759,129.3306427,0.875,3,Livestock rearing,1,1,1,2009,Putnam,Female
+1744,1741,26.09165001,0.416666657,0.714285731,Farming,0,0,1,2003,Alameda,Male
+1745,703,52.2393074,2.571428537,0.400000006,Farming,1,1,1,2007,Orange,Male
+1746,884,27.95303345,0.600000024,1.5,Farming,0,0,2,2008,Alameda,Male
+1747,255,30.67543983,1,0.428571433,Housewife,0,0,1,2008,Alameda,Male
+1748,650,28.22789192,0.571428597,2.5,None,0,0,2,2014,Jefferson,Female
+1749,708,25.1428566,0.200000003,4,Farming,0,0,1,2005,Alameda,Female
+1750,1817,29.06172562,0.8125,1.666666627,Business,1,1,3,2011,Norfolk,Male
+1751,1953,39.10697556,1.428571463,0.75,Student,0,0,4,2011,Norfolk,Male
+1752,806,37.96934128,0.666666687,0.5,Unskilled labour,0,1,1,1997,Alameda,Male
+1753,562,31.72164726,0.285714298,1.333333373,Farming,0,0,1,2012,Alameda,Male
+1754,1780,42.24702454,0.625,0.600000024,Unskilled labour,0,0,4,2010,Norfolk,Male
+1755,551,32.8466568,0.571428597,0.400000006,Farming,0,0,1,1998,Alameda,Male
+1756,634,52.64731979,2,0.5,Skilled labour,0,0,1,2009,Alameda,Male
+1757,1313,113.4991074,0.714285731,1.333333373,Farming,0,1,2,2009,Alameda,Male
+1758,992,36.18493271,0.363636374,0.571428597,Business,1,1,2,2008,Alameda,Male
+1759,1127,26.24761963,0.300000012,2.333333254,Farming,0,1,1,2008,Alameda,Female
+1760,409,31.50793457,0.888888896,2,Skilled labour,0,0,2,2014,Jefferson,Female
+1761,799,26.13419914,0.909090936,0.375,Housewife,0,0,1,2009,Alameda,Male
+1762,961,34.99256134,0.400000006,0,Student,1,1,1,2008,Putnam,Male
+1763,626,37.98891068,1,3,Farming,0,0,2,2008,Alameda,Female
+1764,1712,27.36904907,1.25,1,Farming,1,1,3,2012,Randolph,Male
+1765,1753,24.97354507,0.888888896,3.5,Farming,0,1,3,2010,Randolph,Female
+1766,1257,33.34289932,0.5,2,Unskilled labour,0,0,2,2009,Alameda,Female
+1767,556,45.37589645,0.25,0.333333343,Farming,0,0,2,2011,Norfolk,Male
+1768,1802,29.07059479,1.444444418,1.25,Unskilled labour,1,1,1,2003,Alameda,Male
+1769,291,28.28636742,0.400000006,1.5,None,0,0,1,2010,Alameda,Male
+1770,288,41.47945404,1,0,Livestock rearing,0,0,1,2009,Alameda,Male
+1771,1045,42.75,1,1,Farming,0,1,1,2011,Putnam,Male
+1772,429,26.66666603,1,0,Farming,0,0,2,2014,Jefferson,Male
+1773,1976,37.79156113,1.200000048,0.25,Unskilled labour,0,0,1,2010,Alameda,Male
+1774,341,30.27071381,0.636363626,4.5,Business,1,1,1,2009,Alameda,Female
+1775,241,37.12176514,0.666666687,0.5,None,0,0,1,2011,Alameda,Male
+1776,1734,34.16829681,0.5,0.5,Farming,1,1,1,2000,Alameda,Male
+1777,738,41.89468765,0.444444448,0.5,Student,1,1,2,2008,Alameda,Male
+1778,1856,79.45968628,0.75,1,Unskilled labour,0,0,1,2012,Alameda,Male
+1779,564,41.29566193,0.5,2,Business,0,0,2,2011,Norfolk,Female
+1780,808,29.16862297,2,0,Student,0,0,2,2013,Orange,Male
+1781,1880,36.42033386,0.75,3,Business,1,1,1,2000,Alameda,Female
+1782,812,27.50793457,0.666666687,2,Business,0,0,2,2009,Alameda,Female
+1783,1086,49.73548508,0.333333343,0.5,Farming,0,1,2,2012,Norfolk,Male
+1784,929,33.67016602,0.545454562,0.833333313,Skilled labour,1,1,1,2009,Alameda,Male
+1785,886,32.82670212,0.666666687,0.5,Student,0,0,2,2009,Alameda,Male
+1786,354,26.57936287,0.833333313,2,None,0,0,2,1997,Jefferson,Female
+1787,105,44.52380753,0.5,2,Skilled labour,0,1,1,2010,Norfolk,Female
+1788,725,41.53193283,0.600000024,1,Fishing,1,1,1,1997,Alameda,Male
+1789,1942,50.0069809,0.699999988,0.428571433,Farming,1,1,1,2008,Alameda,Male
+1790,1088,30.5357151,0.5,3,None,0,0,2,2008,Alameda,Female
+1791,868,42.78865051,0.600000024,0.25,Business,1,1,2,2009,Alameda,Male
+1792,1993,52.49617767,0.428571433,2.5,Unskilled labour,1,1,1,2007,Alameda,Female
+1793,1710,37.75578308,1.555555582,2,Farming,1,1,3,2012,Orange,Female
+1794,944,49.07305908,0.25,0.333333343,Farming,0,0,1,2007,Alameda,Male
+1795,768,33.09389114,0.625,0.142857149,Livestock rearing,0,0,1,2010,Putnam,Male
+1796,1011,47.76989746,0.75,0,Farming,0,0,2,2003,Jefferson,Male
+1797,828,41.11647415,0.444444448,3.5,Farming,1,1,1,2002,Alameda,Female
+1798,226,38.45848846,0.545454562,0.833333313,Farming,0,1,1,2002,Alameda,Male
+1799,1063,28.90476227,0.833333313,0.200000003,Business,0,0,1,2011,Alameda,Male
+1800,906,72.72015381,0.75,1,Farming,0,1,1,2008,Alameda,Male
+1801,574,33.23280334,0.555555582,3.5,Unskilled labour,0,0,2,2012,Alameda,Female
+1802,103,41.11117172,0.571428597,0.166666672,None,0,1,1,1995,Alameda,Male
+1803,464,30.0242157,1,1,Farming,0,0,2,2014,Jefferson,Male
+1804,1072,58.3697319,0.800000012,0.666666687,None,1,1,1,1999,Putnam,Male
+1805,1069,47.07407761,0.555555582,0.800000012,Skilled labour,1,1,1,2008,Alameda,Male
+1806,754,41.51670074,0.600000024,1.5,Livestock rearing,0,0,1,2009,Alameda,Male
+1807,826,38.83496475,0.571428597,2.5,Farming,0,0,1,2007,Alameda,Female
+1808,805,48.23809433,0.5,0,Fishing,0,0,1,2007,Alameda,Male
+1809,1346,28.5714283,0.555555582,3.5,Business,0,0,3,2014,Jefferson,Female
+1810,1989,33.31428528,0.600000024,0,Farming,0,0,1,2007,Alameda,Male
+1811,248,31.78095055,0.400000006,4,Petty trading/hawking,0,0,2,2013,Alameda,Female
+1812,1798,41.75777435,1.333333373,0.5,Teacher,1,1,2,2011,Randolph,Male
+1813,1446,37.73204041,0.444444448,1.25,Farming,0,1,3,2014,Jefferson,Male
+1814,789,77.16516876,1,0,Housewife,0,0,1,2012,Alameda,Male
+1815,669,48.86904907,1.5,0,Livestock rearing,0,1,1,2012,Putnam,Male
+1816,975,42.26516724,0.5,3,None,0,1,1,2011,Norfolk,Female
+1817,1005,34.57143021,1.600000024,1.5,Farming,0,0,2,2008,Alameda,Male
+1818,32,31.90032387,0.400000006,1.5,Farming,0,0,1,2012,Randolph,Male
+1819,1065,49.88763809,1.25,1,Farming,1,1,1,2008,Putnam,Male
+1820,517,92.26667023,0.400000006,1.5,Skilled labour,1,1,1,2008,Alameda,Male
+1821,1196,53.24200821,0.666666687,0.5,None,0,1,1,2008,Alameda,Male
+1822,134,70,0,0,Farming,0,0,1,2015,Orange,Male
+1823,733,37.67857361,0.25,0.333333343,Unskilled labour,0,0,1,2014,Norfolk,Male
+1824,970,39.81148148,0.5,0.333333343,Student,0,0,2,2007,Alameda,Male
+1825,547,40.28701782,0.699999988,0.428571433,Fishing,1,1,1,1998,Alameda,Male
+1826,890,79.99243927,0.666666687,0.200000003,Farming,0,1,1,2003,Alameda,Male
+1827,1209,88.04979706,0.666666687,2,Unskilled labour,0,0,2,2009,Alameda,Female
+1828,1854,47.29288864,1,0,None,0,1,1,2006,Alameda,Male
+1829,1007,58.07240677,0.600000024,1.5,None,0,0,2,2011,Alameda,Male
+1830,1002,42.56490707,0.428571433,1.333333373,Farming,0,1,1,2007,Putnam,Male
+1831,1805,39.6505928,1.428571463,2.5,Unskilled labour,0,0,1,1997,Alameda,Female
+1832,260,73.25723267,1,0.5,Student,0,0,1,2004,Alameda,Male
+1833,632,45.21075058,0.5,1.399999976,Fishing,1,1,1,1999,Alameda,Male
+1834,1064,44.45714569,0.400000006,0.666666687,Farming,0,1,1,2009,Alameda,Male
+1835,739,36.08163071,0.571428597,0,Farming,0,0,1,2004,Alameda,Male
+1836,552,52.84490967,0.5,1,Unskilled labour,0,0,1,1997,Alameda,Male
+1837,264,34.58730316,1,0.5,Student,0,0,1,1998,Alameda,Male
+1838,1017,46.06629181,0.625,0.333333343,None,0,1,1,2008,Alameda,Male
+1839,26,70.14501953,0.454545468,0.571428597,None,0,0,1,2009,Alameda,Male
+1840,237,73.08447266,1.5,0,Unskilled labour,0,0,1,2006,Alameda,Male
+1841,256,144.4988556,1.5,0.333333343,Business,0,0,1,2008,Alameda,Male
+1842,637,35.2977829,0.5,1,None,0,0,2,1996,Jefferson,Male
+1843,535,37.91666412,1.25,0,Farming,0,0,1,2014,Alameda,Male
+1844,1204,42.8702507,0.600000024,1.5,Not in the labour force,0,0,1,1997,Alameda,Male
+1845,244,49.22238922,0.615384638,1.166666627,None,0,0,1,1997,Alameda,Male
+1846,1492,37.17221451,1,1.5,Unskilled labour,1,1,3,2014,Jefferson,Male
+1847,1937,35.20833206,0,1.666666627,Farming,0,0,2,2014,Jefferson,Male
+1848,1555,43.84423828,0.857142866,0.400000006,Farming,0,1,3,1992,Jefferson,Male
+1849,1084,45.44446182,0.454545468,1.200000048,Farming,0,1,2,2008,Alameda,Male
+1850,1071,190.7103729,0.375,0.333333343,Farming,1,1,1,2003,Alameda,Male
+1851,1028,37.02381134,1,0,Farming,0,0,2,2004,Jefferson,Male
+1852,234,48.1576767,0.875,1.666666627,Farming,0,1,1,2010,Norfolk,Male
+1853,13,35.73611069,0.333333343,5,Unskilled labour,0,0,1,2014,Jefferson,Female
+1854,27,65.28869629,0.857142866,0.75,Business,0,0,1,2007,Alameda,Male
+1855,971,43.79130936,1.416666627,2,Business,1,1,2,2008,Alameda,Female
+1856,1197,46.49523544,0.400000006,1.5,Housewife,0,0,2,2009,Alameda,Male
+1857,580,51.92856979,0.5,3,Petty trading/hawking,0,1,2,2008,Alameda,Female
+1858,254,41.98412704,0.166666672,2,Farming,0,0,1,2006,Alameda,Female
+1859,342,43.48299408,1,0.400000006,Fishing,1,1,1,1998,Alameda,Male
+1860,8,40.05952454,0.666666687,2,Livestock rearing,0,0,1,2001,Jefferson,Female
+1861,214,65.46967316,0.142857149,0.75,Business,0,0,1,2011,Norfolk,Male
+1862,337,47.00952148,1.200000048,0.666666687,Teacher,0,1,1,2011,Norfolk,Male
+1863,2003,45.86725235,0.666666687,2,Unskilled labour,0,0,1,2008,Alameda,Female
+1864,760,87.722229,0.833333313,0.5,Livestock rearing,0,0,1,2009,Putnam,Male
+1865,1057,47.34285736,0.600000024,1.5,Business,1,1,1,2009,Alameda,Male
+1866,790,54.30397415,0.666666687,2,Business,1,1,1,2013,Putnam,Female
+1867,253,38.41487122,0,2,Unskilled labour,0,0,1,2011,Alameda,Female
+1868,1181,59.65462875,0.545454562,0.571428597,Student,0,1,1,2008,Putnam,Male
+1869,623,59.13241959,0.333333343,2,Unskilled labour,0,0,1,2011,Alameda,Female
+1870,1003,45.75455093,0.454545468,1,Business,0,0,2,2008,Alameda,Male
+1871,1167,94.68253326,0.666666687,0.5,Skilled labour,1,1,1,2006,Putnam,Male
+1872,257,58.7099762,0.777777791,0.800000012,Not in the labour force,0,1,1,1997,Alameda,Male
+1873,1952,57.22869873,1.799999952,0.666666687,Business,0,0,4,2010,Norfolk,Male
+1874,243,55.15296936,0.333333343,2,Teacher,0,0,1,2002,Putnam,Female
+1875,724,46.75717545,0.75,0,Farming,0,0,1,1997,Alameda,Male
+1876,1500,43.04264069,0.200000003,0.666666687,Livestock rearing,0,1,3,2005,Jefferson,Male
+1877,1178,52.87149048,0.800000012,1.5,Student,1,1,1,2007,Alameda,Male
+1878,757,41.40135956,1,1.333333373,Skilled labour,0,1,1,2010,Norfolk,Male
+1879,1808,43.45280457,0.384615391,0.857142866,Unskilled labour,0,1,1,2002,Alameda,Male
+1880,911,48.19968796,0.125,3,Farming,0,0,1,2004,Alameda,Female
+1881,1979,61.36758041,1.5,1,Unskilled labour,0,0,1,2007,Alameda,Male
+1882,159,143.6986237,2,0,Business,0,1,1,2014,Jefferson,Male
+1883,1208,57.37809753,0.125,1.666666627,Business,0,0,2,2008,Alameda,Male
+1884,1021,51.54607773,0.466666669,1.5,Business,1,1,1,2008,Alameda,Male
+1885,1187,64.39584351,0.333333343,2,Housewife,0,1,2,2008,Alameda,Female
+1886,274,59.13346481,0.400000006,4,Petty trading/hawking,0,1,2,2009,Alameda,Female
+1887,710,44.55555725,0.333333343,1,Farming,0,1,1,2005,Alameda,Male
+1888,92,60.41856766,0.666666687,2,Farming,0,0,1,2015,Norfolk,Female
+1889,953,50.3476181,0.400000006,1.5,Farming,0,0,1,2007,Putnam,Male
+1890,25,47.8928566,1,1,Farming,1,1,1,2014,Orange,Male
+1891,314,56.84768677,0.5,3,Not in the labour force,0,0,1,2008,Alameda,Female
+1892,848,64.90052032,1.5,1,Farming,0,0,2,2010,Alameda,Male
+1893,315,85.02198792,0.600000024,0.25,Business,0,0,1,2008,Alameda,Male
+1894,780,48.07738113,0.5,1,Business,0,0,2,2014,Norfolk,Male
+1895,279,81.7125473,0.666666687,0.200000003,Business,1,1,1,2008,Alameda,Male
+1896,1827,54.06433487,0.375,0.333333343,Farming,0,1,1,2002,Alameda,Male
+1897,2002,53.54207611,0.285714298,2.5,None,0,1,1,2010,Alameda,Female
+1898,1180,69.48897552,0.200000003,1,Business,1,1,1,2009,Alameda,Male
+1899,24,56.56360245,1,0,Unskilled labour,0,0,1,2002,Jefferson,Male
+1900,494,55.23809814,1.5,1,Unskilled labour,0,0,2,2014,Jefferson,Male
+1901,688,60.20833206,0.5,1,Farming,1,1,1,2008,Alameda,Male
+1902,1981,62.26190186,1,0,Skilled labour,0,0,2,2014,Norfolk,Male
+1903,1186,87.41982269,0.833333313,0,Business,1,1,2,2010,Alameda,Male
+1904,1202,77.03696442,0.5,2,Housewife,0,1,1,2008,Alameda,Female
+1905,582,151.8690491,1,1,None,1,1,2,2014,Jefferson,Male
+1906,28,101.1190491,2,0,Business,0,1,1,2009,Alameda,Male
+1907,1739,70.55952454,0.5,0,None,0,0,1,1997,Alameda,Male
+1908,1079,63.83333588,1,0,None,0,0,1,2011,Alameda,Male
+1909,1087,52.32992935,0.285714298,1.799999952,Business,0,0,2,2008,Alameda,Male
+1910,775,76.96375275,2.285714388,0.166666672,Business,0,0,1,2008,Alameda,Male
+1911,658,51.75324631,1,0.833333313,Business,0,1,1,2009,Randolph,Male
+1912,39,70.29761505,1,0,Livestock rearing,0,0,1,2014,Jefferson,Male
+1913,340,53.09523773,1.090909123,1.75,None,1,1,1,2008,Alameda,Male
+1914,287,60.977005,0.75,0.333333343,Unskilled labour,0,0,1,2009,Alameda,Male
+1915,791,59.91487503,0.333333343,1.25,Unskilled labour,0,1,1,2009,Alameda,Male
+1916,1863,79.05169678,0.5,0,Farming,0,0,1,2002,Alameda,Male
+1917,343,61.25,1.25,0.333333343,Petty trading/hawking,1,1,1,2008,Alameda,Male
+1918,436,99.21461487,2,0,Farming,0,0,2,2015,Jefferson,Male
+1919,1227,89.39595795,0.5,1,None,0,1,2,2002,Alameda,Male
+1920,994,61.90166473,0.75,1,Business,1,1,2,2009,Alameda,Male
+1921,656,67.67857361,0.5,0,None,0,0,2,2009,Alameda,Male
+1922,831,71.92857361,0.75,1,Farming,0,0,1,2002,Alameda,Male
+1923,622,72.20948792,0.555555582,1.25,Livestock rearing,0,0,1,2015,Alameda,Male
+1924,770,68.75849915,1.428571463,2.5,Unskilled labour,0,0,1,2011,Alameda,Female
+1925,887,129.8721466,0.666666687,0,Unskilled labour,0,1,1,2008,Alameda,Male
+1926,1978,123.6778793,1.166666627,2,Skilled labour,1,1,1,2008,Randolph,Female
+1927,277,78.83396149,0.428571433,2.5,Not in the labour force,0,1,1,2004,Alameda,Female
+1928,242,86.06169128,0.428571433,2.5,None,0,0,1,1997,Alameda,Female
+1929,1806,62.89611816,2,0,Farming,0,0,1,2002,Alameda,Male
+1930,1183,79.15340424,0.555555582,2,Housewife,0,1,1,2010,Alameda,Female
+1931,518,90.23809814,1.5,1,None,0,0,1,2005,Alameda,Male
+1932,1568,70.28649902,0.800000012,0.666666687,Farming,0,1,2,2012,Norfolk,Male
+1933,751,101.2539673,3,0.5,Farming,0,0,1,2007,Putnam,Male
+1934,1543,82.75759888,0.800000012,1.5,Farming,0,1,3,1992,Orange,Male
+1935,286,178.1210632,0.777777791,1.25,Student,0,0,1,2008,Alameda,Male
+1936,1857,67.38095093,1,0,Unskilled labour,0,0,1,2008,Alameda,Male
+1937,516,72.50843811,0.785714269,1,None,1,1,1,2009,Alameda,Male
+1938,318,181.9762268,0.857142866,2.5,Student,1,1,2,1993,Jefferson,Female
+1939,124,180.6278534,2,0,Unskilled labour,0,0,1,2014,Lawrence,Male
+1940,954,88.3740387,0.600000024,1.5,Business,1,1,1,2011,Putnam,Male
+1941,1210,67.28734589,1.5,0,Business,1,1,2,2008,Alameda,Male
+1942,240,143.7032013,1.25,0,Business,1,1,1,2008,Alameda,Male
+1943,1175,87.14912415,1.200000048,0,Skilled labour,0,0,1,2013,Alameda,Male
+1944,263,68.5,1,0,Business,1,1,1,2010,Alameda,Male
+1945,1176,102.8825836,1,1,Not in the labour force,0,0,1,1997,Alameda,Male
+1946,1776,106.3461304,0.25,1,Business,0,1,3,2010,Norfolk,Male
+1947,107,109.9975586,0.5,3,Farming,0,1,1,2009,Alameda,Female
+1948,1240,81.52380371,0.5,0,Student,0,0,1,2015,Putnam,Male
+1949,1869,117.3960724,0.5,0,Not in the labour force,0,0,1,2015,Alameda,Male
+1950,747,157.3803558,1.083333373,1.399999976,Farming,1,1,1,2011,Alameda,Male
+1951,1742,83.95518494,0.285714298,0.75,Farming,1,1,1,2008,Alameda,Male
+1952,957,94.20808411,1.5,0,Skilled labour,0,1,1,2008,Putnam,Male
+1953,897,99.69374084,1,0,Fishing,0,1,1,2012,Norfolk,Male
+1954,542,126.0072861,1.666666627,0.5,Unskilled labour,1,1,1,2015,Alameda,Male
+1955,823,83.33809662,0.400000006,1.5,Farming,1,1,2,2013,Randolph,Male
+1956,1825,98.00955963,1,0,Farming,0,1,1,2008,Alameda,Male
+1957,1871,108.4346848,0.75,1,Unskilled labour,0,0,1,2009,Alameda,Male
+1958,647,185.1809082,1.333333373,0.5,Farming,1,1,2,2011,Randolph,Male
+1959,792,160.1645508,1.75,1,Farming,1,1,1,2009,Alameda,Male
+1960,635,176.1223145,1,0,Student,0,0,1,2012,Alameda,Male
+1961,1886,100.3035736,0.75,1,Student,1,1,2,2010,Randolph,Male
+1962,1174,111.7771835,0.5,1,Business,0,0,1,2009,Alameda,Male
+1963,1068,101.8476791,0.75,1,Other,1,1,1,2012,Putnam,Male
+1964,284,115.2804947,1,0,Housewife,1,1,1,2011,Alameda,Male
+1965,1438,122.3907318,2,0,Farming,1,1,2,2009,Orange,Male
+1966,17,111.033844,0.833333313,1,Skilled labour,1,1,1,2013,Jefferson,Male
+1967,1452,212.1174164,2,0,Business,1,1,3,2013,Randolph,Male
+1968,450,126.3824158,1.5,0.333333343,Unskilled labour,0,1,2,2014,Jefferson,Male
+1969,31,286.2625732,1,0,Business,1,1,1,2009,Jefferson,Male
+1970,1729,102.3333359,1,0,Livestock rearing,0,0,2,2013,Norfolk,Male
+1971,352,137.420578,2.5,0,Unskilled labour,0,1,2,1993,Putnam,Male
+1972,2006,136.8709564,0.666666687,2,Skilled labour,0,1,1,1995,Alameda,Female
+1973,112,122.5359116,0.090909094,0.571428597,Business,0,1,1,2009,Norfolk,Male
+1974,109,210.0939331,1,0,Farming,0,1,1,2011,Alameda,Male
+1975,331,182.188385,0.888888896,1.25,Skilled labour,0,1,1,2009,Alameda,Male
+1976,952,157.7875671,0.666666687,0.5,Student,1,1,1,2014,Putnam,Male
+1977,969,177.3000641,1.5,1,Business,0,0,2,2009,Alameda,Male
+1978,50,212.0547943,0,0,Unskilled labour,0,0,1,2014,Jefferson,Male
+1979,1182,221.2544098,1,0,Student,0,0,1,2014,Putnam,Male
+1980,276,314.0942688,1,1,Farming,0,1,1,2007,Putnam,Male
+1981,1066,232.4880981,1,0,Business,0,1,1,1993,Alameda,Male
+1982,93,388.9811096,0.600000024,0.666666687,Farming,1,1,1,2002,Alameda,Male
+1983,894,442.2703857,1,0,Unskilled labour,1,1,1,2008,Alameda,Male
+1984,1781,543.5997925,1,0,None,0,1,4,2009,Alameda,Male
+1985,280,1260.400513,8,0,Business,0,1,1,1997,Alameda,Male
+1986,604,,1.333333373,0,Unskilled labour,0,0,1,2011,Orange,Male
+1987,1831,,0.571428597,6,Unskilled labour,0,0,3,2011,Jefferson,Female
+1988,1861,,0.111111112,1.25,Farming,0,0,1,2011,Alameda,Male
+1989,1766,,0.125,1,Farming,0,0,2,2014,Jefferson,Male
+1990,909,,0,2,Farming,0,0,1,2010,Alameda,Female
+1991,931,,0.333333343,2,Unskilled labour,0,0,1,2008,Alameda,Female
+1992,497,,0.714285731,2.5,Unskilled labour,0,0,2,2014,Jefferson,Female
+1993,922,,0.333333343,2,Farming,0,0,1,2008,Alameda,Female
+1994,927,,0.375,1.666666627,Farming,0,0,1,2014,Jefferson,Male
+1995,1578,,0.166666672,0.5,Unskilled labour,0,0,1,2013,Norfolk,Male
+1996,1580,,0.333333343,1.25,Unskilled labour,0,0,1,2009,Alameda,Male
+1997,1583,,0.857142866,1.333333373,Farming,0,1,1,2012,Norfolk,Male
+1998,1841,,1.166666627,2,Unskilled labour,0,0,3,2014,Jefferson,Female
+1999,477,,2,0,Student,0,0,2,2014,Jefferson,Male

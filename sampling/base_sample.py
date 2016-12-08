@@ -137,8 +137,8 @@ class BaseSample(object):
 
         if self.integrate is None:
             self.integrate = getattr(scipy.integrate, 'trapz')
-            print "No integration type specified for calculating the area"+\
-                  " under ECDF. Using trapz"
+            print("No integration type specified for calculating the area"+\
+                  " under ECDF. Using trapz")
             #try:
                 #raise ValueError('You must set the integration method first!')
             #except ValueError:

@@ -23,6 +23,8 @@ data_df = data_df[data_df.index <300]
 continuous_list = ['asset_ownership_score','income_percentile', 'dependency_ratio']
 categorical_list = ['occupation_encoded', 'has_business', 
                     'have_property']
+full_list =  ['asset_ownership_score','income_percentile', 'dependency_ratio',
+                 'occupation_encoded', 'has_business','have_property']                    
 
 #----------------
 # Testing Methods
@@ -30,6 +32,9 @@ categorical_list = ['occupation_encoded', 'has_business',
 # Simple Randomization Test
 simple_test = SimpleRandomization(data_df, number_arms=3)
 simple_test.randomize()
+simple_test.label_encoder(
+    'occupation', new_column_name='occupation_encoded'
+)
 
 # Minimization Test
 min_test = Minimization(data_df, number_arms=3)
@@ -40,39 +45,32 @@ min_test.label_encoder(
     'occupation', new_column_name='occupation_encoded'
 )
 
-min_test.minimize(continuous_list, categorical_list, C=0.20, n_pre=5, n_iter=1,
-                  verb=True, min_type='mean')
+min_test.minimize(continuous_list, categorical_list, C=0.15, n_pre=5, n_iter=1,
+                  verb=True, min_type='max')
 
 
 # Stratification Test
-column_names =  ['asset_ownership_score','income_percentile', 'dependency_ratio',
-                 'occupation_encoded', 'has_business','have_property']   
-
-
 strat_test = StratifiedRandom(data_df, number_arms=3)
 
 strat_test.label_encoder(
     'occupation', new_column_name='occupation_encoded'
 )
 
-strat_test.assign_arms(column_names, percent_nan = 0.05)
+strat_test.assign_arms(full_list, percent_nan = 0.05)
 
 #-------------------
 # Evaluating Methods
 #-------------------
 
 # Producing Plots to compare covariate distributions across arm assignments
-#simple_test.display_covariate_dist(column_names)  
-#min_test.display_covariate_dist(column_names)  
-#strat_test.display_covariate_dist(column_names)
+simple_test.display_covariate_dist(full_list)  
+min_test.display_covariate_dist(full_list)  
+strat_test.display_covariate_dist(full_list)
 
 # Calculate Imbalance Coefficient for each method
-simple_test.label_encoder(
-    'occupation', new_column_name='occupation_encoded'
-)
-c_simple = simple_test.calculate_imbalance(continuous_list, categorical_list)
-c_strat = strat_test.calculate_imbalance(continuous_list, categorical_list)
-c_min = min_test.calculate_imbalance(continuous_list, categorical_list)
+c_simple = simple_test.evaluate_imbalance(continuous_list, categorical_list)
+c_strat = strat_test.evaluate_imbalance(continuous_list, categorical_list)
+c_min = min_test.evaluate_imbalance(continuous_list, categorical_list)
 
 print("Imbalance coefficient for Simple Randomization = {}".format(c_simple))
 print("Imbalance coefficient for Stratified Randomization = {}".format(c_strat))
