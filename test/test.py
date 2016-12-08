@@ -40,7 +40,7 @@ min_test.label_encoder(
     'previous_livelihood', new_column_name='previous_livelihood_encoded'
 )
 
-min_test.minimize(continuous_list, categorical_list, C=0.10, n_pre=2, n_iter=1,
+min_test.minimize(continuous_list, categorical_list, C=0.20, n_pre=5, n_iter=1,
                   verb=True, min_type='mean')
 
 

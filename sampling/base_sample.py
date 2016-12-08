@@ -169,9 +169,9 @@ class BaseSample(object):
         area2  -- Area under the ECDF as given by covar_arm2
         '''
 
-        norm_imbalance = (area1 - area2) /\
-            (np.min(np.concatenate([covar_arm1, covar_arm2])) -\
-             np.max(np.concatenate([covar_arm1, covar_arm2])))
+        norm_imbalance = abs(area1 - area2) /\
+            (np.max(np.concatenate([covar_arm1, covar_arm2])) -\
+             np.min(np.concatenate([covar_arm1, covar_arm2])))
 
         return norm_imbalance
         
