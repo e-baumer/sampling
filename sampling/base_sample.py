@@ -1,6 +1,7 @@
 from __future__ import division
 from itertools import combinations
 import numpy as np
+import pandas as pd
 import scipy.integrate
 from statsmodels.tools.tools import ECDF
 from sklearn import preprocessing
@@ -13,7 +14,7 @@ class BaseSample(object):
     
     def __init__(self, data_frame, number_arms=2):
         self.integrate = None
-        self.data = data_frame
+        self.data = pd.DataFrame.copy(data_frame)
         self.n_arms = number_arms
         self.label_encoders = {}
         super(BaseSample, self).__init__()

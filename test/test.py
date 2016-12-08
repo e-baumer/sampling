@@ -40,8 +40,8 @@ min_test.label_encoder(
     'previous_livelihood', new_column_name='previous_livelihood_encoded'
 )
 
-min_test.minimize(continuous_list, categorical_list, C=0.15, n_pre=5, n_iter=1,
-                  verb=True, min_type='max')
+min_test.minimize(continuous_list, categorical_list, C=0.10, n_pre=2, n_iter=1,
+                  verb=True, min_type='mean')
 
 
 # Stratification Test
@@ -66,9 +66,12 @@ strat_test.assign_arms(column_names, percent_nan = 0.05)
 #strat_test.display_covariate_dist(column_names)
 
 # Calculate Imbalance Coefficient for each method
-c_simple = simple_test.evaluate_imbalance(continuous_list, categorical_list)
-c_strat = strat_test.evaluate_imbalance(continuous_list, categorical_list)
-c_min = min_test.evaluate_imbalance(continuous_list, categorical_list)
+simple_test.label_encoder(
+    'previous_livelihood', new_column_name='previous_livelihood_encoded'
+)
+c_simple = simple_test.calculate_imbalance(continuous_list, categorical_list)
+c_strat = strat_test.calculate_imbalance(continuous_list, categorical_list)
+c_min = min_test.calculate_imbalance(continuous_list, categorical_list)
 
 print "Imbalance coefficient for Simple Randomization = {}".format(c_simple)
 print "Imbalance coefficient for Stratified Randomization = {}".format(c_strat)
