@@ -33,7 +33,7 @@ class StratifiedRandom(BaseSample):
                 self.data[string_name] = self.data[colname].astype(int)
         
             else:
-                af_model = AP(**kwargs)
+                af_model = AP(damping = 0.9)
                 strata_groups = af_model.fit(X)
                 
                 #cluster_centers_indices = af.cluster_centers_indices_
@@ -95,6 +95,17 @@ class StratifiedRandom(BaseSample):
                 arm_tally[int(self.data['arm_assignment'][value]-1)] += 1;
         
         return arm_tally
+     
+#     
+#         for value in strata_unique['003100']:
+#            
+#            #If it is not NaN, add one to the arm_tally for the data point's arm assignment
+#            if np.isnan(strat_test.data['arm_assignment'][value]) == False:
+#                arm_tally[int(strat_test.data['arm_assignment'][value]-1)] += 1;
+#        
+#         print(arm_tally)
+#        
+        
         
            
            
@@ -106,14 +117,16 @@ class StratifiedRandom(BaseSample):
         self.data = self.nan_finder(column_names, percent_nan)        
         
         #call create_stratum to create strata for each chosen covariate 
-        self.data = self.create_stratum(column_names)
+        self.data = self.create_stratum(column_names,preference=-50)
         
         #combine the covariate strata into a unique strata identifier
         (strata_unique, self.data) = self.create_unique_strata(column_names)        
         
         #initiate an empty column in the data frame for arm assignments
         self.data['arm_assignment'] = np.ones(len(self.data))*np.nan   
-        
+        c1 = 0
+        c2 = 0
+        c3 = 0
         #Loop through the uniqie strata       
         for key in strata_unique.keys():
             #Loop through the values in the unique stratum
@@ -121,30 +134,24 @@ class StratifiedRandom(BaseSample):
                 #update the arm_tally based on new assignments
                 arm_tally = self.count_arm_assignments(strata_unique, key);
                 
-                #if more than one arm is empty, choose randomly
-                if np.where(arm_tally==0)[0].shape[0] > 1:
-                    self.data['arm_assignment'].set_value(
-                        value,np.random.choice(list(range(self.n_arms))) + 1
-                    )
-                    
-                #if one is empty, choose that arm assignment
-                elif np.where(arm_tally==0)[0].shape[0] == 1:
-                    self.data['arm_assignment'].set_value(
-                        value, np.where(arm_tally==0)[0][0] + 1
-                    )
-                    
-                #If no arms are empty, choose arm with minimum data points assigned to it
-                elif np.where(arm_tally==0)[0].shape[0] < 1:
-                    self.data['arm_assignment'].set_value(
-                        value, np.where(np.min(arm_tally))[0][0] + 1
-                    )
-                
-                #Something went wrong
-                else: 
-                    raise ValueError(
-                        "arm_tally is empty, meaning there is something \
-                        wrong with your unique strata dictionary."
-                        )
+                ind_unique = np.where(arm_tally==np.min(arm_tally))[0]
+                self.data['arm_assignment'].set_value(
+                        value, np.random.choice(list(ind_unique+1)
+                ))
+
+        return (self.data, c1, c2, c3, arm_tally)
         
-        return self.data
         
+#        for key in strata_unique.keys():
+#            #Loop through the values in the unique stratum
+#            for value in strata_unique['003100']:
+#                #update the arm_tally based on new assignments
+#                arm_tally = strat_test.count_arm_assignments(strata_unique, key);
+#                
+#                ind_unique = np.where(arm_tally==np.min(arm_tally))[0]
+#                strat_test.data['arm_assignment'].set_value(
+#                        value, np.random.choice(list(ind_unique+1)
+#                ))
+#
+#        print(strat_test.data.arm_assignment)
+#        

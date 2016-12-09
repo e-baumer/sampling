@@ -49,7 +49,7 @@ column_names =  ['asset_ownership_score','income_percentile', 'dependency_ratio'
                  'occupation_encoded', 'has_business','have_property']   
 
 
-strat_test = StratifiedRandom(data_df, number_arms=3)
+strat_test= StratifiedRandom(data_df, number_arms=3)
 
 strat_test.label_encoder(
     'occupation', new_column_name='occupation_encoded'
