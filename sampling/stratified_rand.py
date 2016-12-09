@@ -95,19 +95,8 @@ class StratifiedRandom(BaseSample):
                 arm_tally[int(self.data['arm_assignment'][value]-1)] += 1;
         
         return arm_tally
-     
-#     
-#         for value in strata_unique['003100']:
-#            
-#            #If it is not NaN, add one to the arm_tally for the data point's arm assignment
-#            if np.isnan(strat_test.data['arm_assignment'][value]) == False:
-#                arm_tally[int(strat_test.data['arm_assignment'][value]-1)] += 1;
-#        
-#         print(arm_tally)
-#        
-        
-        
-           
+
+
            
     def assign_arms(self, column_names, percent_nan = 0.05):
         '''
@@ -124,9 +113,7 @@ class StratifiedRandom(BaseSample):
         
         #initiate an empty column in the data frame for arm assignments
         self.data['arm_assignment'] = np.ones(len(self.data))*np.nan   
-        c1 = 0
-        c2 = 0
-        c3 = 0
+
         #Loop through the uniqie strata       
         for key in strata_unique.keys():
             #Loop through the values in the unique stratum
@@ -139,19 +126,7 @@ class StratifiedRandom(BaseSample):
                         value, np.random.choice(list(ind_unique+1)
                 ))
 
-        return (self.data, c1, c2, c3, arm_tally)
+        return self.data
         
-        
-#        for key in strata_unique.keys():
-#            #Loop through the values in the unique stratum
-#            for value in strata_unique['003100']:
-#                #update the arm_tally based on new assignments
-#                arm_tally = strat_test.count_arm_assignments(strata_unique, key);
-#                
-#                ind_unique = np.where(arm_tally==np.min(arm_tally))[0]
-#                strat_test.data['arm_assignment'].set_value(
-#                        value, np.random.choice(list(ind_unique+1)
-#                ))
-#
-#        print(strat_test.data.arm_assignment)
+
 #        
