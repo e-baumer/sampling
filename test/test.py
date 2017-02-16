@@ -30,7 +30,7 @@ categorical_list = ['occupation_encoded', 'has_business',
 #----------------
 # Simple Randomization Test
 simple_test = SimpleRandomization(data_df, number_arms=3)
-simple_test.randomize()
+simple_test.randomize_grouped(grouped_column='hh_id')
 
 # Minimization Test
 min_test = Minimization(data_df, number_arms=3)
@@ -42,7 +42,7 @@ min_test.label_encoder(
 )
 
 min_test.minimize(continuous_list, categorical_list, C=0.20, n_pre=5, n_iter=1,
-                  verb=True, min_type='mean')
+                  verb=True, min_type='mean', grouped_column='hh_id')
 
 
 # Stratification Test

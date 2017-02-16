@@ -14,7 +14,8 @@ class Minimization(BaseSample):
 
     
     def minimize(self, covariates_con, covariates_cat, C=0.1, 
-                 n_pre=1, n_iter=1, verb=False, min_type='max', nan_kick=False):
+                 grouped_column=None, n_pre=1, n_iter=1, verb=False, 
+                 min_type='max', nan_kick=False):
         '''
         Use the minimization of area between ECDF technique as described in 
         the Lin and Su (2012) paper. 
@@ -60,13 +61,14 @@ class Minimization(BaseSample):
             if verb:
                 print("Calculating Imbalance Coefficients for iteration: {}".format(i+1))
             
-            
-            
             # Add arm assignment column to dataframe or re-initialize to nan
             self.data['arm_assignment'] = np.ones(len(self.data))*np.nan         
             
             # Grab array of indicies
-            df_inds = self.data.index.values            
+            df_inds = self.data.index.values       
+            
+            if not (grouped_column is None):
+                df_inds = np.unique(self.data[grouped_column].values)
 
             # Iterate over population
             j = 0
@@ -75,11 +77,17 @@ class Minimization(BaseSample):
                 # Randomly assign n_pre participants to each arm
                 if j <= (n_pre-1):
                     pre_inds = np.random.choice(df_inds, size=self.n_arms)
-                    self.data['arm_assignment'].set_value(tuple(pre_inds),range(
-                        1, self.n_arms+1
-                    ))
+                    if not (grouped_column is None):
+                        for l, rind in enumerate(pre_inds):
+                            inds = self.data[
+                                self.data[grouped_column]==rind
+                                ].index.tolist()
+                            self.data['arm_assignment'].iloc[inds] = l+1                            
+                    else:
+                        self.data['arm_assignment'].set_value(
+                            tuple(pre_inds),range(1, self.n_arms+1)
+                        )
                               
-                    
                     # Remove these participants from list
                     del_inds = df_inds.searchsorted(pre_inds)
                     df_inds = np.delete(df_inds, del_inds)
@@ -123,7 +131,18 @@ class Minimization(BaseSample):
                     # to that arm
                     if arm_pop_ratio[max_ind] >= C:
                         arm_assign = max_ind + 1
-                        self.data['arm_assignment'].set_value(part_ind,arm_assign)
+                        
+                        if not (grouped_column is None):
+                            ind = self.data[
+                                self.data[grouped_column]==part_ind
+                                ].index.tolist()
+                            
+                            self.data['arm_assignment'].iloc[ind] =arm_assign
+                    
+                        else:
+                            self.data['arm_assignment'].set_value(
+                                part_ind, arm_assign
+                            )
                         # Remove participant from list
                         del_ind = np.where(df_inds == part_ind)
                         df_inds = np.delete(df_inds, del_ind)                        
@@ -134,7 +153,14 @@ class Minimization(BaseSample):
                 # Assign participant to each arm and calculate imbalance metrics
                 imbalance_arm = []
                 for n in range(1, self.n_arms+1):
-                    self.data['arm_assignment'].set_value(part_ind, n)
+                    
+                    if not (grouped_column is None):
+                        ind = self.data[
+                            self.data[grouped_column]==part_ind
+                            ].index.tolist()    
+                        self.data['arm_assignment'].iloc[ind] = n
+                    else:
+                        self.data['arm_assignment'].set_value(part_ind, n)
                     
                     imbalance_arm.append(
                         self.calculate_imbalance(covariates_con, covariates_cat,
@@ -143,7 +169,14 @@ class Minimization(BaseSample):
                     
                 # Find the minimum imbalance coefficient and assign to this arm
                 min_ind = np.argmin(imbalance_arm)
-                self.data['arm_assignment'].set_value(part_ind, min_ind + 1)
+                
+                if not (grouped_column is None):
+                    ind = self.data[
+                        self.data[grouped_column]==part_ind
+                        ].index.tolist()    
+                    self.data['arm_assignment'].iloc[ind] = min_ind + 1
+                else:
+                    self.data['arm_assignment'].set_value(part_ind, min_ind + 1)
                 
                 # Remove participant from list
                 del_ind = np.where(df_inds == part_ind)
