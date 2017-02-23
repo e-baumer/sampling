@@ -82,7 +82,7 @@ class Minimization(BaseSample):
                             inds = self.data[
                                 self.data[grouped_column]==rind
                                 ].index.tolist()
-                            self.data['arm_assignment'].iloc[inds] = l+1                            
+                            self.data['arm_assignment'].loc[inds] = l+1                            
                     else:
                         self.data['arm_assignment'].set_value(
                             tuple(pre_inds),range(1, self.n_arms+1)
@@ -137,7 +137,7 @@ class Minimization(BaseSample):
                                 self.data[grouped_column]==part_ind
                                 ].index.tolist()
                             
-                            self.data['arm_assignment'].iloc[ind] =arm_assign
+                            self.data['arm_assignment'].loc[ind] =arm_assign
                     
                         else:
                             self.data['arm_assignment'].set_value(
@@ -158,7 +158,7 @@ class Minimization(BaseSample):
                         ind = self.data[
                             self.data[grouped_column]==part_ind
                             ].index.tolist()    
-                        self.data['arm_assignment'].iloc[ind] = n
+                        self.data['arm_assignment'].loc[ind] = n
                     else:
                         self.data['arm_assignment'].set_value(part_ind, n)
                     
@@ -174,7 +174,7 @@ class Minimization(BaseSample):
                     ind = self.data[
                         self.data[grouped_column]==part_ind
                         ].index.tolist()    
-                    self.data['arm_assignment'].iloc[ind] = min_ind + 1
+                    self.data['arm_assignment'].loc[ind] = min_ind + 1
                 else:
                     self.data['arm_assignment'].set_value(part_ind, min_ind + 1)
                 

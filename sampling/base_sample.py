@@ -71,7 +71,7 @@ class BaseSample(object):
         for covariate in covariate_list:
             g = sns.FacetGrid(self.data, col="arm_assignment")
             if len(self.data[covariate].unique())>2:
-                g.map(sns.distplot, covariate)
+                g.map(sns.distplot, covariate, kde=False)
             else:
                 g.map(sns.distplot, covariate, kde=False)
             if save_file:
