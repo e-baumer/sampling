@@ -57,6 +57,7 @@ class Minimization(BaseSample):
         n_non_rand_plc = {i:0 for i in range(1, n_iter+1)}
         
         # Reset index incase there are dublicate indicies
+        self.data['temp_index'] = self.data.index
         self.data.reset_index(inplace=True, drop=True)
         
         # Iterate over user specified iterations
@@ -215,4 +216,6 @@ class Minimization(BaseSample):
                 min_itr+1, imbalance_coeff[min_itr]
             ))
         
+        self.data.set_index(self.data['temp_index'], drop=True, inplace=True)
+    
         return self.data
