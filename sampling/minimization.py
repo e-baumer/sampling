@@ -56,6 +56,9 @@ class Minimization(BaseSample):
         arm_placements = defaultdict(list)
         n_non_rand_plc = {i:0 for i in range(1, n_iter+1)}
         
+        # Reset index incase there are dublicate indicies
+        self.data.reset_index(inplace=True, drop=True)
+        
         # Iterate over user specified iterations
         for i in range(n_iter):
             if verb:
